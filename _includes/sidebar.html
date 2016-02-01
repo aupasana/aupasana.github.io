@@ -1,0 +1,21 @@
+<img src="{{site.baseurl}}/images/agni_aum_cropped.jpg" align="middle" width="70%" height="70%"/>
+<p/>
+<p/>
+
+<div class="sidebar well">
+    <h1>recent posts</h1>
+
+    <ul class="sidebar-link">
+        {% for post in site.posts limit:5 %}
+          <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="sidebar well">
+	{% include pages-list.html %}
+</div>
+
+<div class="sidebar well">
+	{% include tags-list.html %}
+</div>
