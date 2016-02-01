@@ -17,12 +17,11 @@ layout: well
             <ul>
         {% endif %}
     {% endunless %}
-    <li><a href="{{ site.baseurl}}{{ post.url }}">
+
+    <li>{{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
         {% if post.tags != nil  %}
-            [ {{post.tags}} ]
+            <span class="tags">({{post.tags}})</span>
         {% endif %}
-        {{post.tags}}
-        {{ post.date | date: "%b %-d" }} - {{ post.title }}
-    </a></li>
+    </li>
 {% endfor %}
 </ul>
