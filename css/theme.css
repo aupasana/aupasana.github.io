@@ -48,10 +48,13 @@ body {
 }
 
 .well h3 {
-    color: #ee4444;
-    font-size: 1em;
+    color: #C96B8A;
+    font-size: 1.1em;
 }
 
+.well h4 {
+    font-size: 1em;
+}
 
 .author {
     color: #ee4444;
