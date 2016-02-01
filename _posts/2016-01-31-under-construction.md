@@ -6,9 +6,7 @@ comments: false
 tag: other
 ---
 
-This site is under construction. 
+This site is moving from google sites to github pages. 
 
 Most of the content previously available on this site will be made available in the next week or two. 
 In the meantime, the old site is available [here](https://sites.google.com/a/aupasana.com/public/).
-
-This site is moving from google sites to github pages. 
