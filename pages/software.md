@@ -3,6 +3,11 @@ layout: well
 title: Software
 ---
 
+Contents
+
+* TOC
+{:toc}
+
 ## Mudgala Kosha
 
 The mudgala koṣa is an application that searches several skt-eng / eng-skt dictionaries. It will search an offline version of the monier-williams dictionary, and several online dictionaries including the Apte dictionary. It also integrates with several online tools including the INRIA sanskrit reader, and JNU declension engine. It accepts several input methods (including itrans, baraha, harvard), and can output sanskrit text in a variety of scripts.
