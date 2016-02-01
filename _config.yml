@@ -4,7 +4,7 @@ name: aupasana.com
 description: aupasana.com
 
 # url is currently only used only for the RSS feed in feed.xml
-url: http://gh.aupasana.com
+url: http://aupasana.com
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
