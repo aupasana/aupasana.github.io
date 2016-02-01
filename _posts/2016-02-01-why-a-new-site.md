@@ -8,7 +8,7 @@ tag: other
 
 Why migrate from google sites to github pages? 
 
-* Because github pages uses Jekyll, I can use markdown for posts, focusing on content
-* I can compose and publish new posts using github.com as the blogging UI
-* Changes pushed to git go live immediately, without having to generate or push the content
+* Github pages use Jekyll with automatic publishing post-commit
+* Markdown allows me to focus on content 
 * Free hosting for per-account sites, with support for custom domains
+* I continue to have a UI surface (github.com) to compose new posts, though it is clunky
