@@ -9,13 +9,23 @@
           <div class="article">
             <div class="well">
                 <h1><a href="{{ site.baseurl}}{{ page.url }}">{{ page.date | date: "%b %-d, %Y" }} - {{ page.title }}</a></h1>
-            {% if site.comments == true and page.comments == true and site.disqus != '' %}
+<!--             {% if site.comments == true and page.comments == true and site.disqus != '' %}
                 <p class="author"><a href="#disqus_thread" data-disqus-identifier="{{ page.url | slugify }}">Comments</a></p>
             {% endif %}
-            <div class="post-content">
+ -->            <div class="post-content">
             {{ content }}
             </div>
-            {% if page.comments %}
+
+            {% if page.tags.size > 0  %}
+              <span class="tags">Tags:</span>
+              {% for tag in page.tags %}
+              <span class="tags">
+                {{tag}}
+              </span>
+              {% endfor %}
+            {% endif %}
+
+            {% if site.comments == true and (page.comments == nil or page.comments == true) %}
             <div id="disqus_thread">
                 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
@@ -34,7 +44,11 @@
 
         </div>
     </div>
+
 </div>
+
+
+
 
 {% include disqus-comments.html %}
 {% include footer.html %}

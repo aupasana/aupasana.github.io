@@ -1,6 +1,13 @@
-<img src="{{site.baseurl}}/images/agni_aum_cropped.jpg" align="middle" width="70%" height="70%"/>
+<div class="hidden-phone hidden-tablet hidden-deksop hidden-large">
+<img class="hidden-phone hidden-tablet hidden-desktop" src="{{site.baseurl}}/images/agni_aum_cropped.jpg" align="middle" width="70%" height="70%"/>
+</div>
+
 <p/>
 <p/>
+
+<div class="sidebar well">
+	{% include pages-list.html %}
+</div>
 
 <div class="sidebar well">
     <h1>recent posts</h1>
@@ -10,10 +17,6 @@
           <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
-</div>
-
-<div class="sidebar well">
-	{% include pages-list.html %}
 </div>
 
 <div class="sidebar well">

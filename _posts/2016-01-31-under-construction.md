@@ -2,11 +2,11 @@
 layout: post
 title: "Under Construction"
 date: 2016-01-31 11:00:00 -0700
-comments: false
+comments: true
 tag: other
 ---
 
-This site is moving from google sites to github pages. 
+aupasana.com (and it's associated blogs) are moving to github pages.
 
 Most of the previous content will be migrated to the new site over the next few weeks.
 The old site will be accessible [here](http://old.aupasana.com)

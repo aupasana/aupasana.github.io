@@ -19,10 +19,10 @@ gaaccount: ''
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
 disqus: 'aupasana'
-comments: false
+comments: true
 
 permalink: /:year/:month/:title
-paginate: 10
+paginate: 5
 
 highlighter: pygments
 #markdown: redcarpet

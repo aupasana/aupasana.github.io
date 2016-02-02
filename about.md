@@ -56,10 +56,12 @@ Aupāsana is the sacred fire in which we perform upāsanā -- i.e. meditation an
 * mf( आ )n. relating to or performed at an औपासन fire (as the evening and morning oblations) Ya1jn5. iii,17 HirGr2
 
 <hr>
-<p>This site is powered by a modifed version of <a href="http://jekyllrb.com">Jekyll's</a> 
+<p>This site is powered by a modifed version of the
 	<a href="https://github.com/scotte/jekyll-clean">Jekyll Clean</a> theme by Scott Emmons</a>
     under <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</a>.
-    It is <a href="https://github.com/aupasana/aupasana.github.io">hosted</a> on <a href="https://pages.github.com">GitHub Pages</a>.
+    It is <a href="https://github.com/aupasana/aupasana.github.io">hosted</a> on <a href="https://pages.github.com">GitHub Pages</a>
+    and was last updated on {{ site.time | date_to_rfc822 }}
 </p>
+
 
 

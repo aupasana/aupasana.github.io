@@ -4,10 +4,11 @@ layout: default
 
 
 {% for post in paginator.posts %}
+{% if post.published == nil or post.published == true %}
 <div class="article">
     <div class="well">
         <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} - {{ post.title }}</a></h1>
-        {% if site.comments == true and post.comments == true and site.disqus != '' %}
+        {% if site.comments == true and (posts.comments == nil or post.comments == true) and site.disqus != '' %}
           <p class="author"><a href="{{ site.baseurl }}{{ post.url }}/#disqus_thread">Comments</a></p>
         {% endif %}
         <div class="content">
@@ -15,11 +16,12 @@ layout: default
         </div>
         {% if post.tags != nil and post.tags != '' %}
           <div class="tags">
-            Tags: {{post.tags}}</h3>
+            Tags: {{post.tags}}
           </div>
         {% endif %}
     </div>
 </div>
+{% endif %}
 {% endfor %}
 
 <div class="pagination">

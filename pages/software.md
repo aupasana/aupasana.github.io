@@ -5,7 +5,7 @@ title: Software
 
 Contents
 
-* TOC
+* placeholder
 {:toc}
 
 ## Mudgala Kosha
@@ -30,29 +30,33 @@ Todo: add new github repo and place link here
 
 ## Lipika IME
 
-On a Mac, use [LipikaIME](https://github.com/ratreya/Lipika_IME/wiki){:target="_blank"} for transliteration based input in Indian languages. Though it supports Itrans mappings, it does not include popular mappings used in software such as Itranslator (eg. 'M'), or multiple character output for sequences such as 'x' and 'GY'. The two files below have a complete set of Itrans mappings, along with the ability to typeset vedic accents, and independent vowels.
+On a Mac, use [LipikaIME][] for transliteration based input in Indian languages. Though it supports Itrans mappings, it does not include popular mappings used in software such as Itranslator (eg. 'M'), or multiple character output for sequences such as 'x' and 'GY'. The two files below have a complete set of Itrans mappings, along with the ability to typeset vedic accents, and independent vowels.
 
-* Replace "/Library/Input Methods/LipikaIME.app/Contents/Resources/Schemes/Transliteration/ITRANS.tlr" with this updated 
-	[ITRANS.tlr](https://raw.githubusercontent.com/aupasana/Lipika_IME/master/Common/Resources/Schemes/Transliteration/ITRANS.tlr)
-* Replace "/Library/Input Methods/LipikaIME.app/Contents/Resources/Schemes/Script/Devanagari.map" with this updated 
-	[Devanagari.map](https://raw.githubusercontent.com/aupasana/Lipika_IME/master/Common/Resources/Schemes/Script/Devanagari.map)
+* Replace "/Library/Input Methods/LipikaIME.app/Contents/Resources/Schemes/Transliteration/ITRANS.tlr" with this updated [ITRANS.tlr][]
+* Replace "/Library/Input Methods/LipikaIME.app/Contents/Resources/Schemes/Script/Devanagari.map" with this updated [Devanagari.map][]
 * Then kill LipikaIME from Activity Monitor and restart it
+
+[LipikaIME]: https://github.com/ratreya/Lipika_IME/wiki
+[ITRANS.tlr]: https://raw.githubusercontent.com/aupasana/Lipika_IME/master/Common/Resources/Schemes/Transliteration/ITRANS.tlr
+[Devanagari.map]: https://raw.githubusercontent.com/aupasana/Lipika_IME/master/Common/Resources/Schemes/Script/Devanagari.map
 
 ### Notes
 
 * The two files above are protected (root access only), and they are in a hidden location (finder won't show them). Download the files, and then launch "terminal" and use the "sudo cp" command to replace the files.
 * if there are any extended macOS permissions, the Lipika IME menu items may not show up correctly. Use "ls -@la" to see the extended permissions on the files you have copied, and remove them using "xattr -d [permission]". Log out and back in and the menu should now render correctly.
-* [[ link ]](https://www.youtube.com/watch?v=E1GHlcYE8NQ){:target="_blank"} A youtube HD screencast -- "typing devanagari on OSX using lipika"
+* [[ link ][yt]] A youtube HD screencast -- "typing devanagari on OSX using lipika"
 
+[yt]: https://www.youtube.com/watch?v=E1GHlcYE8NQ
 
 ## DLI Downloader
 
 ### windows
 
-[[ link ]](https://sites.google.com/a/aupasana.com/public/software/dli){:target="_blank"}
-	mudgala dli downloader (version 1.00)
+[[ link ][dli]] mudgala dli downloader (version 1.00)
 
 The digital library of india (link) has a vast repository of sanskrit texts. Unfortunately, it's user interface makes it very difficult to search and download texts for offline use. This is a small tool for microsoft windows that allows a user to quickly search, download, and convert downloaded pages to pdfs for offline use.
+
+[dli]: https://sites.google.com/a/aupasana.com/public/software/dli
 
 ### mac OSX
 
@@ -92,7 +96,7 @@ You must now install libtiff manually, since it isn't supported by chocolatey
 * extract the contents of the "bin" folder from both zip files into a single folder
 * add the path to the folder which contains these binaries to your PATH
 
-Xargs parallelism doesn't work on windows. Use the aria tool, since it supports parallelism natively.
+XArgs parallelism doesn't work on windows. Use the aria tool, since it supports parallelism natively.
 
 ~~~
 > dli.py BARCODE --download-tool aria

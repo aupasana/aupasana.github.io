@@ -1,4 +1,4 @@
-{% if page.comments %}
+{% if page.comments == nil or page.comments == true %}
   <script type="text/javascript">
     var disqus_shortname = '{{ site.disqus }}';
 
