@@ -7,11 +7,11 @@
             {% include sidebar.html %}
         </div>
 
-        {% if page.toc  == true %}
+        {% if page.toc == true or page.tagpage == true %}
         <div class="col-md-7">
         {% endif %}
 
-        {% if page.toc  != true %}
+        {% if page.toc != true and page.tagpage != true %}
         <div class="col-md-8">
         {% endif %}
 
@@ -34,6 +34,20 @@
                 </div>
             </div>
         {% endif %}
+
+        {% if page.tagpage  == true %}
+            <div class="col-md-2">
+                <div class="toccontent well">
+                    <h1>Tags</h1>
+                    <div id="tag-cloud">
+                      {{ site | tag_cloud }}
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+
+
+
     </div>
 </div>
 
