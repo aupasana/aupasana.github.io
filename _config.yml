@@ -37,3 +37,5 @@ exclude: ['README.md', 'LICENSE']
 # Base URL where external file links are stored
 filecabinet: 'https://dl.dropboxusercontent.com/u/9716392/aupasana.com'
 
+sitelogo: 'images/agni_aum_cropped.jpg'
+
