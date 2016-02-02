@@ -21,7 +21,7 @@ layout: default
           <span class="tags">Tags:</span>
           {% for tag in post.tags %}
           <span class="tags">
-            {{tag}}
+              <a href="{{site.baseurl}}/tag_archive.html#{{tag}}">{{tag}}</a>
           </span>
           {% endfor %}
         {% endif %}

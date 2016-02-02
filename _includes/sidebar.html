@@ -18,6 +18,18 @@
     </ul>
 </div>
 
-<div class="sidebar well">
-	{% include tags-list.html %}
+<div class="sidebar well visible-md visible-lg">
+{% assign sorted_tags = (site.tags | sort:0) %}
+
+	<h1>tags</h1>
+	<ul class="sidebar-link">
+		{% for tag in sorted_tags %}
+			<li><a href="{{site.baseurl}}/tag_archive.html#{{tag | first | downcase}}">{{tag | first | downcase }}</a></li>
+		{% endfor %}
+
+	</ul>
 </div>
+
+
+
+

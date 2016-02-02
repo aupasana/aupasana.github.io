@@ -19,9 +19,9 @@
             {% if page.tags.size > 0  %}
               <span class="tags">Tags:</span>
               {% for tag in page.tags %}
-              <span class="tags">
-                {{tag}}
-              </span>
+                <span class="tags">
+                  <a href="{{site.baseurl}}/tag_archive.html#{{tag}}">{{tag}}</a>
+                </span>
               {% endfor %}
             {% endif %}
 

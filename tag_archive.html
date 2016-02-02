@@ -1,0 +1,36 @@
+---
+layout: well
+---
+
+{% assign sorted_tags = (site.tags | sort:0) %}
+
+<!-- <h1>Tags</h1>
+
+{% for tag in sorted_tags %}
+	<a href="#{{tag | first | downcase}}">{{tag | first | downcase }}</a>
+	&nbsp;&nbsp;
+{% endfor %}
+
+<p/>
+<hr/>
+<p/>
+ -->
+
+<h1>Posts by tag</h1>
+
+{% for tag in sorted_tags %}
+	{% assign t = tag | first %}
+	{% assign posts = tag | last %}
+
+	<h2 id="{{t | downcase }}"> {{t | downcase}}</h2>
+	<!-- {{ t | downcase }} -->
+	<ul>
+	{% for post in posts %}
+	  {% if post.tags contains t %}
+	  <li>
+	  	    {{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+	  </li>
+	  {% endif %}
+	{% endfor %}
+	</ul>
+{% endfor %}

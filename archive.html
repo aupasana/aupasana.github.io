@@ -4,6 +4,10 @@ layout: well
 
 <h1>Archives</h1>
 
+Note: A list of all posts sorted by tag is available <a href="{{site.baseurl}}/tag_archive.html">here</a>.
+
+<p/>
+
 {%for post in site.posts %}
     {% unless post.next %}
         <h2>{{ post.date | date: '%Y' }}</h2>
