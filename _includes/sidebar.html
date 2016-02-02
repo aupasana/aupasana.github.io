@@ -11,23 +11,25 @@
 <div class="sidebar well">
     <h1>recent posts</h1>
 
-    <ul class="sidebar-link">
+    <div class="sidebar-link">
         {% for post in site.posts limit:5 %}
-          <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+          <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+          <br/>
         {% endfor %}
-    </ul>
+    </div>
 </div>
 
-<div class="sidebar well visible-md visible-lg">
+<div class="sidebar well">
 {% assign sorted_tags = (site.tags | sort:0) %}
 
 	<h1>tags</h1>
-	<ul class="sidebar-link">
+	<div class="sidebar-link">
 		{% for tag in sorted_tags %}
-			<li><a href="{{site.baseurl}}/tag_archive.html#{{tag | first | downcase}}">{{tag | first | downcase }}</a></li>
+			<a href="{{site.baseurl}}/tag_archive.html#{{tag | first | downcase}}">{{tag | first | downcase }}</a>
+			<!-- <br/> -->
 		{% endfor %}
 
-	</ul>
+	</div>
 </div>
 
 
