@@ -7,7 +7,14 @@
             {% include sidebar.html %}
         </div>
 
-        <div class="col-md-9">
+        {% if page.toc  == true %}
+        <div class="col-md-7">
+        {% endif %}
+
+        {% if page.toc  != true %}
+        <div class="col-md-8">
+        {% endif %}
+
 
             <div class="well">
                 {% if page.title != '' and page.title != nil %}
@@ -17,6 +24,16 @@
                 {{ content }}
             </div>
         </div>
+
+        {% if page.toc  == true %}
+            <div class="col-md-2">
+                <div class="toccontent well">
+                    <h1>Contents</h1>
+                    <ul id="toc">
+                    </ul>
+                </div>
+            </div>
+        {% endif %}
     </div>
 </div>
 

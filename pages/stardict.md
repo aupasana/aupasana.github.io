@@ -1,6 +1,7 @@
 ---
 layout: well
 title: Stardict
+toc: true
 ---
 
 Most platforms and mobile devices have apps which understand the "stardict" dictionary format. As a result, you can easily add new stardict dictionaries, and search them. Here, you will find stardict files for sanskrit dictionaries (monier-williams, apte), and grammar texts. The input format is a simple subset of the itrans scheme. It is designed for ease of input on mobile devices, and should be relatively natural.
@@ -21,7 +22,7 @@ La xa
 
 Note: this input scheme is a variation of the itrans format. It purposely omits all punctuation, which makes it easy to type on mobile devices. Since stardict applications generally accept case-insensitive input, searching becomes simple, while remaining almost lossless.
 
-## Dictionary Stardict Files
+## Dictionary files
 
 * [[ link ][apte]] apte sanskrit to english dictionary
 * [[ link ][aptebi]] apte sanskrit to english dictionary (with reverse lookup)
@@ -31,7 +32,7 @@ Note: this input scheme is a variation of the itrans format. It purposely omits 
 * [[ link ][shabda]] shabda kalpadruma sanskrit to sanskrit dictionary
 * [[ link ][vacha]] vachaspatyam sanskrit to sanskrit dictionary
 
-## Vyakarana Stardict files
+## Vyakarana files
 
 * [[ link ][dhatu]] dhātupātha (processed version from sanskritdocuments.org)
 * [[ link ][lsk]] laghu siddhānta kaumudī
@@ -56,7 +57,16 @@ Note: this input scheme is a variation of the itrans format. It purposely omits 
 [nyasa]: {{site.filecabinet}}/stardict/nyasa.tar.gz)
 
 
-## The files above were processed from various sources
+## Installation
+
+* on iOS, use the "dictionary universal" applicaiton
+* on android devices, use the "colorDict" application
+* on windows, use the "goldendict" app
+* on mac osx, use the "goldendict" app
+
+## Sources
+
+The files above were processed from various sources
 
 * The now defunct http://www.sansknet.org website
 * [[ link ][sandic]] Sandic project at Sourceforge
@@ -65,10 +75,3 @@ Note: this input scheme is a variation of the itrans format. It purposely omits 
 [sandic]: http://sourceforge.net/projects/sandic/
 [koeln]: http://www.sanskrit-lexicon.uni-koeln.de/index.html
 
-
-## Installation Instructions
-
-* on iOS, use the "dictionary universal" applicaiton
-* on android devices, use the "colorDict" application
-* on windows, use the "goldendict" app
-* on mac osx, use the "goldendict" app

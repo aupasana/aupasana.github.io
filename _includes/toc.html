@@ -1,0 +1,12 @@
+
+page.toc is {{page.toc}}
+
+{% if page.toc  == true %}
+
+  <script type="text/javascript">  
+  $("#toc").toc(
+  	{
+	    'selectors': 'h2'
+	});
+  </script>
+{% endif %}

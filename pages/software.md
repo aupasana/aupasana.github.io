@@ -1,12 +1,8 @@
 ---
 layout: well
 title: Software
+toc: true
 ---
-
-Contents
-
-* placeholder
-{:toc}
 
 ## Mudgala Kosha
 
