@@ -1,21 +1,29 @@
-{% include header.html %}
 
+<!-- 
+    This pages uses a two-column (default) 
+    or a three-column layout when the page wishes to display a table of contents.
+
+    The sizing differs: i.e. 3-8 (two-column) and 3-7-2 (three-column)
+ -->
+
+{% include header.html %}
 
 <div class="container container-left">
     <div class="row">
+
+        <!-- Sidebar goes in the left column -->
         <div class="col-md-3 hidden-xs">
             {% include sidebar.html %}
         </div>
 
-        {% if page.toc == true or page.tagpage == true %}
+        <!-- Main content goes in the center column. Size varies as described at the top of this file -->
+        {% if page.toc == true %}
         <div class="col-md-7">
-        {% endif %}
-
-        {% if page.toc != true and page.tagpage != true %}
+        {% else %}
         <div class="col-md-8">
         {% endif %}
 
-
+            <!-- Title and content -->
             <div class="well">
                 {% if page.title != '' and page.title != nil %}
                     <h1>{{ page.title }}</h1>
@@ -25,6 +33,7 @@
             </div>
         </div>
 
+        <!-- Optional third column to display the table of contents in three-column layout -->
         {% if page.toc  == true %}
             <div class="col-md-2">
                 <div class="toccontent well">
@@ -34,19 +43,6 @@
                 </div>
             </div>
         {% endif %}
-
-        {% if page.tagpage  == true %}
-            <div class="col-md-2">
-                <div class="toccontent well">
-                    <h1>Tags</h1>
-                    <div id="tag-cloud">
-                      {{ site | tag_cloud }}
-                    </div>
-                </div>
-            </div>
-        {% endif %}
-
-
 
     </div>
 </div>
