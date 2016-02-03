@@ -4,18 +4,6 @@ layout: well
 
 {% assign sorted_tags = (site.tags | sort:0) %}
 
-<!-- <h1>Tags</h1>
-
-{% for tag in sorted_tags %}
-	<a href="#{{tag | first | downcase}}">{{tag | first | downcase }}</a>
-	&nbsp;&nbsp;
-{% endfor %}
-
-<p/>
-<hr/>
-<p/>
- -->
-
 <h1>Posts by tag</h1>
 
 {% for tag in sorted_tags %}

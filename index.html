@@ -4,32 +4,37 @@ layout: default
 
 
 {% for post in paginator.posts %}
-{% if post.published == nil or post.published == true %}
 <div class="article">
     <div class="well">
+  
+        <!-- Title -->
         <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} - {{ post.title }}</a></h1>
 
-<!--         {% if site.comments == true and (posts.comments == nil or post.comments == true) and site.disqus != '' %}
-          <p class="author"><a href="{{ site.baseurl }}{{ post.url }}/#disqus_thread">Comments</a></p>
-        {% endif %}
- -->
+        <!-- Body -->
         <div class="content">
-            {{ post.content }}
+            {% if post.excerpt and post.excerpt != post.content %}
+              {{ post.excerpt }}
+              ( continued ... )  <p/>
+            {% else %}
+              {{ post.content }}
+            {% endif %}
         </div>
 
+
+        <!-- Tags -->
         {% if post.tags.size > 0  %}
-          <span class="tags">Tags:</span>
+          <span class="tags">tags:</span>
           {% for tag in post.tags %}
-          <span class="tags">
-              <a href="{{site.baseurl}}/tag_archive.html#{{tag}}">{{tag}}</a>
-          </span>
+            <span class="tags">
+                <a href="{{site.baseurl}}/tag_archive.html#{{tag}}">{{tag}}</a>
+            </span>
           {% endfor %}
         {% endif %}
     </div>
 </div>
-{% endif %}
 {% endfor %}
 
+<!-- Pagination -->
 <div class="pagination">
   {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}

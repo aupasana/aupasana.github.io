@@ -12,6 +12,8 @@ url: http://aupasana.com
 #     run it like so: jekyll serve --baseurl=''
 baseurl: ''
 
+excerpt_separator: <!--more-->
+
 # Set this to your UA-# value, or '' to disable the block completely
 gaaccount: ''
 
@@ -25,10 +27,9 @@ permalink: /:year/:month/:title
 paginate: 5
 
 highlighter: rouge
-#markdown: redcarpet
 markdown: kramdown
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+# redcarpet:
+#   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 gems: ['jekyll-paginate']
 
 exclude: ['README.md', 'LICENSE']
@@ -37,14 +38,4 @@ exclude: ['README.md', 'LICENSE']
 filecabinet: 'https://dl.dropboxusercontent.com/u/9716392/aupasana.com'
 sitelogo: 'images/agni_aum_cropped.jpg'
 
-#####################################################
-#####################################################
-#####################################################
-
-# jekyll extension settings
-
-tag_page_layout: tagpage
-tag_page_dir: tag
-# tag_permalink_style: pretty
-# ignored_tags: [tags,to,ignore]
 
