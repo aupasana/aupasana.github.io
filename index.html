@@ -14,7 +14,7 @@ layout: default
         <div class="content">
             {% if post.excerpt and post.excerpt != post.content %}
               {{ post.excerpt }}
-              ( continued ... )  <p/>
+              <a href="{{ site.baseurl}}{{ post.url }}">continue reading ...</a><p/>
             {% else %}
               {{ post.content }}
             {% endif %}
