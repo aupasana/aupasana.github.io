@@ -35,3 +35,10 @@ title: Publications
 	the system of yajur veda vedic accents
 * [[ link ]]({{site.filecabinet}}/publications/mudgala_vidya_08_11_03.pdf){:target="_blank"}
 	notes from a cursory study of the mudgala purāṇa
+
+## Picture publications:
+
+* [[ link ]][dm-bs] variation in bhagavati seva, seen through pictures.
+
+[dm-bs]: {{site.filecabinet}}/publications/bhagavatisevapictures.pdf
+
