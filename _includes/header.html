@@ -40,4 +40,6 @@
     </div>
 </div>
 
-<center><strong>This site is under construction! </strong></center>
+{% if site.sitemessage != nil and site.sitemessage != '' %}
+<center><strong>{{site.sitemessage}}</strong></center>
+{% endif %}
