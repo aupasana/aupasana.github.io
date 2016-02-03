@@ -2,7 +2,9 @@
 layout: well
 title: Puja
 toc: true
+published: true
 ---
+
 
 ## Ahnika manuals
 
@@ -21,8 +23,8 @@ toc: true
 [ahnika]: http://www.archive.org/download/ahnika/RigVedaAhnikaChandrika.pdf
 [sama]: http://www.archive.org/download/ahnika/SamaNityahnikam.pdf
 [brahma]: http://www.archive.org/download/ahnika/BrahmaKarmaSamuccayarig.pdf
-[smp]: http://vaidyanatha.ambaa.org
-[pvr]: http://www.vedicastrologer.org
+[smp]: http://vaidyanatha.ambaa.org target="_blank"
+[pvr]: http://www.vedicastrologer.org target="_blank"
 
 ## Devi Mahatmyam
 
@@ -43,8 +45,7 @@ toc: true
 * [[ link ]][vinayaka] siddhivināyaka pūjā paddhati 
 * [[ link ]][sarasvati] sarasvatī pūjā paddhati
 
-[satya]: http://www.4shared.com/office/PqNtcYAz/satyanarayana_pooja.html
-[arcana]: http://www.4shared.com/office/Mdje38Mg/Devatarchana_Paddhati.html
-[vinayaka]: http://www.4shared.com/get/a2AMam50/Siddhivinayaka_Pooja_Paddhati.html
-[sarasvati]: http://www.4shared.com/office/MiZfIIwH/saraswati_pooja.html
-
+[satya]: http://www.4shared.com/office/PqNtcYAz/satyanarayana_pooja.html target="_blank"
+[arcana]: http://www.4shared.com/office/Mdje38Mg/Devatarchana_Paddhati.html target="_blank"
+[vinayaka]: http://www.4shared.com/get/a2AMam50/Siddhivinayaka_Pooja_Paddhati.html target="_blank"
+[sarasvati]: http://www.4shared.com/office/MiZfIIwH/saraswati_pooja.html target="_blank"
