@@ -8,9 +8,13 @@ published: true
 ---
 
 
-Why migrate from google sites to github pages? 
+
+Why migrate to github pages? 
 
 * Github pages use Jekyll with automatic publishing post-commit
-* Markdown allows me to focus on content 
-* Free hosting for per-account sites, with support for custom domains
-* Editing surfaces (eg. prose.io) allow web-based updates for new posts etc
+* Github pages allow free hosting for one personal site (with custom domains)
+* Easy to integrate a website and blog in one place
+* Markdown support allows me to focus on content 
+* I continue to have an editing surface (eg. prose.io) for web-based updates
+  though it is admittedly clunky
+  
