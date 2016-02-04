@@ -26,9 +26,7 @@
 	<div class="sidebar-link">
 		{% for tag in sorted_tags %}
 			<a href="{{site.baseurl}}/tag_archive.html#{{tag | first | downcase}}">{{tag | first | downcase }}</a>
-			<!-- <br/> -->
 		{% endfor %}
-
 	</div>
 </div>
 
