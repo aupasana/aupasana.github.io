@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-{% for post in paginator.posts %}
+{% for post in site.posts limit:6 %}
 <div class="article">
     <div class="well">
   
@@ -29,22 +29,13 @@ layout: default
                 <a href="{{site.baseurl}}/tag_archive.html#{{tag}}">{{tag}}</a>
             </span>
           {% endfor %}
-        {% endif %}
+        {% endif %}        
     </div>
 </div>
 {% endfor %}
 
-<!-- Pagination -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-        <a class="btn btn-default" href="{{ site.baseurl}}/index.html" class="previous">Newer</a>
-      {% else %}
-        <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.previous_page }}" class="previous">Newer</a>
-      {% endif %}
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.next_page }}" class="next">Older</a>
-  {% endif %}
+<div class="article">
+    <div class="well">
+		Older Posts <a href="{{ site.baseurl}}/archive.html">[ by date ]</a> <a href="{{ site.baseurl}}/tag_archive.html">[ by tag ]</a>
+	</div>
 </div>

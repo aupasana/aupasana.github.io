@@ -24,11 +24,12 @@ disqus: 'aupasana'
 comments: true
 
 permalink: /:year/:month/:title
-paginate: 5
+# paginate: 5
 
 highlighter: rouge
 markdown: kramdown
-gems: ['jekyll-paginate', 'jekyll-sitemap', 'jekyll-feed']
+# gems: ['jekyll-paginate', 'jekyll-sitemap', 'jekyll-feed']
+gems: ['jekyll-sitemap', 'jekyll-feed']
 
 exclude: ['README.md', 'LICENSE']
 
