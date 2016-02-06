@@ -21,11 +21,8 @@ defaults write -g NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false
 ~~~
 
 MacDown is designed for use with markdown files, and works with devanagari
-text. This makes it well suited for blogging.
-
-Many text editors on a mac don't handle devanagari well. This is especially
-true of code editors (eg Sublime Text and BBEdit). The one editor that does
-work is Atom.
+text. This makes it well suited for blogging. Atom is an open-source editor
+that works well unlike most of it's brethren (i.e. Sublime Text and BBEdit).
 
 Pages and Microsoft Word both handle devanagari text well, but are too
 heavyweight for simple editing tasks.
