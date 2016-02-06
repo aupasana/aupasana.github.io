@@ -18,9 +18,9 @@
 	<h1>tags</h1>
 	<div class="sidebar-link">
 		{% for tag in sorted_tags %}
-			<a href="{{site.baseurl}}/tag_archive.html#{{tag | first | downcase}}">{{tag | first | downcase }}</a>
+			<a href="{{site.baseurl}}/archives/archive_tag.html#{{tag | first | downcase}}">{{tag | first | downcase }}</a>
 		{% endfor %}
-		<a href="{{site.baseurl}}/tag_archive.html#none">untagged</a> 
+		<a href="{{site.baseurl}}/archives/archive_tag.html#none">untagged</a> 
 	</div>
 </div>
 
