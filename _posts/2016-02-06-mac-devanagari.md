@@ -10,7 +10,7 @@ category:
 ---
 
 Many text editors on a mac don't handle devanagari well. This is especially
-true of code editors (eg sublime text and bbedit).
+true of code editors (eg Sublime Text and BBEdit).
 
 Two simple editors that work with devanagari text are <!--more-->
 CotEditor and TextEdit. The later comes out of the box, but I avoided
