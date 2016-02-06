@@ -4,6 +4,8 @@ title: "Under Construction"
 date: 2016-01-31 11:00:00 -0700
 comments: true
 tag: other
+category: 
+  - front
 ---
 
 aupasana.com (and it's associated blogs) are moving to github pages.

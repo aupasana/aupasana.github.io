@@ -7,6 +7,9 @@ tag:
   - jekyll
   - tech
 published: true
+category: 
+  - front
+  - tech
 ---
 
 

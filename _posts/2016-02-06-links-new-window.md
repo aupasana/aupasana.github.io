@@ -7,6 +7,7 @@ tag:
 - jekyll
 - tech
 - javascript
+category: tech
 ---
 
 I like to have links to other sites and documents open in a new window. Using raw html, this is done with ```target="blank"```. i.e.

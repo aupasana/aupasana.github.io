@@ -6,6 +6,7 @@ comments: true
 tag: 
 - sanskrit
 - kavisamaya
+category: sanskrit
 ---
 
 कस्मिंश्चित् श्लोके चक्रवाकमिथुनकविसमयः दृष्टः। 

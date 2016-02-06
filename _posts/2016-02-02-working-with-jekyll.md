@@ -6,6 +6,7 @@ comments: true
 tag: 
 - jekyll
 - tech
+category: tech
 ---
 
 Migrating this site to jekyll has been an interesting experience.
