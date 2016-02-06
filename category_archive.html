@@ -19,7 +19,9 @@ title: Posts by blog
 	  {% if post.categories contains t %}
 	  <li>
 	  	    {{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-	  	    {% include tags-and-categories.html %}
+	  	    <span class="float-right">
+			    {% include tags-and-categories.html %}
+			</span>
 
 	  </li>
 	  {% endif %}
@@ -33,9 +35,10 @@ title: Posts by blog
 	{% for post in site.posts %}
 		{% if post.categories == nil or post.categories.size == 0 %}
 		  <li>
-		  	    {{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>      
-		  	    {% include tags-and-categories.html %}
-
+		  	{{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>      
+	  	    <span class="float-right">
+			    {% include tags-and-categories.html %}
+			</span>
 		  </li>
 		{% endif %}
 	{% endfor %}

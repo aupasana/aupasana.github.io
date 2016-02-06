@@ -73,7 +73,10 @@ body {
 .tags {
     color: black;
     font-size: .8em;
-    float: right;
+}
+
+.float-right {
+    float: right;    
 }
 
 .toc-sidebar {
