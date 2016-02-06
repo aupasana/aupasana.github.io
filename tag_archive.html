@@ -3,6 +3,8 @@ layout: well
 title: Posts by tag
 ---
 
+<!-- adapted from http://www.jokecamp.com/blog/listing-jekyll-posts-by-tag/ -->
+
 {% assign sorted_tags = (site.tags | sort:0) %}
 
 {% for tag in sorted_tags %}
@@ -10,14 +12,28 @@ title: Posts by tag
 	{% assign posts = tag | last %}
 
 	<h2 id="{{t | downcase }}"> {{t | downcase}}</h2>
-	<!-- {{ t | downcase }} -->
+
 	<ul>
 	{% for post in posts %}
 	  {% if post.tags contains t %}
 	  <li>
 	  	    {{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+		    {% include tags-and-categories.html %}
 	  </li>
 	  {% endif %}
 	{% endfor %}
 	</ul>
 {% endfor %}
+
+<!-- no tags -->
+<h2 id="none">other</h2>
+<ul>
+	{% for post in site.posts %}
+		{% if post.tags == nil or post.tags.size == 0 %}
+		  <li>
+		  	    {{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+		  	    {% include tags-and-categories.html %}
+		  </li>
+		{% endif %}
+	{% endfor %}
+</ul>
