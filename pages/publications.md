@@ -5,6 +5,8 @@ title: Publications
 
 ## Sanskrit publications:
 
+Here is a list of original publications:
+
 * [[ link ]][yajusha] yājuṣa mantra ratnākaram, a collection of yajur veda mantras
 * [[ link ]][dm] devī māhātmyam, renumbered according to anvaya
 * [[ link ]][satya] satyanārāyaṇa pūjā, a comprehensive manual with the kathā.
@@ -16,7 +18,7 @@ title: Publications
 * [[ link ]][putra] putreṣtiḥ -- prayogas for begetting progeny. 
 	* santana gopala homa and santana parameshwara mantras from the śāntikusumākaraḥ
 	* putreshti prakarana from the dharma sindhu.
-* [[ link ]][festivals] a list of popular hindu festivals, and the panchanga criteria for their observances
+* [[ link ]][festivals] popular hindu festivals and their panchanga criteria
 * [[ link ]][mudgala] a selection of sanskrit gaṇeśa stotras from the mudgala purāṇa
 
 [yajusha]: {{site.filecabinet}}/publications/yajusha_2012_07_26.pdf
