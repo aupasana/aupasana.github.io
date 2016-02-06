@@ -30,13 +30,16 @@ for each post.
 
 ## Get a list of sorted tags.
 
-{% highlight liquid %} {% raw %}
-{% assign sorted_tags = (site.tags | sort:0) %}
-{% endraw %} {% endhighlight %}
+~~~ liquid 
+{% raw %}
+{% assign sorted_tags = (site.tags | sort:0) %} 
+{% endraw %} 
+~~~
 
 ## Create a list of all posts, grouped by tag
 
-{% highlight liquid %} {% raw %}
+~~~ liquid
+{% raw %}
 {% for tag in sorted_tags %}
 	{% assign t = tag | first %}
 	{% assign posts = tag | last %}
@@ -48,7 +51,8 @@ for each post.
 	  {% endif %}
 	{% endfor %}
 {% endfor %}
-{% endraw %} {% endhighlight %}
+{% endraw %}
+~~~
 
 Adapted from [jokecamp.com](http://www.jokecamp.com/blog/listing-jekyll-posts-by-tag/)
 
