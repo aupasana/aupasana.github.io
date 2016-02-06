@@ -1,0 +1,12 @@
+
+<!-- This include is not currently used -->
+
+    <h1>recent posts</h1>
+
+    <div class="sidebar-link">
+        {% for post in site.posts limit:5 %}
+          <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+          <br/>
+        {% endfor %}
+    </div>
+</div>
