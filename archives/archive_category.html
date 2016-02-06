@@ -12,7 +12,9 @@ title: Posts by blog
 	{% assign t = cat | first %}
 	{% assign posts = cat | last %}
 
-	<h2 id="{{t | downcase }}"> {{t | downcase}}</h2>
+	<h2 id="{{t | downcase }}"> {{t | downcase}}
+	<span class="tags"><a href="{{site.baseurl}}/blogs/{{t|downcase}}.html">[ blog's front page ]</a></span>
+	</h2>
 
 	<ul>
 	{% for post in posts %}
