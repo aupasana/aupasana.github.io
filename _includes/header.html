@@ -7,6 +7,8 @@
     <title>
       {% if page.title != nil and page.title != '' %}
          {{page.title}} - 
+      {% else %}
+         {{page.url}} -
       {% endif %}
       {{site.name}}
     </title>
