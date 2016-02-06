@@ -5,18 +5,11 @@
 <p/>
 
 <div class="sidebar well">
-	{% include pages-list.html %}
+	{% include blogs-list.html %}
 </div>
 
 <div class="sidebar well">
-    <h1>recent posts</h1>
-
-    <div class="sidebar-link">
-        {% for post in site.posts limit:5 %}
-          <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-          <br/>
-        {% endfor %}
-    </div>
+	{% include pages-list.html %}
 </div>
 
 <div class="sidebar well">
@@ -27,6 +20,7 @@
 		{% for tag in sorted_tags %}
 			<a href="{{site.baseurl}}/tag_archive.html#{{tag | first | downcase}}">{{tag | first | downcase }}</a>
 		{% endfor %}
+		<a href="{{site.baseurl}}/tag_archive.html#none">untagged</a> 
 	</div>
 </div>
 
