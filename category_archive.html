@@ -1,0 +1,42 @@
+---
+layout: well
+title: Posts by blog
+---
+
+<!-- adapted from http://www.jokecamp.com/blog/listing-jekyll-posts-by-tag/ -->
+
+{% assign sorted_categories = (site.categories | sort:0) %}
+
+<!-- by category -->
+{% for cat in sorted_categories %}
+	{% assign t = cat | first %}
+	{% assign posts = cat | last %}
+
+	<h2 id="{{t | downcase }}"> {{t | downcase}}</h2>
+
+	<ul>
+	{% for post in posts %}
+	  {% if post.categories contains t %}
+	  <li>
+	  	    {{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+	  	    {% include tags-and-categories.html %}
+
+	  </li>
+	  {% endif %}
+	{% endfor %}
+	</ul>
+{% endfor %}
+
+<!-- uncategorized posts -->
+<h2 id="none">other</h2>
+<ul>
+	{% for post in site.posts %}
+		{% if post.categories == nil or post.categories.size == 0 %}
+		  <li>
+		  	    {{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>      
+		  	    {% include tags-and-categories.html %}
+
+		  </li>
+		{% endif %}
+	{% endfor %}
+</ul>
