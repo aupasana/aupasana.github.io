@@ -1,0 +1,43 @@
+
+<!-- Emit line for categories and tags -->
+
+
+<!-- 
+Note: This code is included in both pages and posts.
+Figure out who the caller is, and iterate of it's properties
+ -->
+
+{% if post.categories.size > 0 or post.tags.size > 0 %}
+  {% assign caller = post %}
+{% else if %}
+  {% assign caller = page %}
+{% endif %}
+
+{% if caller.categories.size > 0 or caller.tags.size > 0 %}
+  <span class="tags">(
+
+    <!-- Deal with categories -->
+    {% if caller.categories.size > 0  %}
+      posted in: 
+      {% for cat in caller.categories %}
+          <a href="{{site.baseurl}}/blogs/{{cat}}.html">{{cat}}</a>
+      {% endfor %}
+    {% endif %}        
+
+    <!-- Delmiter between categories and callers -->
+    {% if caller.categories.size > 0 and caller.tags.size > 0 %}
+      ...
+    {% endif %}
+
+    <!-- Deal with tags -->
+    {% if caller.tags.size > 0  %}
+      tags:
+      {% for tag in caller.tags %}
+        <a href="{{site.baseurl}}/tag_archive.html#{{tag}}">{{tag}}</a>
+      {% endfor %}
+    {% endif %}        
+
+  )</span>
+{% endif %}        
+
+      
