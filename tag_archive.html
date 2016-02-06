@@ -1,10 +1,9 @@
 ---
 layout: well
+title: Posts by tag
 ---
 
 {% assign sorted_tags = (site.tags | sort:0) %}
-
-<h1>Posts by tag</h1>
 
 {% for tag in sorted_tags %}
 	{% assign t = tag | first %}

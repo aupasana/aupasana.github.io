@@ -1,5 +1,6 @@
 ---
 layout: well
+title: about aupasana
 ---
 
 Aupāsana is the sacred fire in which we perform upāsanā -- i.e. meditation and worship.
