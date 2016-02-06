@@ -3,3 +3,13 @@ layout: blog
 blog: front
 ---
 
+<div class="article">
+	<div class="well">
+		<h2>Recent posts</h2>
+		<ul>
+		    {% for post in site.posts limit:5 %}
+		      <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+		    {% endfor %}
+		</ul>
+	</div>
+</div>

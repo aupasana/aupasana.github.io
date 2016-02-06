@@ -2,7 +2,6 @@
 layout: post
 title: Why a new site
 date: "2016-02-01 07:30:00 -0700"
-comments: true
 tag: 
   - jekyll
   - tech
