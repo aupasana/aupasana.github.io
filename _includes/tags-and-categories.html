@@ -20,7 +20,7 @@ Figure out who the caller is, and iterate of it's properties
     {% if caller.categories.size > 0  %}
       posted in: 
       {% for cat in caller.categories %}
-          <a href="{{site.baseurl}}/blogs/{{cat}}.html">{{cat}}</a>
+          <a href="{{site.baseurl}}/category_archive#{{cat}}.html">{{cat}}</a>
       {% endfor %}
     {% endif %}        
 
