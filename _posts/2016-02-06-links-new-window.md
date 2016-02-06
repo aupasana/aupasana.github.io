@@ -23,8 +23,8 @@ With the move to jekyll, I looked for a way to do this in markdown. Though it is
 [contoso.com](http://www.contoso.com){:target="_blank"}
 ~~~
 
-Though I find markdown to be simpler than vanilla html, I find the html syntax to be intrusive. 
-I prefer named links which don't interrupt the flow of the paragraph with inline ```href``` values. i.e.
+Though markdown is intended to simpler than html, I find links to be just as intrusive in markdown
+as they are in html. I prefer named links with the ```href``` values to follow. i.e.
 
 ~~~ markdown
 [contoso.com][a]
