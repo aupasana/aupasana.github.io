@@ -12,12 +12,21 @@ layout: default
 
         <!-- Body -->
         <div class="content">
+          {% if post.layout == "sanskrit-post"  %}
+            <div class="sanskrit">
+          {% endif %}
+
             {% if post.excerpt and post.excerpt != post.content %}
               {{ post.excerpt }}
               <a href="{{ site.baseurl}}{{ post.url }}">continue reading ...</a><p/>
             {% else %}
               {{ post.content }}
             {% endif %}
+
+          {% if post.layout == "sanskrit-post"  %}
+            </>
+          {% endif %}
+
         </div>
 
 
