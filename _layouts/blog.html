@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+{% if page.title != nil and page.title != "" %}
+  <h1>{{page.title}}</h1>
+{% endif %}
+
+{{content}}
+
+{% for post in site.categories[page.blog] limit:5 %}
+  <div class="article">
+      <div class="well">
+
+          <!-- Title -->
+          <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} - {{ post.title }}</a></h1>
+
+          <!-- Body -->
+          <div class="content">
+            {% if post.layout == "sanskrit-post"  %}
+              <div class="sanskrit">
+            {% endif %}
+
+              {% if post.excerpt and post.excerpt != post.content %}
+                {{ post.excerpt }}
+                <a href="{{ site.baseurl}}{{ post.url }}">continue reading ...</a><p/>
+              {% else %}
+                {{ post.content }}
+              {% endif %}
+
+            {% if post.layout == "sanskrit-post"  %}
+              </div>
+            {% endif %}
+
+          </div>
+
+        {% include tags-and-categories.html %}
+
+      </div>
+  </div>
+{% endfor %}
+
+{% if site.categories[page.blog].size > 5 %}
+<div class="article">
+  <div class="well">
+    <h2>Next few posts</h2>
+
+    {% for post in site.categories[page.blog] offset:5 limit:20 %}
+        {{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+        ({% include tags-and-categories.html %})
+        <br>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+<div class="article">
+  <div class="well">
+    <a href="{{ site.baseurl}}/category_archive#{{page.blog}}">all blog posts</a>
+  </div>
+</div>
