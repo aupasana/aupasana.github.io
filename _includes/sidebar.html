@@ -13,6 +13,10 @@
 </div>
 
 <div class="sidebar well">
+	{% include recent-posts.html %}
+</div>
+
+<div class="sidebar well">
 {% assign sorted_tags = (site.tags | sort:0) %}
 
 	<h1>tags</h1>
