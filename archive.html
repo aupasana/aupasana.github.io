@@ -22,15 +22,8 @@ Note: A list of all posts sorted by tag is available <a href="{{site.baseurl}}/t
     {% endunless %}
 
     <li>{{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-        {% if post.tags.size > 0  %}
-          <span class="tags">( tags: </span>
-          {% for tag in post.tags %}
-          <span class="tags">
-            {{tag}}
-          </span>
-          {% endfor %}
-          <span class="tags">)</span>
-        {% endif %}
+      {% include tags-and-categories.html %}
     </li>
+
 {% endfor %}
 </ul>
