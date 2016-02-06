@@ -30,13 +30,13 @@ for each post.
 
 ## Get a list of sorted tags.
 
-{% highlight html %} {% raw %}
+{% highlight liquid %} {% raw %}
 {% assign sorted_tags = (site.tags | sort:0) %}
 {% endraw %} {% endhighlight %}
 
 ## Create a list of all posts, grouped by tag
 
-{% highlight html %} {% raw %}
+{% highlight liquid %} {% raw %}
 {% for tag in sorted_tags %}
 	{% assign t = tag | first %}
 	{% assign posts = tag | last %}
