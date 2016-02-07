@@ -7,10 +7,11 @@ title: Front page
 <div class="article">
 	<div class="well">
 		<h2>Recent posts</h2>
-		<ul>
-		    {% for post in site.posts limit:5 %}
-		      <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
-		    {% endfor %}
-		</ul>
+	    {% for post in site.posts limit:10 %}
+				{{ post.date | date_to_string }}: <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+				<span class="float-right">
+					{% include tags-and-categories.html %}
+				</span><br/>
+	    {% endfor %}
 	</div>
 </div>
