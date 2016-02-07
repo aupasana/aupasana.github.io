@@ -4,8 +4,8 @@ title: "Sanskrit editing on a mac"
 date: 2016-02-06 11:00:00 -0700
 tag:
   - mac
-category:
   - sanskrit
+category:
   - tech
 ---
 
