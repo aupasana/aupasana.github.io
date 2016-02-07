@@ -24,10 +24,8 @@
               {% include tags-and-categories.html %}
 
               <!-- Show comments -->
-              {% if site.comments == true and (page.comments == nil or page.comments == true) %}
+              {% if site.comments == true %}
                 <div id="disqus_thread">
-                    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
                 </div>
               {% endif %}
 
@@ -37,6 +35,8 @@
     </div> <!-- row -->
 </div> <!-- container -->
 
+{% if site.comments == true %}
+  {% include disqus-comments.html %}
+{% endif %}
 
-{% include disqus-comments.html %}
 {% include footer.html %}
