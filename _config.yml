@@ -23,7 +23,7 @@ gaaccount: ''
 disqus: 'aupasana'
 comments: true
 
-permalink: /:year/:month/:title.html
+permalink: /blog/:year/:month/:title.html
 # paginate: 5
 
 highlighter: rouge

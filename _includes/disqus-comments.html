@@ -1,15 +1,19 @@
-{% if page.comments == nil or page.comments != false %}
-  <script type="text/javascript">
-    var disqus_shortname = '{{ site.disqus }}';
+<script type="text/javascript">
+  var disqus_shortname = '{{ site.disqus }}';
 
-    var disqus_config = function () {
-        this.page.identifier = '{{ page.url | slugify }}';
-    };
+  var disqus_config = function () {
+      {% assign urlsize = page.url.size %}
+      {% assign sizetocapture = urlsize | minus:11 %} // "/blog/.html"
 
-   (function() {
-     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-  </script>
-{% endif %}
+      // page.url is {{ page.url }}
+      // interesting portion is {{ page.url | slice: 6, sizetocapture }}
+      // slugified version is {{ page.url | slice: 6, sizetocapture | slugify }}
+      this.page.identifier = '{{ page.url | slice: 6, sizetocapture | slugify }}'
+  };
+
+ (function() {
+   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+   dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
