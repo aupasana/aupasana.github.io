@@ -32,16 +32,16 @@ title: Posts by blog
 {% endfor %}
 
 <!-- uncategorized posts -->
-<h2 id="none">other</h2>
+<!-- <h2 id="none">other</h2>
 <ul>
 	{% for post in site.posts %}
 		{% if post.categories == nil or post.categories.size == 0 %}
 		  <li>
-		  	{{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>      
+		  	{{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
 	  	    <span class="float-right">
 			    {% include tags-and-categories.html %}
 			</span>
 		  </li>
 		{% endif %}
 	{% endfor %}
-</ul>
+</ul> -->
