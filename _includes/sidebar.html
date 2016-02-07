@@ -5,11 +5,11 @@
 <p/>
 
 <div class="sidebar well">
-	{% include blogs-list.html %}
+	{% include list-blogs.html %}
 </div>
 
 <div class="sidebar well">
-	{% include pages-list.html %}
+	{% include list-pages.html %}
 </div>
 
 <div class="sidebar well">
@@ -20,10 +20,6 @@
 		{% for tag in sorted_tags %}
 			<a href="{{site.baseurl}}/archives/archive_tag.html#{{tag | first | downcase}}">{{tag | first | downcase }}</a>
 		{% endfor %}
-		<a href="{{site.baseurl}}/archives/archive_tag.html#none">untagged</a> 
+		<a href="{{site.baseurl}}/archives/archive_tag.html#none">untagged</a>
 	</div>
 </div>
-
-
-
-
