@@ -1,10 +1,6 @@
-
-<!-- Emit line for categories and tags -->
-
-
-<!-- 
+<!--
 Note: This code is included in both pages and posts.
-Figure out who the caller is, and iterate of it's properties
+Figure out who the caller is, and iterate of it's categories and tags
  -->
 
 {% if post.categories.size > 0 or post.tags.size > 0 %}
@@ -18,11 +14,11 @@ Figure out who the caller is, and iterate of it's properties
 
     <!-- Deal with categories -->
     {% if caller.categories.size > 0  %}
-      posted in: 
+      posted in:
       {% for cat in caller.categories %}
           <a href="{{site.baseurl}}/archives/archive_category.html#{{cat}}">{{cat}}</a>
       {% endfor %}
-    {% endif %}        
+    {% endif %}
 
     <!-- Delmiter between categories and callers -->
     {% if caller.categories.size > 0 and caller.tags.size > 0 %}
@@ -35,9 +31,7 @@ Figure out who the caller is, and iterate of it's properties
       {% for tag in caller.tags %}
         <a href="{{site.baseurl}}/archives/archive_tag.html#{{tag}}">{{tag}}</a>
       {% endfor %}
-    {% endif %}        
+    {% endif %}
 
   )</span>
-{% endif %}        
-
-      
+{% endif %}
