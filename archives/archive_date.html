@@ -3,11 +3,11 @@ layout: well
 title: Archives
 ---
 
-Note: A list of all posts sorted by tag is available <a href="{{site.baseurl}}/tag_archive.html">here</a>.
+See also: A list of all posts sorted by 
+<a href="{{site.baseurl}}/archives/archive_category.html">blog</a> and
+<a href="{{site.baseurl}}/archives/archive_tag.html">tags</a>.
 
-<p/>
-
-{%for post in site.posts %}
+{% for post in site.posts %}
     {% unless post.next %}
         <h2>{{ post.date | date: '%Y' }}</h2>
         <ul>
