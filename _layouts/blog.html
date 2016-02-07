@@ -2,10 +2,6 @@
 layout: default
 ---
 
-{% if page.title != nil and page.title != "" %}
-  <h1>{{page.title}}</h1>
-{% endif %}
-
 {{content}}
 
 {% for post in site.categories[page.blog] limit:5 %}
