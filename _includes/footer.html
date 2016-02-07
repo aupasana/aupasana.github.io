@@ -6,11 +6,17 @@
     </div>
 </div>
 
-{% include toc.html %}
-{% include disqus-counts.html %}
-{% include analytics.html %}
+<!-- Use jscript toc module -->
+{% if page.toc  == true %}
+  <script type="text/javascript">
+  $("#toc").toc(
+  	{
+	    'selectors': 'h2'
+	});
+  </script>
+{% endif %}
 
-	<!-- hack to open external links in a new window -->
+	<!-- open external links in a new window -->
     <script type="text/javascript">
     (function() {
         var links = document.links;
@@ -19,7 +25,7 @@
               links[i].target = '_blank';
             }
         }
-    })();    
+    })();
   </script>
 
 </body>
