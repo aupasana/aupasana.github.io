@@ -2,10 +2,12 @@
 layout: blog
 blog: front
 title: Front page
+omitcategories: true
 ---
 
 <div class="article">
 	<div class="well">
+
 		<h3>Recent technology blog posts</h3>
 			{% for post in site.categories["tech"] limit:5 %}
 				{{ post.date | date_to_string }}: <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>

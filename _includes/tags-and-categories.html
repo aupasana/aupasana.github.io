@@ -10,19 +10,22 @@ Figure out who the caller is, and iterate of it's categories and tags
 {% endif %}
 
 {% if caller.categories.size > 0 or caller.tags.size > 0 %}
-  <span class="tags">(
+  <span class="tags">
 
-    <!-- Deal with categories -->
-    {% if caller.categories.size > 0  %}
-      posted in:
-      {% for cat in caller.categories %}
-          <a href="{{site.baseurl}}/archives/archive_category.html#{{cat}}">{{cat}}</a>
-      {% endfor %}
-    {% endif %}
+    <!-- If a _page_ has specified that categories shoudl be omitted, omit them -->
+    {% if page.omitcategories == nil or page.omitcategories != true %}
+      <!-- Deal with categories -->
+      {% if caller.categories.size > 0  %}
+        posted in:
+        {% for cat in caller.categories %}
+            <a href="{{site.baseurl}}/archives/archive_category.html#{{cat}}">{{cat}}</a>
+        {% endfor %}
+      {% endif %}
 
-    <!-- Delmiter between categories and callers -->
-    {% if caller.categories.size > 0 and caller.tags.size > 0 %}
-      ...
+      <!-- Delmiter between categories and callers -->
+      {% if caller.categories.size > 0 and caller.tags.size > 0 %}
+        ...
+      {% endif %}
     {% endif %}
 
     <!-- Deal with tags -->
@@ -33,5 +36,5 @@ Figure out who the caller is, and iterate of it's categories and tags
       {% endfor %}
     {% endif %}
 
-  )</span>
+  </span>
 {% endif %}
