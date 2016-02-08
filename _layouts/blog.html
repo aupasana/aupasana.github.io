@@ -39,7 +39,7 @@ layout: default
 {% if site.categories[page.blog].size > 5 %}
 <div class="article">
   <div class="well">
-    <h2>Recent posts</h2>
+    <h2>A few more recent posts</h2>
 
     {% for post in site.categories[page.blog] offset:5 limit:20 %}
         {{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
@@ -52,6 +52,6 @@ layout: default
 
 <div class="article">
   <div class="well">
-    <a href="{{ site.baseurl}}/archives/archive_category#{{page.blog}}">all blog posts</a>
+    <a href="{{ site.baseurl}}/archives/archive_category#{{page.blog}}">View all posts</a>
   </div>
 </div>
