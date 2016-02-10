@@ -76,13 +76,13 @@ body {
 }
 
 .float-right {
-    float: right;    
+    float: right;
 }
 
 .toc-sidebar {
     height: 100%;
     position: fixed;
-    padding-top: 20px;    
+    padding-top: 20px;
 }
 
 #toc {
@@ -112,6 +112,10 @@ body {
 
 #toc .toc-h3 {
     padding-left: 5px;
+}
+
+#disqus_thread {
+  padding-top:20px
 }
 
 /*
@@ -153,4 +157,3 @@ body {
 blockquote {
     font-size: 1.0em;
 }
-
