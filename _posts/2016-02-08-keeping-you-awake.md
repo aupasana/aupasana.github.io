@@ -12,7 +12,8 @@ There are times when you don't want your macbook to go to sleep.
 This is typically related to long-running slow downloads, or other
 long-running background tasks.
 
-There are a few different solutions to this. The simplest solution is
+There are a few different solutions to this. <!--more-->
+The simplest solution is
 the [KeepingYouAwake][git] app. It is an open-source caffeine clone that
 runs in the taskbar and makes toggling power settings simple.
 
