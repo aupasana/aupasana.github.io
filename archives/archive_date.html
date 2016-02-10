@@ -3,7 +3,7 @@ layout: well
 title: Archives
 ---
 
-See also: A list of all posts sorted by 
+See also: A list of all posts sorted by
 <a href="{{site.baseurl}}/archives/archive_category.html">blog</a> and
 <a href="{{site.baseurl}}/archives/archive_tag.html">tags</a>.
 
@@ -22,7 +22,9 @@ See also: A list of all posts sorted by
     {% endunless %}
 
     <li>{{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-      {% include tags-and-categories.html %}
+      <span class="float-right">
+        {% include tags-and-categories.html %}
+      </span>
     </li>
 
 {% endfor %}
