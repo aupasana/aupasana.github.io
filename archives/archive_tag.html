@@ -28,7 +28,7 @@ title: Posts by tag
 {% endfor %}
 
 <!-- no tags -->
-<h2 id="none">other</h2>
+<h2 id="none">untagged</h2>
 <ul>
 	{% for post in site.posts %}
 		{% if post.tags == nil or post.tags.size == 0 %}
