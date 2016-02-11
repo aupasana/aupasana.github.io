@@ -1,5 +1,6 @@
 body {
-    /*padding-top: 60px;
+    /*Padding is needed with a fixed navbar
+    padding-top: 60px;
     padding-bottom: 60px;*/
     font-size: 1.5em;
 }
@@ -71,15 +72,21 @@ body {
     padding-left:0;
 }
 
+/* Used for tags and categories on posts */
+
 .tags {
     color: black;
     font-size:0.9em;
 }
 
+/* blockquotes show an open-quote before, with no matching close-quote
+markdown results in <p> tags all over the place which make the
+close-quote tricky. layout only tested in sanskrit-post */
+
 blockquote {
   border: 0;
   margin-left: 1em;
-  /*padding-left: 2.0em*/
+  font-size: 1.0em;
 }
 
 blockquote>p:before {
@@ -97,17 +104,6 @@ blockquote>p:before {
 blockquote:after {
   content: no-close-quote;
 }
-
-/*blockquote>p>cite:before {
-  color: #ccc;
-  content: close-quote;
-  font-size: 2em;
-  line-height: 0em;
-  margin-right: 0.25em;
-  vertical-align: 0.0em;
-  left-align: -1em;
-  text-indent: 5em;
-}*/
 
 cite {
     font-size:.8em;
@@ -191,8 +187,4 @@ cite {
 .sanskrit {
     font-family: Kokila, "Kohinoor Devanagari", "Arial Unicode MS";
     font-size: 1.8em;
-}
-
-blockquote {
-    font-size: 1.0em;
 }
