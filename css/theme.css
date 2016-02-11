@@ -1,6 +1,7 @@
 body {
     /*padding-top: 60px;
     padding-bottom: 60px;*/
+    font-size: 1.5em;
 }
 
 .copyright {
@@ -72,7 +73,7 @@ body {
 
 .tags {
     color: black;
-    font-size: .8em;
+    font-size:0.9em;
 }
 
 .float-right {
@@ -151,7 +152,7 @@ body {
 
 .sanskrit {
     font-family: Kokila, "Kohinoor Devanagari", "Arial Unicode MS";
-    font-size: 1.9em;
+    font-size: 1.8em;
 }
 
 blockquote {
