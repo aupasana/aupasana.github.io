@@ -94,6 +94,10 @@ blockquote>p:before {
   text-indent: 5em;
 }
 
+blockquote:after {
+  content: no-close-quote;
+}
+
 /*blockquote>p>cite:before {
   color: #ccc;
   content: close-quote;
