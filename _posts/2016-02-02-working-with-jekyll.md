@@ -3,23 +3,22 @@ layout: post
 title: Working with jekyll
 date: "2016-02-02 07:30:00 -0700"
 comments: true
-tag: 
+tag:
 - jekyll
-- tech
 category: tech
 ---
 
 Migrating this site to jekyll has been an interesting experience.
-In order to simplify the deployment process, I stuck to vanilla jekyll 
+In order to simplify the deployment process, I stuck to vanilla jekyll
 (i.e. what was supported by github pages). Here are some learnings:
 
 <!--more-->
 
-+ The built-in pagination support is inflexible and lack-luster. Want to manage two 
++ The built-in pagination support is inflexible and lack-luster. Want to manage two
 logical blogs on indepenent topics in a single deployment? Forget about it.
 
-+ Something as simple as adding a table of contents to a page is more painful than it 
-should be, unless you are looking for simple in-line positioning. I ended up using 
++ Something as simple as adding a table of contents to a page is more painful than it
+should be, unless you are looking for simple in-line positioning. I ended up using
 the jQuery TOC library.
 
 + There is little support for post tags or categories in combination with
@@ -31,10 +30,10 @@ for each post.
 
 ## Get a list of sorted tags.
 
-~~~ liquid 
+~~~ liquid
 {% raw %}
-{% assign sorted_tags = (site.tags | sort:0) %} 
-{% endraw %} 
+{% assign sorted_tags = (site.tags | sort:0) %}
+{% endraw %}
 ~~~
 
 ## Create a list of all posts, grouped by tag
@@ -56,5 +55,3 @@ for each post.
 ~~~
 
 Adapted from [jokecamp.com](http://www.jokecamp.com/blog/listing-jekyll-posts-by-tag/)
-
-

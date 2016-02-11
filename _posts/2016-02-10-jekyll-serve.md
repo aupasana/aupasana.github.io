@@ -5,7 +5,7 @@ date: 2016-02-10 02:00:00 -0700
 category:
   - tech
 tags:
-  - mac
+  - jekyll
 ---
 
 When developing your jekyll site content, you will want to repeatedly run
