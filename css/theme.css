@@ -92,11 +92,11 @@ blockquote {
 blockquote>p:before {
   color: #ccc;
   content: open-quote;
-  font-size: 2em;
+  font-size: 3em;
   line-height: 0em;
-  margin-left: -0.55em;
-  margin-right: 0.25em;
-  vertical-align: 0.0em;
+  margin-left: -0.45em;
+  margin-right: 0.10em;
+  vertical-align: -0.3em;
   left-align: -1em;
   text-indent: 5em;
 }
