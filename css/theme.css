@@ -76,6 +76,40 @@ body {
     font-size:0.9em;
 }
 
+blockquote {
+  border: 0;
+  margin-left: 1em;
+  /*padding-left: 2.0em*/
+}
+
+blockquote>p:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 2em;
+  line-height: 0em;
+  margin-left: -0.55em;
+  margin-right: 0.25em;
+  vertical-align: 0.0em;
+  left-align: -1em;
+  text-indent: 5em;
+}
+
+/*blockquote>p>cite:before {
+  color: #ccc;
+  content: close-quote;
+  font-size: 2em;
+  line-height: 0em;
+  margin-right: 0.25em;
+  vertical-align: 0.0em;
+  left-align: -1em;
+  text-indent: 5em;
+}*/
+
+cite {
+    font-size:.8em;
+}
+
+
 .float-right {
     float: right;
 }
