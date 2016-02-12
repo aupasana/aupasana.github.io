@@ -112,6 +112,7 @@ cite {
 
 .float-right {
     float: right;
+    /*margin-bottom:1pt;*/
 }
 
 .toc-sidebar {
@@ -186,5 +187,9 @@ cite {
 
 .sanskrit {
     font-family: Kokila, "Kohinoor Devanagari", "Arial Unicode MS";
-    font-size: 1.8em;
+    font-size: 1.6em;
+}
+
+.nospaceafter {
+  margin-bottom:1pt;
 }

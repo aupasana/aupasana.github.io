@@ -21,10 +21,10 @@ title: Posts by blog
 	  {% if post.categories contains t %}
 	  <li>
 	  	    {{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-	  	    <span class="float-right">
+	  	  <span class="float-right">
 			    {% include tags-and-categories.html %}
-			</span>
-
+				</span>
+				<p class="nospaceafter"/>
 	  </li>
 	  {% endif %}
 	{% endfor %}

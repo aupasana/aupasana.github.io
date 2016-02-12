@@ -10,19 +10,22 @@ omitcategories: true
 
 		<h3>Recent technology blog posts</h3>
 			{% for post in site.categories["tech"] limit:5 %}
-				{{ post.date | date_to_string }}: <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-				<span class="float-right">
-					{% include tags-and-categories.html %}
-				</span><br/>
+				<div>
+					{{ post.date | date_to_string }}: <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+					<span class="float-right">
+						{% include tags-and-categories.html %}
+					</span>
+				</div><p class="nospaceafter"/>
 	    {% endfor %}
 
 			<h3>Recent sanskrit blog posts</h3>
 			{% for post in site.categories["sanskrit"] limit:5 %}
-				{{ post.date | date_to_string }}: <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-				<span class="float-right">
-					{% include tags-and-categories.html %}
-				</span><br/>
+				<div class="nospaceafter">
+					{{ post.date | date_to_string }}: <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+					<span class="float-right">
+						{% include tags-and-categories.html %}
+					</span>
+				</div><p class="nospaceafter"/>
 	    {% endfor %}
-
 	</div>
 </div>

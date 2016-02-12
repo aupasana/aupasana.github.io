@@ -17,10 +17,11 @@ title: Posts by tag
 	{% for post in posts %}
 	  {% if post.tags contains t %}
 	  <li>
-	  	    {{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-	  	    <span class="float-right">
-			    {% include tags-and-categories.html %}
+	  	  {{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+	  	<span class="float-right">
+			  {% include tags-and-categories.html %}
 			</span>
+			<p class="nospaceafter"/>
 	  </li>
 	  {% endif %}
 	{% endfor %}
@@ -37,6 +38,7 @@ title: Posts by tag
 		  	    <span class="float-right">
 				    	{% include tags-and-categories.html %}
 						</span>
+						<p class="nospaceafter"/>
 		  </li>
 		{% endif %}
 	{% endfor %}
