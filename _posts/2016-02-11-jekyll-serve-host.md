@@ -21,4 +21,5 @@ or the gateway ip from the VM, or the public ip of the host machine
 It turns out that by default, jekyll serve only binds to the loopback
 device, which is not addressable from other machines. Adding the option
 `--host 0.0.0.0` to the `jekyll serve` command caused it to bind to
-all devices, such that it was addressable from my VM as well.
+all devices, such that it was addressable from my VM
+(using the host's **public** ip address).
