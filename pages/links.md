@@ -15,6 +15,7 @@ published: true
 * [[ link ]][ss] Sambhashana Sandesha
 * [[ link ]][sd] Sanskrit Documents Site
 * [[ link ]][suhas] Articles by Suhas Mahesh
+* [[ link ]][svada] sadasvada by Mohan K. V. and Shreevatsa R
 
 [vw]: http://groups.yahoo.com/group/vedic-wisdom
 [pvr]: http://www.vedicastrologer.org
@@ -26,6 +27,7 @@ published: true
 [ss]: http://www.sambhashanasandesha.in
 [sd]: http://www.sanskritdocuments.org
 [suhas]: http://swarajyamag.com/author/suhasmahesh
+[svada]: http://sadasvada.com
 
 ## Windows software
 
