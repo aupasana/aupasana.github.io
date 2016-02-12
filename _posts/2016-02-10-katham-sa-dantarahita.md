@@ -1,6 +1,6 @@
 ---
 layout: sanskrit-post
-title: "कथं च दन्तरहितः"
+title: "कथं स दन्तरहितः"
 date: 2016-02-10 02:00:00 -0700
 category:
   - sanskrit
