@@ -14,6 +14,7 @@ published: true
 * [[ link ]][sb] Samskrita Bharati
 * [[ link ]][ss] Sambhashana Sandesha
 * [[ link ]][sd] Sanskrit Documents Site
+* [[ link ]][suhas] Articles by Suhas Mahesh
 
 [vw]: http://groups.yahoo.com/group/vedic-wisdom
 [pvr]: http://www.vedicastrologer.org
@@ -24,6 +25,7 @@ published: true
 [sb]: http://www.samskritabharati.org
 [ss]: http://www.sambhashanasandesha.in
 [sd]: http://www.sanskritdocuments.org
+[suhas]: http://swarajyamag.com/author/suhasmahesh
 
 ## Windows software
 
