@@ -80,13 +80,13 @@ body {
     font-size:0.9em;
 }
 
-h1::before {
+.article>.well>h1::before {
     content: "ॐ ";
     font-family: Kokila, "Kohinoor Devanagari", "Sanskrit 2003", "Arial Unicode MS";
     font-size: 1.3em;
 }
 
-h2::before {
+.article>.well>h2::before {
     content: "ॐ ";
     font-family: Kokila, "Kohinoor Devanagari", "Sanskrit 2003", "Arial Unicode MS";
     font-size: 1.3em;
