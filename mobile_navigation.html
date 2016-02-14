@@ -5,11 +5,6 @@ layout: default
 <!-- This page provides the sidebar links for mobile, where the sidebar is hidden -->
 
 
-<!-- 
-	What we want is the same comment in the sidebar. 
-	There's no reason for a seperate copy here.
-	It's better to do the filtering for various mobile devices in the sidebar itself.
--->
-
-{% include sidebar.html %}
-
+<div class="sidebar well">
+	{% include list-pages.html %}
+</div>
