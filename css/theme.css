@@ -80,6 +80,19 @@ body {
     font-size:0.9em;
 }
 
+h1::before {
+    content: "ॐ ";
+    font-family: Kokila, "Kohinoor Devanagari", "Sanskrit 2003", "Arial Unicode MS";
+    font-size: 1.3em;
+}
+
+h2::before {
+    content: "ॐ ";
+    font-family: Kokila, "Kohinoor Devanagari", "Sanskrit 2003", "Arial Unicode MS";
+    font-size: 1.3em;
+}
+
+
 /* blockquotes show an open-quote before, with no matching close-quote
 markdown results in <p> tags all over the place which make the
 close-quote tricky. layout only tested in sanskrit-post */
