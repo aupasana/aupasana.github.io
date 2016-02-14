@@ -10,12 +10,12 @@ Here is a list of original publications:
 * [[ link ]][yajusha] yājuṣa mantra ratnākaram, a collection of yajur veda mantras
 * [[ link ]][dm] devī māhātmyam, renumbered according to anvaya
 * [[ link ]][satya] satyanārāyaṇa pūjā, a comprehensive manual with the kathā.
-* [[ link ]][gayatri] gāyatrī śiṣṭārtha mālā, various comentaries on the gāyatrī mantra. 
-* [[ link ]][prakaranani] prakaraṇāni, two introductory advaita texts with commentaries. 
-* [[ link ]][108] aṣṭottaraśata nāmāvali kadambam, a collection of aṣṭottaraśata nāvāmalis on various devatās.
-* [[ link ]][ayus] āyuśśāntiḥ -- prayogas related to longevity. 
+* [[ link ]][gayatri] gāyatrī śiṣṭārtha mālā, various comentaries on the gāyatrī mantra.
+* [[ link ]][prakaranani] prakaraṇāni, two introductory advaita texts with commentaries.
+* [[ link ]][108] aṣṭottaraśata nāmāvali kadambam, a collection of various nāvāmalis.
+* [[ link ]][ayus] āyuśśāntiḥ -- prayogas related to longevity.
 	* abdapūrtiśānti and ṣaṣṭyabdapūrtiśānti from the śāntikusumākaraḥ.
-* [[ link ]][putra] putreṣtiḥ -- prayogas for begetting progeny. 
+* [[ link ]][putra] putreṣtiḥ -- prayogas for begetting progeny.
 	* santana gopala homa and santana parameshwara mantras from the śāntikusumākaraḥ
 	* putreshti prakarana from the dharma sindhu.
 * [[ link ]][festivals] popular hindu festivals and their panchanga criteria
@@ -45,4 +45,3 @@ Here is a list of original publications:
 * [[ link ]][dm-bs] variation in bhagavati seva, seen through pictures.
 
 [dm-bs]: {{site.filecabinet}}/publications/bhagavatisevapictures.pdf
-
