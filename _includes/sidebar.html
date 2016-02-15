@@ -11,6 +11,10 @@
 </div>
 
 <div class="sidebar well visible-md visible-lg">
+	{% include list-links.html %}
+</div>
+
+<div class="sidebar well visible-md visible-lg">
 {% assign sorted_tags = (site.tags | sort:0) %}
 
 	<h1>tags</h1>
