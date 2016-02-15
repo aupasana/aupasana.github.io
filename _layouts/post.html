@@ -16,6 +16,19 @@
               <!-- Show title and content -->
 
               <h1><a href="{{ site.baseurl}}{{ page.url }}">{{ page.date | date: "%b %-d, %Y" }} - {{ page.title }}</a></h1>
+
+              {% if page.author != nil %}
+              <div><span class="author">Author: </span>{{page.author}}</div>
+              {% endif %}
+
+              {% if page.source != nil %}
+              <div><span class="source">Source: </span><a href="{{page.source}}">{{page.source}}</a></div>
+              {% endif %}
+
+              {% if page.author != nil or page.source != nil %}
+              <p/>
+              {% endif %}
+
               <div class="post-content">
                 {{ content }}
               </div>

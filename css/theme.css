@@ -73,6 +73,9 @@ body {
     color: #ee4444;
 }
 
+.source {
+    color: #ee4444;
+}
 
 .sidebar-link {
     list-style-position: inside;
@@ -86,7 +89,7 @@ body {
     font-size:0.9em;
 }
 
-.article>.well>h1::before {
+/*.article>.well>h1::before {
     content: "ॐ ";
     font-family: Kokila, "Kohinoor Devanagari", "Sanskrit 2003", "Arial Unicode MS";
     font-size: 1.3em;
@@ -96,7 +99,7 @@ body {
     content: "ॐ ";
     font-family: Kokila, "Kohinoor Devanagari", "Sanskrit 2003", "Arial Unicode MS";
     font-size: 1.3em;
-}
+}*/
 
 
 /* blockquotes show an open-quote before, with no matching close-quote
@@ -240,10 +243,10 @@ cite {
   list-style-type: none;
 }
 
-hr {
+/*hr {
   padding: 0;
   margin: 0;
   background-color: #d9d9d9;
   height: 1px;
   border: 0;
-}
+}*/
