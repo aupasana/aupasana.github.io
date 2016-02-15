@@ -20,7 +20,13 @@ body {
 
 .sidebar h1 {
     color: #ee4444;
+    /*padding-top: 0em;*/
     font-size: 1.3em;
+}
+
+.sidebar {
+  padding-left: 2em;
+  /*padding-top: 0;*/
 }
 
 .sidebar a {
@@ -216,4 +222,20 @@ cite {
 .sidebar li {
   margin: 0.2em;
   padding: 0.1em;
+}
+
+.sidebar {
+  padding-top: 0.3em;
+  padding-bottom: 1em;
+}
+
+.sidebar img {
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  padding-left: 0em;
+  padding-right: 1em;
+}
+
+.submenu {
+  list-style-type: none;
 }
