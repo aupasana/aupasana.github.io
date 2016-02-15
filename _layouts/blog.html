@@ -11,6 +11,11 @@ layout: default
           <!-- Title -->
           <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} - {{ post.title }}</a></h1>
 
+          {% if post.author != nil %}
+          <div><span class="author">Author: </span>{{post.author}}</div>
+          <p/>
+          {% endif %}
+
           <!-- Body -->
           <div class="content">
             {% if post.layout == "sanskrit-post"  %}
