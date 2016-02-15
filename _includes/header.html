@@ -44,9 +44,7 @@
                           <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a href="{{site.baseurl}}/blogs/sanskrit.html">Sanskrit Blog</a></li>
-                          <li><a href="{{site.baseurl}}/blogs/tech.html">Technology Blog</a></li>
-                          <li><a href="{{site.baseurl}}/archives/archive_date.html">Blog Archives</a></li>
+                          {% include list-blogs.html %}
                         </ul>
                       </li>
                       <li class="dropdown">
@@ -54,15 +52,7 @@
                             <span class="caret"></span>
                           </a>
                           <ul class="dropdown-menu">
-                            <li><a href="{{site.baseurl}}/pages/about.html">About</a></li>
-                            <li><a href="{{site.baseurl}}/pages/links.html">Links</a></li>
-                            <li><a href="{{site.baseurl}}/pages/publications.html">Publications</a></li>
-                            <li><a href="{{site.baseurl}}/pages/puja.html">Puja</a></li>
-                            <li><a href="{{site.baseurl}}/pages/sanskrit.html">Sanskrit</a></li>
-                            <li><a href="{{site.baseurl}}/pages/software.html">Software</a></li>
-                            <li><a href="{{site.baseurl}}/pages/stardict.html">Stardict</a></li>
-                            <li><a href="{{site.baseurl}}/pages/kalpa.html">Veda / Kalpa</a></li>
-                            <li><a href="{{site.baseurl}}/pages/vedanta.html">Vedanta</a></li>
+                            {% include list-pages.html %}
                           </ul>
                       </li>
                       <li class="dropdown">
@@ -70,8 +60,7 @@
                             <span class="caret"></span>
                           </a>
                           <ul class="dropdown-menu">
-                            <li><a href="http://amara.aupasana.com">Amara Kosha</a></li>
-                            <li><a href="http://docs.aupasana.com">Document Library</a></li>
+                            {% include list-links.html %}
                           </ul>
                       </li>
                     </ul>

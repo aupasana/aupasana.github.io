@@ -207,3 +207,13 @@ cite {
 .nospaceafter {
   margin-bottom:1pt;
 }
+
+.sidebar ul {
+  padding-left: 0em;
+  list-style:none;
+}
+
+.sidebar li {
+  margin: 0;
+  padding: 0.15em;
+}
