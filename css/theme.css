@@ -142,13 +142,12 @@ cite {
 }
 
 #toc ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    padding-left: 1em;
+    list-style-position: outside;
 }
 
 #toc li {
-    padding: 0px 0px;
+  margin: 0.2em;
 }
 
 #toc a {
@@ -209,11 +208,12 @@ cite {
 }
 
 .sidebar ul {
-  padding-left: 0em;
-  list-style:none;
+    padding-left: 1em;
+    list-style-position: outside;
+    list-style-type: circle;
 }
 
 .sidebar li {
-  margin: 0;
-  padding: 0.15em;
+  margin: 0.2em;
+  padding: 0.1em;
 }
