@@ -8,19 +8,19 @@ omitcategories: true
 <div class="article">
 	<div class="well">
 
+		<h3><a href="{{site.baseurl}}/blogs/sanskrit.html">Recent sanskrit blog posts</a></h3>
+		{% for post in site.categories["sanskrit"] limit:5 %}
+			<div class="nospaceafter">
+				{{ post.date | date_to_string }}: <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+				<span class="float-right">
+					{% include tags-and-categories.html %}
+				</span>
+			</div><p class="nospaceafter"/>
+		{% endfor %}
+
 		<h3><a href="{{site.baseurl}}/blogs/tech.html">Recent technology blog posts</a></h3>
 			{% for post in site.categories["tech"] limit:5 %}
 				<div>
-					{{ post.date | date_to_string }}: <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-					<span class="float-right">
-						{% include tags-and-categories.html %}
-					</span>
-				</div><p class="nospaceafter"/>
-	    {% endfor %}
-
-			<h3><a href="{{site.baseurl}}/blogs/sanskrit.html">Recent sanskrit blog posts</a></h3>
-			{% for post in site.categories["sanskrit"] limit:5 %}
-				<div class="nospaceafter">
 					{{ post.date | date_to_string }}: <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
 					<span class="float-right">
 						{% include tags-and-categories.html %}
