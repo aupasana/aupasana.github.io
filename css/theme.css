@@ -239,3 +239,11 @@ cite {
 .submenu {
   list-style-type: none;
 }
+
+hr {
+  padding: 0;
+  margin: 0;
+  background-color: #d9d9d9;
+  height: 1px;
+  border: 0;
+}
