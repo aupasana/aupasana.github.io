@@ -8,12 +8,11 @@ title: Spiritual blog posts
 <div class="well">
 ## About these posts
 
-These "spiritual" posts were written by other authors
-on different forums. They were not contributed to this blog. I am
-collecting interesting posts here for my own use, and each post
-has a link back to the original source.
+The posts in this blog were written by other authors on different forums.
+They were not contributed to this blog. I am collecting interesting posts
+here for my own use, and each post has a link back to the original source.
 
-At present, all posts are taken from [Narasimha Rao][pvr]'s
+At present, all posts are taken from [Narasimha Rao's][pvr]
 public posts on [facebook][fb] and the [vedic-wisdom][ya] yahoo group.
 
 [pvr]: http://www.vedicastrologer.org/personal.htm
