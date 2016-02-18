@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<div class="well">
+  <h1>{{ page.title }}</h1>
+</div>
+
 {{content}}
 
 {% for post in site.categories[page.blog] limit:5 %}
@@ -59,6 +63,6 @@ layout: default
 
 <div class="article">
   <div class="well">
-    <a href="{{ site.baseurl}}/blog/archive_category#{{page.blog}}">View all posts</a>
+    <a href="{{ site.baseurl}}/blog/{{page.blog}}_archive">View all {{page.blog}} blog posts</a>
   </div>
 </div>

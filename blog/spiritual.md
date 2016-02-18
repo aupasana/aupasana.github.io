@@ -1,7 +1,7 @@
 ---
 layout: blog
 blog: spiritual
-title: Spiritual blog
+title: Spiritual blog posts
 ---
 
 {::options parse_block_html="true" /}
