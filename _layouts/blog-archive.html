@@ -1,13 +1,79 @@
 ---
 layout: well
 ---
-<!-- adapted from http://www.jokecamp.com/blog/listing-jekyll-posts-by-tag/ -->
+<script src="{{ site.baseurl }}/js/list.min.js"></script>
 
-<!-- by category -->
-{% for post in site.categories[page.blog] %}
-  {{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-	  <span class="float-right">
-	    {% include tags-and-categories.html %}
-		</span>
-		<br/>
+<!-- http://stackoverflow.com/questions/23521931/list-tags-within-a-specific-category-in-jekyll -->
+{% assign sorted_tags = (site.tags | sort:0) %}
+<button class="btn btn-xs btn-link" onclick="searcharchives('');">all posts</button>
+{% for tag in sorted_tags %}
+  {% assign tagvalid = 0 %}
+  {% for post in site.categories[page.blog] %}
+    {% for t in post.tags %}
+      {% if t | first == tag | first %}
+        {% assign tagvalid = 1 %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+
+  {% if tagvalid == 1 %}
+    <button class="btn btn-xs btn-link" onclick="searcharchives('{{tag[0]}}');">{{tag[0]}}</button>
+  {% endif %}
 {% endfor %}
+
+
+<div id="archive">
+
+  <br/>
+  <input id="#search" class="search" placeholder="Search" />
+  <button class="sort" data-sort="date">Sort by date</button>
+  <button class="sort" data-sort="title">Sort by title</button>
+  <button class="sort" data-sort="tags">Sort by tag</button>
+  <p/>
+
+  <table class="table-blue">
+    <thead>
+      <tr>
+        <td>Title</td>
+        <td>Date</td>
+        <td>Tags</td>
+      </tr>
+    </thead>
+    <tbody class="list">
+    {% for post in site.categories[page.blog] %}
+      <tr>
+        <td>
+          <a href="{{site.baseurl}}{{ post.url }}">
+            <span class="title">{{ post.title }}</span>
+          </a>
+        </td>
+        <td class="date">
+          {{ post.date | date: "%Y-%m-%d" }}
+        </td>
+        <td class="tags">
+          {% for t in post.tags %}
+            {{ t }}
+          {% endfor %}
+        </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script type="text/javascript">
+function searcharchives(str) {
+  archiveList.search(str, ['tags']);
+}
+
+(function() {
+  var options = {
+    valueNames: [ 'tags', 'date', 'title' ]
+  };
+
+  archiveList = new List('archive', options);
+
+  var desiredtag = window.location.hash.substring(1);
+  archiveList.search(desiredtag, ['tags']);
+})();
+</script>

@@ -4,6 +4,7 @@ body {
     padding-bottom: 60px;
     */
     font-size: 1.5em;
+    line-height: 170%;
 }
 
 .copyright {
@@ -210,6 +211,7 @@ cite {
 .sanskrit {
     font-family: Kokila, "Kohinoor Devanagari", "Arial Unicode MS";
     font-size: 1.4em;
+    line-height: 160%
 }
 
 .nospaceafter {

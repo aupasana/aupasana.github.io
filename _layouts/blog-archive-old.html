@@ -1,0 +1,13 @@
+---
+layout: well
+---
+<!-- adapted from http://www.jokecamp.com/blog/listing-jekyll-posts-by-tag/ -->
+
+<!-- by category -->
+{% for post in site.categories[page.blog] %}
+  {{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+	  <span class="float-right">
+	    {% include tags-and-categories.html %}
+		</span>
+		<br/>
+{% endfor %}

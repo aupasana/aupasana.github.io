@@ -1,16 +1,24 @@
-{% if site.comments == true and site.disqus != '' %}
-  <script type="text/javascript">
-    var disqus_shortname = '{{ site.disqus }}';
 
-    var disqus_config = function () {
-        this.page.identifier = '{{ page.url | slugify }}';
-    };
+{% assign urlsize = page.url.size %}
+{% assign sizetocapture = urlsize | minus:11 %}
 
-   (function () {
-     var s = document.createElement('script'); s.async = true;
-     s.type = 'text/javascript';
-     s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-     (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-   }());
- </script>
-{% endif %}
+  <!-- Display <span class="disqus-comment-count" data-disqus-identifier="{{ page.url | slice: 6, sizetocapture | slugify }}"></span> -->
+
+<script type="text/javascript">
+  var disqus_shortname = '{{ site.disqus }}';
+
+  var disqus_config = function () {
+
+      // page.url is {{ page.url }}
+      // interesting portion is {{ page.url | slice: 6, sizetocapture }}
+      // slugified version is {{ page.url | slice: 6, sizetocapture | slugify }}
+      this.page.identifier = '{{ page.url | slice: 6, sizetocapture | slugify }}'
+  };
+
+ (function () {
+   var s = document.createElement('script'); s.async = true;
+   s.type = 'text/javascript';
+   s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+   (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+ }());
+</script>

@@ -36,11 +36,14 @@
               <!-- Show tags and categories -->
               {% include tags-and-categories.html %}
 
-              <!-- Show comments -->
+              <div id="disqus_thread">
+              </div>
+
               {% if site.comments == true %}
-                <div id="disqus_thread">
-                </div>
+                {% include disqus-counts.html %}
+                {% include disqus-comments.html %}
               {% endif %}
+
 
             </div> <!-- well -->
           </div> <!-- article -->
@@ -48,8 +51,5 @@
     </div> <!-- row -->
 </div> <!-- container -->
 
-{% if site.comments == true %}
-  {% include disqus-comments.html %}
-{% endif %}
 
 {% include footer.html %}
