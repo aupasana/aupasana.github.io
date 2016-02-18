@@ -3,9 +3,8 @@ layout: post
 title: Open links in a new window
 date: "2016-02-06 01:30:00 -0700"
 comments: true
-tag: 
+tag:
 - jekyll
-- tech
 - javascript
 category: tech
 ---
@@ -33,9 +32,9 @@ as they are in html. I prefer named links with the ```href``` values to follow. 
 [a]: http://www.contoso.com
 ~~~
 
-Unfortunately, I did not find a way to specify the ```target``` using this syntax with kramdown. 
-All of this led to the following javascript snippet which opens non-domain links in a new window. 
-Though I would have preferred to avoid more javascript, 
+Unfortunately, I did not find a way to specify the ```target``` using this syntax with kramdown.
+All of this led to the following javascript snippet which opens non-domain links in a new window.
+Though I would have preferred to avoid more javascript,
 isolating this behaviour to one piece of javascript code meant that the markdown itself
 was free of the ```target="blank"``` annotations. It ended up being the cleanest solution.
 

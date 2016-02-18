@@ -4,7 +4,6 @@ title: Why a new site
 date: "2016-02-01 07:30:00 -0700"
 tag:
   - jekyll
-  - tech
 category: 
   - tech
 ---
