@@ -1,12 +1,11 @@
 ---
 layout: blog
 blog: spiritual
-title: Spiritual blog posts
 ---
 
 {::options parse_block_html="true" /}
 <div class="well">
-## About these posts
+# Spiritual blog posts
 
 The posts in this blog were written by other authors on different forums.
 They were not contributed to this blog. I am collecting interesting posts
