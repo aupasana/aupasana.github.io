@@ -32,7 +32,7 @@ Figure out who the caller is, and iterate of it's categories and tags
     {% if caller.tags.size > 0  %}
       tags:
       {% for tag in caller.tags %}
-        <a href="{{site.baseurl}}/blog/{{post.categories[0]}}_archive.html">{{tag}}</a>
+        <a href="{{site.baseurl}}/blog/{{caller.categories[0]}}_archive.html">{{tag}}</a>
       {% endfor %}
     {% endif %}
   </span>
