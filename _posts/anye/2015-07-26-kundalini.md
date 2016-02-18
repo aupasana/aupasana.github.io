@@ -2,8 +2,6 @@
 layout: post
 title: Kundalini
 date: "2015-07-26 07:30:00 -0700"
-tag:
-  - kundalini
 category:
   - spiritual
 author:

@@ -21,12 +21,13 @@ See also: A list of all posts sorted by
         {% endif %}
     {% endunless %}
 
-    <li>{{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-      <span class="float-right">
-        {% include tags-and-categories.html %}
-      </span>
-      <p class="nospaceafter"/>
-    </li>
-
+    {% unless post.categories contains 'spiritual' %}
+        <li>{{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+        <span class="float-right">
+          {% include tags-and-categories.html %}
+        </span>
+        <p class="nospaceafter"/>
+      </li>
+    {% endunless %}
 {% endfor %}
 </ul>
