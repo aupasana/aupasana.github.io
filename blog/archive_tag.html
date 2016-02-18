@@ -27,21 +27,3 @@ title: Posts by tag
 	{% endfor %}
 	</ul>
 {% endfor %}
-
-<!-- no tags -->
-<h2 id="none">untagged</h2>
-<ul>
-	{% for post in site.posts %}
-		{% unless post.categories contains 'spiritual' %}
-			{% if post.tags == nil or post.tags.size == 0 %}
-			  <li>
-			  	    {{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-			  	    <span class="float-right">
-					    	{% include tags-and-categories.html %}
-							</span>
-							<p class="nospaceafter"/>
-			  </li>
-			{% endif %}
-		{% endunless %}
-	{% endfor %}
-</ul>
