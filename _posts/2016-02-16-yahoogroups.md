@@ -10,7 +10,7 @@ tags:
 
 There are a number of older yahoo groups with useful mails. Unfortunately,
 the current interface makes it very difficult to search. This post describes
-how to download the mails into a standard mbox.
+how to download the mails into a standard mbox. <!--more-->
 
 First, download the prerequisites with brew (on a mac) or your favorite
 package manager.

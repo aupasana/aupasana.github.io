@@ -19,7 +19,7 @@ Yes, it is perfectly ok.
 
 Soul, Sun and Rudra are of the nature of fire. Mind, Moon and Devi
 are of the nature of water. You can resonate with a soul through the medium
-of fire and with a mind through the medium of water.
+of fire and with a mind through the medium of water. <!--more-->
 
 Devas and rishis identify more with soul than mind and are better reached
 through fire. Yet, they too have a mind and Tarpana can be made to them too.

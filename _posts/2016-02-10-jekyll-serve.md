@@ -10,7 +10,7 @@ tags:
 
 When developing your jekyll site content, you will want to repeatedly run
 jekyll to ensure that the conversion to static html files works "correctly".
-(i.e. you haven't made any mistakes :-))
+(i.e. you haven't made any mistakes :-)) <!--more-->
 
 ~~~ bash
 jekyll serve --watch

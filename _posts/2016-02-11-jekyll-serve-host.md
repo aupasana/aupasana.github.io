@@ -11,7 +11,7 @@ tags:
 Sometimes, you'll find the need to test the jekyll output in
 multiple environments. Recently, I encountered strange layout
 behaviours which reproduced only in chrome on windows
-(and not in chrome on mac osx).
+(and not in chrome on mac osx). <!--more-->
 
 To debug this, I started my Windows VM, and attempted to connect
 to port 4000 on my host machine. Addressing it as `localhost`,
