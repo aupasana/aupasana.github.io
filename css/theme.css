@@ -86,8 +86,12 @@ h4 {
 /* Used for tags and categories on posts */
 
 .tags {
-    color: black;
-    font-size:0.9em;
+  color: #98AFC7;
+    font-size:0.7em;
+}
+
+.tags a {
+    color: #98AFC7;
 }
 
 /*.article>.well>h1::before {
@@ -134,10 +138,9 @@ cite {
 }
 
 
-.float-right {
+/*.float-right {
     float: right;
-    /*margin-bottom:1pt;*/
-}
+}*/
 
 .toc-sidebar {
     height: 100%;
