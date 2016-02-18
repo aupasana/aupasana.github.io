@@ -29,7 +29,6 @@ permalink: /blog/:year/:month/:title.html
 highlighter: rouge
 markdown: kramdown
 # gems: ['jekyll-paginate', 'jekyll-sitemap', 'jekyll-feed']
-gems: ['jekyll-sitemap', 'jekyll-feed']
 
 exclude: ['README.md', 'LICENSE']
 
