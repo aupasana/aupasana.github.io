@@ -26,10 +26,14 @@
 <div class="sidebar well visible-md visible-lg">
 {% assign sorted_tags = (site.tags | sort:0) %}
 
-	<h1>tags</h1>
+	<h1>tagcloud</h1>
 	<div class="sidebar-link">
 		{% for tag in sorted_tags %}
-			<a href="{{site.baseurl}}/blog/archive_tag.html#{{tag | first | downcase}}">{{tag | first | downcase }}</a>
+		    <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 75 }}%">
+		        <a href="{{site.baseurl}}/blog/archive_tag.html#{{tag | first | downcase}}">
+		            {{ tag | first }}
+		        </a>
+		    </span>
 		{% endfor %}
 	</div>
 </div>
