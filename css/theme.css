@@ -208,6 +208,27 @@ cite {
     background: #FFF
 }
 
+
+
+.table-archive thead, .table-archive tr {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(168, 192, 221);
+}
+.table-archive {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(168, 192, 221);
+}
+
+/* Padding and font style */
+.table-archive td, .table-archive th {
+    padding: 3px 10px;
+    font-family: Verdana;
+    color: rgb(92, 125, 162);
+}
+
+
 .sanskrit {
     font-family: Kokila, "Kohinoor Devanagari", "Arial Unicode MS";
     font-size: 1.4em;
