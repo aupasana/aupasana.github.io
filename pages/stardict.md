@@ -53,8 +53,8 @@ Note: this input scheme is a variation of the itrans format. It purposely omits 
 [lsk]: {{site.filecabinet}}/stardict/laghu-kaumudi.tar.gz
 [bala]: {{site.filecabinet}}/stardict/balamanorama.tar.gz
 [tb]: {{site.filecabinet}}/stardict/tattvabodhini.tar.gz
-[kasika]: {{site.filecabinet}}/stardict/kashika.tar.gz)
-[nyasa]: {{site.filecabinet}}/stardict/nyasa.tar.gz)
+[kasika]: {{site.filecabinet}}/stardict/kashika.tar.gz
+[nyasa]: {{site.filecabinet}}/stardict/nyasa.tar.gz
 
 
 ## Installation
