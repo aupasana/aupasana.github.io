@@ -2,6 +2,7 @@
 layout: well
 ---
 <script src="{{ site.baseurl }}/js/list.min.js"></script>
+<!-- <script src="{{ site.baseurl }}/js/jquery.ba-hashchange.min.js"></script> -->
 
 <!-- http://stackoverflow.com/questions/23521931/list-tags-within-a-specific-category-in-jekyll -->
 {% assign sorted_tags = (site.tags | sort:0) %}
@@ -74,7 +75,8 @@ function searcharchives(str) {
   archiveList = new List('archive', options);
 })();
 
-// var desiredtag = window.location.hash.substring(1);
-// archiveList.search(desiredtag);
+var desiredtag = window.location.hash.substring(1);
+var desiredtag_dec = decodeURIComponent(desiredtag);
+archiveList.search(desiredtag_dec);
 
 </script>
