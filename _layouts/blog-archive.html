@@ -2,7 +2,6 @@
 layout: well
 ---
 <script src="{{ site.baseurl }}/js/list.min.js"></script>
-<!-- <script src="{{ site.baseurl }}/js/jquery.ba-hashchange.min.js"></script> -->
 
 <!-- http://stackoverflow.com/questions/23521931/list-tags-within-a-specific-category-in-jekyll -->
 {% assign sorted_tags = (site.tags | sort:0) %}
@@ -51,9 +50,9 @@ layout: well
         <td class="date">
           {{ post.date | date: "%Y-%m-%d" }}
         </td>
-        <td class="tags">
+        <td>
           {% for t in post.tags %}
-            {{ t }}
+            <a href="#" class="tag" onclick="searcharchives('{{t}}');">{{ t }}</a>
           {% endfor %}
         </td>
       </tr>
@@ -69,7 +68,7 @@ function searcharchives(str) {
 
 (function() {
   var options = {
-    valueNames: [ 'tags', 'date', 'title' ]
+    valueNames: [ 'tag', 'date', 'title' ]
   };
 
   archiveList = new List('archive', options);
