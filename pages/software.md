@@ -1,5 +1,5 @@
 ---
-layout: well
+layout: page
 title: Software
 toc: true
 ---
@@ -12,9 +12,9 @@ Todo: add github repo and place link here
 
 ## Mudgala IME
 
-This is a windows-only input method editor and conversion utility to convert between various transliteration and unicode output formats. There are other stand-alone IMEs, such as the google IME, and other stand-alone convertors. In spite of that, for some use cases, this tool is superior to other tools. 
+This is a windows-only input method editor and conversion utility to convert between various transliteration and unicode output formats. There are other stand-alone IMEs, such as the google IME, and other stand-alone convertors. In spite of that, for some use cases, this tool is superior to other tools.
 
-To use this tool, download and unzip the file. Run the mudgala-ime exe file, and chose your input and output scripts. Use the button in the window to do the conversion in the window. Use the F11 button as a toggle to type directly in unicode aware apps such as Microsoft word. 
+To use this tool, download and unzip the file. Run the mudgala-ime exe file, and chose your input and output scripts. Use the button in the window to do the conversion in the window. Use the F11 button as a toggle to type directly in unicode aware apps such as Microsoft word.
 
 Todo: add new github repo and place link here
 
@@ -67,7 +67,7 @@ The digital library of india (link) has a vast repository of sanskrit texts. Unf
 
 Please ensure the following tools are installed and available in the default path: wget, tiffcp tiff2pdf and gs. These tools are a part of the "wget", "libtiff / libtiff-tools" and "ghostscript" packages and can be downloaded using homebrew, apt-get etc. Then, install the python lxml module with "pip install lxml"
 
-The simplest way to use the script is to specify the barcode alone. It will find a server that has the files and will create a file named "title_barcode.pdf" if the python lxml module is installed, and "barcode.pdf" otherwise. 
+The simplest way to use the script is to specify the barcode alone. It will find a server that has the files and will create a file named "title_barcode.pdf" if the python lxml module is installed, and "barcode.pdf" otherwise.
 
 ~~~
 > dli.py BARCODE
@@ -87,7 +87,7 @@ choco install python2 gow ghostscript aria2   (on windows)
 
 You must now install libtiff manually, since it isn't supported by chocolatey
 
-* download both the "binaries" and "dependencies" zip files from 
+* download both the "binaries" and "dependencies" zip files from
 	<br>http://gnuwin32.sourceforge.net/packages/tiff.htm
 * extract the contents of the "bin" folder from both zip files into a single folder
 * add the path to the folder which contains these binaries to your PATH
@@ -97,5 +97,3 @@ XArgs parallelism doesn't work on windows. Use the aria tool, since it supports 
 ~~~
 > dli.py BARCODE --download-tool aria
 ~~~
-
-

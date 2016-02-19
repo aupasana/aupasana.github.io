@@ -1,5 +1,5 @@
 ---
-layout: well
+layout: page
 title: Puja
 toc: true
 published: true
@@ -13,7 +13,7 @@ published: true
 * [[ link ]][sandhya2] sandhyā bhāṣya samuccaya by vināyaka gaṇeśa āpṭe
 * [[ link ]][ahnika] āhnika candrikā -- daily rituals with ṛg veda mantras
 * [[ link ]][sama] sāma vedīya nityāhnikam -- daily rituals with sāma veda mantras
-* [[ link ]][brahma] brahma karma samuccaya -- daily rituals and ṛg veda saṁskāras 
+* [[ link ]][brahma] brahma karma samuccaya -- daily rituals and ṛg veda saṁskāras
 * [[ link ]][smp] smṛti muktā phala - varṇāśrama kāṇḍa
 * [[ link ]][pvr] ahnika manuals by Narasimha Rao
 
@@ -39,10 +39,10 @@ published: true
 ### Anvaya in Devi Mahatmyam
 
 In order to accomplish exactly 700 offerings, the text of the devi mahatmyam is sometimes split unnaturally.
-It is better to leave the mantras unaltered and to make offerings at sentence boundaries. 
+It is better to leave the mantras unaltered and to make offerings at sentence boundaries.
 
 Every pair of half-slokas is a logical sentence. The counting resets at the beginning of each chapter,
-and at the beginning of a block following an "uvāca" uttering. 
+and at the beginning of a block following an "uvāca" uttering.
 In some cases, a half-sloka is a complete sentence. These exceptions are listed below.
 
 * 01.12.1 -- so'cintayat tadā tatra
@@ -60,7 +60,7 @@ In some cases, a half-sloka is a complete sentence. These exceptions are listed 
 
 ## Bhagavati Seva
 
-In kerala, devī is commonly worshipped through bhagavati seva, where she is invoked in a lamp. She is invoked in the primary lamp, and is worshipped along with ganeśa, and optionally the kula devatā. She is worshipped with the devī māhātmyam and lalita sahasranāma with many flowers and leaves. There is quite a bit of variation in the details of this ritual, as can be seen below. 
+In kerala, devī is commonly worshipped through bhagavati seva, where she is invoked in a lamp. She is invoked in the primary lamp, and is worshipped along with ganeśa, and optionally the kula devatā. She is worshipped with the devī māhātmyam and lalita sahasranāma with many flowers and leaves. There is quite a bit of variation in the details of this ritual, as can be seen below.
 
 * [[ link ]][dm-bs] variation in bhagavati seva, seen through pictures.
 
@@ -70,9 +70,9 @@ In karnataka, a variation of this ritual called 'dīpa durgā namaskāra' is per
 
 ## Kumbhakona manuals (4shared)
 
-* [[ link ]][satya] satyanārāyaṇa pūjā 
-* [[ link ]][arcana] devatārcana paddhati 
-* [[ link ]][vinayaka] siddhivināyaka pūjā paddhati 
+* [[ link ]][satya] satyanārāyaṇa pūjā
+* [[ link ]][arcana] devatārcana paddhati
+* [[ link ]][vinayaka] siddhivināyaka pūjā paddhati
 * [[ link ]][sarasvati] sarasvatī pūjā paddhati
 
 [satya]: http://www.4shared.com/office/PqNtcYAz/satyanarayana_pooja.html

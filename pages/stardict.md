@@ -1,11 +1,11 @@
 ---
-layout: well
+layout: page
 title: Stardict
 toc: true
 ---
 
 Most platforms and mobile devices have apps which understand the "stardict" dictionary format. As a result, you can easily add new stardict dictionaries, and search them. Here, you will find stardict files for sanskrit dictionaries (monier-williams, apte), and grammar texts. The input format is a simple subset of the itrans scheme. It is designed for ease of input on mobile devices, and should be relatively natural.
-input scheme 
+input scheme
 
 ~~~
 a aa i ii u uu R Rii L Lii e ai o au am aH
@@ -36,7 +36,7 @@ Note: this input scheme is a variation of the itrans format. It purposely omits 
 
 * [[ link ][dhatu]] dhātupātha (processed version from sanskritdocuments.org)
 * [[ link ][lsk]] laghu siddhānta kaumudī
-* [[ link ][bala]] bālamanoramā 
+* [[ link ][bala]] bālamanoramā
 * [[ link ][tb]] tattvabodhinī
 * [[ link ][kasika]] kāśikā
 * [[ link ][nyasa]] nyāsa
@@ -74,4 +74,3 @@ The files above were processed from various sources
 
 [sandic]: http://sourceforge.net/projects/sandic/
 [koeln]: http://www.sanskrit-lexicon.uni-koeln.de/index.html
-

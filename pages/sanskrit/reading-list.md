@@ -1,5 +1,5 @@
 ---
-layout: well
+layout: page
 title: Sanskrit Reading List
 toc: false
 ---

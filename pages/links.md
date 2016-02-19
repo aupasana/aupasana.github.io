@@ -1,8 +1,7 @@
 ---
-layout: well
+layout: page
 title: Links
 toc: true
-published: true
 ---
 
 ## Websites

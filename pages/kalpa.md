@@ -1,5 +1,5 @@
 ---
-layout: well
+layout: page
 title: Veda / Kalpa
 toc: true
 published: true
@@ -7,7 +7,7 @@ published: true
 
 ## kṛṣṇa yajur veda
 
-The taittiriya śākhā of the kṛṣṇa yajur veda 
+The taittiriya śākhā of the kṛṣṇa yajur veda
 with the sanskrit commentary of bhaṭṭa bhāskara.
 
 ### taittiriya saṁhitā
