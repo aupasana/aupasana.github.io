@@ -1,5 +1,5 @@
-<!-- 
-	The default layout is used by the index page, which  
+<!--
+	The default layout is used by the index page, which
 	does not use a single well for all content, but creates one
 	for each post.
 -->
@@ -11,9 +11,26 @@
         <div class="col-md-3 hidden-xs">
             {% include sidebar.html %}
         </div>
-        <div class="col-md-9">
-            {{ content }}
+
+        {% assign maincol = "col-md-9" %}
+        {% if page.toc == true %}
+          {% assign maincol = "col-md-7" %}
+        {% endif %}
+
+        <div class="{{maincol}}">
+        {{ content }}
         </div>
+
+        <!-- Optional third column to display the table of contents in three-column layout -->
+       {% if page.toc  == true %}
+           <div class="col-md-2">
+               <div class="toccontent well">
+                   <h1>Contents</h1>
+                   <ul id="toc">
+                   </ul>
+               </div>
+           </div>
+       {% endif %}
     </div>
 </div>
 

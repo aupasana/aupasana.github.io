@@ -1,55 +1,42 @@
-{% include header.html %}
+---
+layout: well
+omittitle: foobar
+---
 
-<div class="container container-left">
+{% if page.layout == "sanskrit-post" %}
+<div class="sanskrit">
+{% endif %}
 
-<!-- Posts have a two-column layout : sidebar + content -->
-    <div class="row">
+  <h1>{{ page.date | date: "%b %-d, %Y" }} - {{ page.title }}</h1>
 
-        <div class="col-md-3 hidden-xs">
-            {% include sidebar.html %}
-        </div>
+  {% if page.author != nil %}
+  <div><span class="author">Author: </span>{{page.author}}</div>
+  {% endif %}
 
-        <div class="col-md-9">
-          <div class="article">
-            <div class="well">
+  {% if page.source != nil %}
+  <div><span class="source">Source: </span><a href="{{page.source}}">{{page.source}}</a></div>
+  {% endif %}
 
-              <!-- Show title and content -->
+  {% if page.author != nil or page.source != nil %}
+  <p/>
+  {% endif %}
 
-              <h1><a href="{{ site.baseurl}}{{ page.url }}">{{ page.date | date: "%b %-d, %Y" }} - {{ page.title }}</a></h1>
+  <div class="post-content">
+    {{ content }}
+  </div>
 
-              {% if page.author != nil %}
-              <div><span class="author">Author: </span>{{page.author}}</div>
-              {% endif %}
+  <!-- Show tags and categories -->
+  {% include tags-and-categories.html %}
 
-              {% if page.source != nil %}
-              <div><span class="source">Source: </span><a href="{{page.source}}">{{page.source}}</a></div>
-              {% endif %}
-
-              {% if page.author != nil or page.source != nil %}
-              <p/>
-              {% endif %}
-
-              <div class="post-content">
-                {{ content }}
-              </div>
-
-              <!-- Show tags and categories -->
-              {% include tags-and-categories.html %}
-
-              <div id="disqus_thread">
-              </div>
-
-              {% if site.comments == true %}
-                {% include disqus-counts.html %}
-                {% include disqus-comments.html %}
-              {% endif %}
+{% if page.layout == "sanskrit-post" %}
+</div>
+{% endif %}
 
 
-            </div> <!-- well -->
-          </div> <!-- article -->
-        </div> <!-- col-md-9 -->
-    </div> <!-- row -->
-</div> <!-- container -->
+<div id="disqus_thread">
+</div>
 
-
-{% include footer.html %}
+{% if site.comments == true %}
+  {% include disqus-counts.html %}
+  {% include disqus-comments.html %}
+{% endif %}

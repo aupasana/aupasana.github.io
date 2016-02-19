@@ -4,7 +4,6 @@ layout: well
 <script src="{{ site.baseurl }}/js/list.min.js"></script>
 <script src="{{ site.baseurl }}/js/list.pagination.min.js"></script>
 
-<!-- http://stackoverflow.com/questions/23521931/list-tags-within-a-specific-category-in-jekyll -->
 {% assign sorted_tags = (site.tags | sort:0) %}
 <button class="btn btn-xs btn-link" onclick="searcharchives('');">all posts</button>
 {% for tag in sorted_tags %}
@@ -21,6 +20,7 @@ layout: well
   <button class="sort" data-sort="tag">Sort by tag</button>
   <p/>
 
+  <span id="#searchstatus">Showing all posts</span>
   <table class="table-archive">
     <thead>
       <tr>
@@ -54,33 +54,37 @@ layout: well
 </div>
 
 <script type="text/javascript">
-function searcharchives(str) {
-  archiveList.search(str);
-}
-
-(function() {
-  var paginationOptions = {
-   name: "pagination",
-   paginationClass: "pagination",
-   innerWindow: 10,
-   left: 10,
-   right: 10
- };
-
-  var options = {
-    valueNames: [ 'tag', 'date', 'title' ],
-    page:50,
-    plugins: [
-      ListPagination(paginationOptions)
-    ]
-  };
 
 
-  archiveList = new List('archive', options);
-})();
+	$(document).ready(function(){
 
-var desiredtag = window.location.hash.substring(1);
-var desiredtag_dec = decodeURIComponent(desiredtag);
-archiveList.search(desiredtag_dec);
+    function searcharchives(str) {
+      $("#searchfilter").text('Searching for ');
+      archiveList.search(str);
+    }
 
+    (function() {
+      var paginationOptions = {
+       name: "pagination",
+       paginationClass: "pagination",
+       innerWindow: 10,
+       left: 10,
+       right: 10
+     };
+
+      var options = {
+        valueNames: [ 'tag', 'date', 'title' ],
+        page:50,
+        plugins: [
+          ListPagination(paginationOptions)
+        ]
+      };
+
+      archiveList = new List('archive', options);
+    })();
+
+    var desiredtag = window.location.hash.substring(1);
+    var desiredtag_dec = decodeURIComponent(desiredtag);
+    archiveList.search(desiredtag_dec);
+	});
 </script>
