@@ -53,8 +53,9 @@ layout: well
         </td>
         <td>
           {% for t in post.tags %}
-            <a href="#" class="tag" onclick="searcharchives('{{t}}');">{{ t }}</a>
+            <a href="#" onclick="searcharchives('{{t}}');">{{ t }}</a>
           {% endfor %}
+          <span style="display:none" class="tag">{{ post.tags | join: ' '}}</span>
         </td>
       </tr>
     {% endfor %}
