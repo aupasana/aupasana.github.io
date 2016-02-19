@@ -29,27 +29,27 @@ layout: well
   <button onclick="searcharchives('');">View all posts</button>
   <button class="sort" data-sort="date">Sort by date</button>
   <button class="sort" data-sort="title">Sort by title</button>
-  <button class="sort" data-sort="tags">Sort by tag</button>
+  <button class="sort" data-sort="tag">Sort by tag</button>
   <p/>
 
   <table class="table-archive">
     <thead>
       <tr>
-        <td>Title</td>
-        <td>Date</td>
-        <td>Tags</td>
+        <td width="20%">Date</td>
+        <td width="50%">Title</td>
+        <td width="30%">Tags</td>
       </tr>
     </thead>
     <tbody class="list">
     {% for post in site.categories[page.blog] %}
       <tr>
+        <td class="date">
+          {{ post.date | date: "%Y-%m-%d" }}
+        </td>
         <td>
           <a href="{{site.baseurl}}{{ post.url }}">
             <span class="title">{{ post.title }}</span>
           </a>
-        </td>
-        <td class="date">
-          {{ post.date | date: "%Y-%m-%d" }}
         </td>
         <td>
           {% for t in post.tags %}
@@ -69,7 +69,8 @@ function searcharchives(str) {
 
 (function() {
   var options = {
-    valueNames: [ 'tag', 'date', 'title' ]
+    valueNames: [ 'tag', 'date', 'title' ],
+    page:1000
   };
 
   archiveList = new List('archive', options);
