@@ -2,28 +2,17 @@
 layout: well
 ---
 <script src="{{ site.baseurl }}/js/list.min.js"></script>
+<script src="{{ site.baseurl }}/js/list.pagination.min.js"></script>
 
 <!-- http://stackoverflow.com/questions/23521931/list-tags-within-a-specific-category-in-jekyll -->
 {% assign sorted_tags = (site.tags | sort:0) %}
 <button class="btn btn-xs btn-link" onclick="searcharchives('');">all posts</button>
 {% for tag in sorted_tags %}
-  {% assign tagvalid = 0 %}
-  {% for post in site.categories[page.blog] %}
-    {% for t in post.tags %}
-      {% if t | first == tag | first %}
-        {% assign tagvalid = 1 %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-
-  {% if tagvalid == 1 %}
     <button class="btn btn-xs btn-link" onclick="searcharchives('{{tag[0]}}');">{{tag[0]}}</button>
-  {% endif %}
 {% endfor %}
 
 
 <div id="archive">
-
   <br/>
   <input id="#search" class="search" placeholder="Search" />
   <button onclick="searcharchives('');">View all posts</button>
@@ -61,6 +50,7 @@ layout: well
     {% endfor %}
     </tbody>
   </table>
+  <div class="pagination"></div>
 </div>
 
 <script type="text/javascript">
@@ -69,10 +59,22 @@ function searcharchives(str) {
 }
 
 (function() {
+  var paginationOptions = {
+   name: "pagination",
+   paginationClass: "pagination",
+   innerWindow: 10,
+   left: 10,
+   right: 10
+ };
+
   var options = {
     valueNames: [ 'tag', 'date', 'title' ],
-    page:1000
+    page:50,
+    plugins: [
+      ListPagination(paginationOptions)
+    ]
   };
+
 
   archiveList = new List('archive', options);
 })();
