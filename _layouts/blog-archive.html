@@ -56,8 +56,6 @@ layout: well
 <script type="text/javascript">
 
 
-	$(document).ready(function(){
-
     function searcharchives(str) {
       $("#searchfilter").text('Searching for ');
       archiveList.search(str);
@@ -86,5 +84,4 @@ layout: well
     var desiredtag = window.location.hash.substring(1);
     var desiredtag_dec = decodeURIComponent(desiredtag);
     archiveList.search(desiredtag_dec);
-	});
 </script>
