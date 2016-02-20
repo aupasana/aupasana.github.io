@@ -4,10 +4,11 @@ omittitle: foobar
 ---
 
 {% if page.layout == "sanskrit-post" %}
+<h1>{{ page.date | date: "%b %-d, %Y" }} - <span class="sanskrit">{{ page.title }}</span></h1>
 <div class="sanskrit">
-{% endif %}
-
+{% else %}
   <h1>{{ page.date | date: "%b %-d, %Y" }} - {{ page.title }}</h1>
+{% endif %}
 
   {% if page.author != nil %}
   <div><span class="author">Author: </span>{{page.author}}</div>
@@ -25,13 +26,13 @@ omittitle: foobar
     {{ content }}
   </div>
 
-  <!-- Show tags and categories -->
-  {% include tags-and-categories.html %}
+  {% if page.layout == "sanskrit-post" %}
+  </div>
+  {% endif %}
 
-{% if page.layout == "sanskrit-post" %}
-</div>
-{% endif %}
-
+<!-- Show tags and categories -->
+<br/>
+{% include tags-and-categories.html %}
 
 <div id="disqus_thread">
 </div>
