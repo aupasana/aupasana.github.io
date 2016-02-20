@@ -225,6 +225,7 @@ cite {
     list-style-position: inside;
     padding-left:0;
     font-size:0.9em;
+    line-height: 120%;
 }
 
 #toc ul {
