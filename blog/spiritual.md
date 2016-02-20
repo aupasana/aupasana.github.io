@@ -8,7 +8,7 @@ omitcategories: true
 <div class="well">
 # Spiritual blog posts
 
-<a href="{{ site.baseurl}}/blog/{{page.blog}}_archive.html">View all posts</a>
+<a href="{{ site.baseurl}}/blog/{{page.blog}}_archive.html">View blog archives</a>
 
 The posts in this blog were written by other authors on different forums.
 They were not contributed to this blog. I am collecting interesting posts
