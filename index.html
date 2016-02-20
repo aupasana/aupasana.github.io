@@ -2,6 +2,7 @@
 layout: blog
 blog: front
 omitcategories: true
+title: aupasana.com
 blogstodisplay:
  - sanskrit
  - tech
@@ -17,16 +18,12 @@ blogstodisplay:
 		{% for cat in page.blogstodisplay %}
 			<h3><a href="{{site.baseurl}}/blog/{{cat}}.html">{{cat | capitalize }}</a></h3>
 			{% for post in site.categories[{{cat}}] limit:5 %}
-				<div class="nospaceafter">
 					{{ post.date | date_to_string }}: <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
 					{% if post.author != nil %}
 						<span class="tags">by {{post.author}}</span>
 					{% endif %}
-
-					<span class="float-right">
-						{% include tags-and-categories.html %}
-					</span>
-				</div><p class="nospaceafter"/>
+  				{% include tags-and-categories.html %}
+          <br/>
 			{% endfor %}
 		{% endfor %}
 
