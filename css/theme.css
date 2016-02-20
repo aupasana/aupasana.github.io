@@ -5,6 +5,7 @@ body {
     */
     font-size: 1.5em;
     line-height: 170%;
+    text-rendering: optimizeLegibility; /* ios Hint to use webfonts */
 }
 
 a:hover {
