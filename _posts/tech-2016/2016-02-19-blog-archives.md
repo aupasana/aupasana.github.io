@@ -4,6 +4,8 @@ title: "Blog archives and list.js"
 date: 2016-02-19 02:00:00 -0700
 category:
   - tech
+tags:
+  - javascript
 ---
 
 The very nature of blogs -- especially those that are topic specific --
