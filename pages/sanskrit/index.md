@@ -16,8 +16,6 @@ toc: true
 [r2]: http://www.archive.org/download/ValmikiRamayanaWithThreeCommentaries/ValimikiRamayanaWithThreeCormms.pdf
 [r3]: http://www.archive.org/download/The.Ramayana.of.Valmiki.by.Hari.Prasad.Shastri/The.Ramayana.of.Valmiki.by.Hari.Prasad.Shastri.pdf
 
-### Contents
-
   #	| Kanda 		| Chapters
  ---|---------------|----------
 1 	| bala  		| 77
@@ -28,7 +26,7 @@ toc: true
 6 	| yuddha		| 128
 7 	| uttara		| 111
  	| total			| 645
-{:.table-blue}
+{:.table .table-striped }
 
 
 ## Yoga vāsiṣṭha
@@ -39,8 +37,6 @@ toc: true
 [yv1]: http://www.archive.org/download/The.Yoga-Vasistha.of.Valmiki.with.Vasistha.Maharamayana-tatparya/The.Yoga-Vasistha.of.Valmiki.Part.1.djvu
 [yv2]: http://www.archive.org/download/The.Yoga-Vasistha.of.Valmiki.with.Vasistha.Maharamayana-tatparya/The.Yoga-Vasistha.of.Valmiki.Part.2.djvu
 
-### Contents
-
  # | prakaraṇa						| Chapters
 ---|--------------------------------|-------------
 01 | vairāgya prakaraṇa  			| 33
@@ -50,7 +46,7 @@ toc: true
 05 | upaśama prakaraṇa				| 93
 06 | nirvāṇa prakaraṇa 				| 128 + 216
    | total							| 674
-{:.table-blue}
+{:.table .table-striped }
 
 ## Mahabharata
 

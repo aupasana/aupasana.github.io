@@ -243,56 +243,12 @@ cite {
   padding-top:20px
 }
 
-/*
-    .table-1 style from http://www.graemeboy.com/css-table-styles
-*/
-
-.table-blue thead, .table-blue tr {
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: rgb(168, 192, 221);
-}
-.table-blue {
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(168, 192, 221);
-}
-
-/* Padding and font style */
-.table-blue td, .table-blue th {
-    padding: 3px 10px;
-    font-size: 12px;
-    font-family: Verdana;
-    color: rgb(92, 125, 162);
-}
-
-/* Alternating background colors */
-.table-blue tr:nth-child(even) {
-    background: rgb(211, 223, 237)
-}
-.table-blue tr:nth-child(odd) {
-    background: #FFF
-}
-
-
-
-.table-archive thead, .table-archive tr {
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: rgb(168, 192, 221);
-}
-.table-archive {
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(168, 192, 221);
-}
-
 /* Padding and font style */
 .table-archive td, .table-archive th {
     padding: 3px 10px;
     font-family: Verdana;
     color: rgb(92, 125, 162);
-}
+}*/
 
 
 .sanskrit {
@@ -331,11 +287,3 @@ cite {
 .submenu {
   list-style-type: none;
 }
-
-/*hr {
-  padding: 0;
-  margin: 0;
-  background-color: #d9d9d9;
-  height: 1px;
-  border: 0;
-}*/
