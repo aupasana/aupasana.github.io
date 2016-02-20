@@ -16,9 +16,12 @@ here for my own use, and each post has a link back to the original source.
 
 At present, all posts are taken from [Narasimha Rao's][pvr]
 public posts on [facebook][fb] and the [vedic-wisdom][ya] yahoo group.
+The complete archives of the vedic-wisdom mailing list (in the unix mbox format)
+can be downloaded from [here][mbox].
 
 [pvr]: http://www.vedicastrologer.org/personal.htm
 [fb]: http://facebook.com/pvr108
 [ya]: https://groups.yahoo.com/neo/groups/vedic-wisdom/info
+[mbox]: https://github.com/aupasana/vedic-wisdom/releases
 
 </div>
