@@ -58,13 +58,9 @@ layout: default
     <h2>A few more recent posts</h2>
 
     {% for post in site.categories[page.blog] offset:5 limit:20 %}
-      <div>
         {{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-        <span class="float-right">
         {% include tags-and-categories.html %}
-        </span>
-      </div>
-      <p class="nospaceafter"/>
+        <br/>
     {% endfor %}
   </div>
 </div>
