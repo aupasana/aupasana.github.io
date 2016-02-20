@@ -1,0 +1,47 @@
+/*
+ * @author Naresh
+ * @date Sep 2014
+ * @license CCSLA
+ * Last update - Shree - Feb 10, 2015
+ * webfonts created using https://github.com/ananthakumaran/webify
+ * use Siddhanta as fallback for SakalBharati to provide double swarita
+ * use Rachana for Malayalam and Lohit Tamil Classical for Tamil (DO NOT CHANGE).
+ */
+ @font-face {
+ font-family: 'FreeSerif';
+ src:  url('http://sanskritdocuments.org/all_iscii/fonts/FreeSerif.ttf') format('truetype'); /* Safari, Android, iOS */
+ font-weight: normal;
+ font-style: normal;
+ }
+ @font-face {
+ font-family: 'SakalBharati';
+ src:  url('http://sanskritdocuments.org/all_iscii/fonts/SakalBharati.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+ }
+
+/* Uni range only for Deva, Deva-extended and Vedic
+   so that English is rendered in different font */
+ @font-face {
+ font-family: 'Siddhanta';
+ src:  url('http://sanskritdocuments.org/all_iscii/fonts/Siddhanta.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+ unicode-range: U+900-97F, U+A8E0-A8FF, U+1CD0-1CFF ;
+ }
+
+ @font-face {
+ font-family: 'Sanskrit2003';
+ src:  url('http://sanskritdocuments.org/all_iscii/fonts/Sanskrit2003.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+ unicode-range: U+900-97F, U+A8E0-A8FF, U+1CD0-1CFF ;
+}
+
+
+*[lang="sa"] {
+ font-family:  'Siddhanta',  serif  !important;
+ font-size: 120%;
+ line-height:2.0;
+ font-weight:bold;
+}
