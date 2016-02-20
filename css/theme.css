@@ -7,17 +7,14 @@ unicode-range: U+900-97F, U+A8E0-A8FF, U+1CD0-1CFF ;
 }
 
 body {
-    /*Padding is needed with a fixed navbar
-    padding-top: 60px;
-    padding-bottom: 60px;
-    */
     font-size: 1.5em;
     line-height: 170%;
     text-rendering: optimizeLegibility; /* ios Hint to use webfonts */
 }
 
 a:hover {
-  font-weight: bold;
+  font-weight: 500;
+  font-color: #000080;
   text-decoration:none;
 }
 
@@ -26,7 +23,7 @@ a:hover {
 }
 
 .navbar-brand a {
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .copyright {
