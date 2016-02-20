@@ -1,3 +1,11 @@
+@font-face {
+font-family: 'Sanskrit2003';
+src:  url('http://sanskritdocuments.org/all_iscii/fonts/Sanskrit2003.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+unicode-range: U+900-97F, U+A8E0-A8FF, U+1CD0-1CFF ;
+}
+
 body {
     /*Padding is needed with a fixed navbar
     padding-top: 60px;
@@ -246,9 +254,11 @@ cite {
 
 .sanskrit {
     font-family: "Sanskrit2003";
-    font-size: 1.4em;
+    font-size: 120%;
+    line-height: 185%;
+    /*font-size: 1.4em;
     line-height: 160%;
-    font-weight: 100;
+    font-weight: 100;*/
 }
 
 .nospaceafter {
