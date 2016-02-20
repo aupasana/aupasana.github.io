@@ -9,31 +9,18 @@ Figure out who the caller is, and iterate of it's categories and tags
   {% assign caller = page %}
 {% endif %}
 
-{% if caller.categories.size > 0 or caller.tags.size > 0 %}
-  <span class="tags">
-
-    <!-- If a _page_ has specified that categories shoudl be omitted, omit them -->
-    {% if page.omitcategories == nil or page.omitcategories != true %}
-      <!-- Deal with categories -->
-      {% if caller.categories.size > 0  %}
-        posted in:
-        {% for cat in caller.categories %}
-            <a href="{{site.baseurl}}/blog/{{cat}}_archive.html">{{cat}}</a>
-        {% endfor %}
-      {% endif %}
-
-      <!-- Delmiter between categories and callers -->
-      {% if caller.categories.size > 0 and caller.tags.size > 0 %}
-        ...
-      {% endif %}
-    {% endif %}
-
-    <!-- Deal with tags -->
-    {% if caller.tags.size > 0  %}
-      tags:
-      {% for tag in caller.tags %}
-        <a href="{{site.baseurl}}/blog/{{caller.categories[0]}}_archive.html#{{tag}}">{{tag}}</a>
-      {% endfor %}
-    {% endif %}
-  </span>
+<!-- If a _page_ has specified that categories shoudl be omitted, omit them -->
+{% if page.omitcategories == nil or page.omitcategories != true %}
+    posted in:
+    {% for cat in caller.categories %}
+        <a href="{{site.baseurl}}/blog/{{cat}}_archive.html">{{cat}}</a>
+    {% endfor %}
 {% endif %}
+
+<!-- Deal with tags -->
+<span class="tag-empty">&nbsp;</span>
+{% for tag in caller.tags %}
+  <span class="tag">
+    <a href="{{site.baseurl}}/blog/{{caller.categories[0]}}_archive.html#{{tag}}">{{tag}}</a>
+  </span>
+{% endfor %}
