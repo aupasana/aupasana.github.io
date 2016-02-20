@@ -7,6 +7,19 @@ body {
     line-height: 170%;
 }
 
+a:hover {
+  font-weight: bold;
+  text-decoration:none;
+}
+
+.nav a:hover {
+  font-weight: normal;
+}
+
+.navbar-brand a {
+  font-weight: normal;
+}
+
 .copyright {
     color: #ffffff;
 }
@@ -99,6 +112,7 @@ h4 {
 
 .tag a {
   text-decoration: none;
+  font-weight: normal;
 }
 
 .tag {
