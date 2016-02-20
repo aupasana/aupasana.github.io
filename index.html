@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: default
 blog: front
 omitcategories: true
 title: aupasana.com
@@ -29,3 +29,24 @@ blogstodisplay:
 
 	</div>
 </div>
+
+{% for post in site.categories[page.blog] limit:5 %}
+  <div class="article">
+      <div class="well">
+
+          <!-- Title -->
+          <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} - {{ post.title }}</a></h1>
+
+          <!-- Body -->
+          <div class="content">
+
+              {% if post.excerpt and post.excerpt != post.content %}
+                {{ post.excerpt }}
+                <a href="{{ site.baseurl}}{{ post.url }}">continue reading ...</a><p/>
+              {% else %}
+                {{ post.content }}
+              {% endif %}
+          </div>
+      </div>
+  </div>
+{% endfor %}
