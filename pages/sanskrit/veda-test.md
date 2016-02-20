@@ -73,13 +73,13 @@ Dirgha svarita follows visarga
 
 Dirgha svarita precedes anusvara
 
-ग॒णाना॑॑ं त्वा
+ग॒णाना᳚ं त्वा ग॒णप॑तिꣳ हवामहे
 
 ---
 
 Dirgha svarita follows anusvara
 
-गणानां॑॑ त्वा
+ग॒णानां᳚ त्वा ग॒णप॑तिꣳ हवामहे
 
 ---
 
