@@ -243,18 +243,11 @@ cite {
   padding-top:20px
 }
 
-/* Padding and font style */
-.table-archive td, .table-archive th {
-    padding: 3px 10px;
-    font-family: Verdana;
-    color: rgb(92, 125, 162);
-}*/
-
-
 .sanskrit {
-    font-family: Kokila, "Kohinoor Devanagari", "Arial Unicode MS";
+    font-family: "Sanskrit2003";
     font-size: 1.4em;
-    line-height: 160%
+    line-height: 160%;
+    font-weight: 100;
 }
 
 .nospaceafter {
