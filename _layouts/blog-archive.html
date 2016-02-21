@@ -14,20 +14,16 @@ layout: well
 <div id="archive">
   <br/>
   <input id="search" class="search" placeholder="Search" />
-  <button onclick="searcharchives('');">View all posts</button>
-  <button class="sort" data-sort="date">Sort by date</button>
-  <button class="sort" data-sort="title">Sort by title</button>
-  <button class="sort" data-sort="tag">Sort by tag</button>
+  <button onclick="searcharchives('');">Show all posts</button>
   <p/>
-
 
   <div class="table-responsive">
   <table class="table table-bordered table-striped">
     <thead>
       <tr>
-        <td>Date</td>
-        <td>Title</td>
-        <td>Tags</td>
+        <td class="sort" data-sort="date">Date <i class="fa fa-fw fa-sort"></i></td>
+        <td class="sort" data-sort="title">Title <i class="fa fa-fw fa-sort"></i></td>
+        <td class="sort" data-sort="tag">Tags <i class="fa fa-fw fa-sort"></i></td>
       </tr>
     </thead>
     <tbody class="list">
