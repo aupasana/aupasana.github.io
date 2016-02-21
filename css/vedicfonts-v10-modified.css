@@ -15,21 +15,11 @@
  src:  url('http://sanskritdocuments.org/all_iscii/fonts/Siddhanta.ttf') format('truetype');
  font-weight: normal;
  font-style: normal;
- /*unicode-range: U+900-97F, U+A8E0-A8FF, U+1CD0-1CFF ;*/
  }
-
- @font-face {
- font-family: 'Sanskrit2003';
- src:  url('http://sanskritdocuments.org/all_iscii/fonts/Sanskrit2003.ttf') format('truetype');
- font-weight: normal;
- font-style: normal;
- unicode-range: U+900-97F, U+A8E0-A8FF, U+1CD0-1CFF ;
-}
-
 
 *[lang="sa"] {
  font-family:  'Siddhanta',  serif  !important;
  font-size: 120%;
  line-height:2.0;
- font-weight:bold;
+ font-weight:normal;
 }
