@@ -89,6 +89,16 @@ h4 {
     font-size: 1em;
 }
 
+.viniyoga {
+  color: purple;
+  font-size: 0.8em;
+}
+
+.veda-location {
+  color: purple;
+  font-size: 0.8em;
+}
+
 .author {
     color: #ee4444;
 }
@@ -305,4 +315,20 @@ table.borderless td,table.borderless th{
 which looks odd at the bottom of a well*/
 .well>table:last-child {
   margin-bottom: 0px;
+}
+
+.viniyoga + p {
+    margin-top:20px;
+}
+
+.veda-location + p {
+    margin-top:20px;
+}
+
+body {
+    counter-reset: section;
+}
+.browser-test>.well>h2:before {
+    counter-increment: section;
+    content: "Test " counter(section) ": ";
 }
