@@ -4,10 +4,9 @@ title: Test page for browser support
 ---
 
 <div class="alert alert-info">
-This page is designed to help the user determine the amount of
-support that their browser has for the siddhanta font. This page
-does not perform any auto-detection. The user has to manually determine
-if the text renders correctly using the hints provided.
+This page is designed to help determine browser support for the siddhanta font.
+The user has to manually determine if the text renders correctly using the hints provided ...
+this page does not perform any auto-detection or validation.
 <button type="button" class="btn btn-secondary close" data-dismiss="alert">Dismiss</button>
 </div>
 
@@ -22,12 +21,24 @@ if the text renders correctly using the hints provided.
 
 {::options parse_block_html="true" /}
 <div class="well">
-## Simple sentence with accents
+## Anudatta and Svarita
   <div lang="sa">
   ॐ नमो भगवते॑ रुद्रा॒य
   </div>
 * Is there a svarita above "te"?
 * Is there an anudatta below "draa"?
+
+<br/><input type="checkbox" class="browser-test-checkbox"/>
+</div>
+
+<div class="well">
+## Dirgha svarita
+
+  <div lang="sa">
+  प्र॒जाप॑ते रोहि॒णीवे॑तु॒ पत्नी᳚।
+  </div>
+* Is there a svarita above "patnii"?
+* Is it placed above the vowel (and not far off to the right)?
 
 <br/><input type="checkbox" class="browser-test-checkbox"/>
 </div>
