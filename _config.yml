@@ -24,6 +24,7 @@ disqus: 'aupasana'
 comments: true
 
 permalink: /blog/:year/:month/:title.html
+future: true
 # paginate: 5
 
 highlighter: rouge
