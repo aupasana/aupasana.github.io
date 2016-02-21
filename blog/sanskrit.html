@@ -2,54 +2,60 @@
 layout: default
 title: संस्कृतसंबद्धयथामतिलेखनम्
 blog: sanskrit
+omitcategories: true
 ---
 
-  {% if page.title != nil %}
-    <div class="well sanskrit">
-      <h1>{{ page.title }}</h1>
-      <a href="{{ site.baseurl}}/blog/{{page.blog}}_archive.html">पूर्वप्रकाशितलेखाः अत्र उपलभ्यन्ते</a>
-    </div>
-  {% endif %}
+{% if page.title != nil %}
+  <div class="well sanskrit">
+    <h1>{{ page.title }}</h1>
+    <a href="{{ site.baseurl}}/blog/{{page.blog}}_archive.html">पूर्वप्रकाशितलेखाः अत्र उपलभ्यन्ते</a>
+  </div>
+{% endif %}
 
-  {% for post in site.categories[page.blog] limit:5 %}
-    <div class="article">
-        <div class="well">
-
-            <!-- Title -->
-            <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} -
-              <span class="sanskrit">{{ post.title }}</span></a></h1>
-
-            <!-- Body -->
-            <div class="content sanskrit">
-                {% if post.excerpt and post.excerpt != post.content %}
-                  {{ post.excerpt }}
-                  <a href="{{ site.baseurl}}{{ post.url }}">इतोऽपि अनुवर्तते ...</a><p/>
-                {% else %}
-                  {{ post.content }}
-                {% endif %}
-            </div>
-          {% include tags-and-categories.html %}
-        </div>
-    </div>
-  {% endfor %}
-
-  {% if site.categories[page.blog].size > 5 %}
+{% for post in site.categories[page.blog] limit:5 %}
   <div class="article">
-    <div class="well">
-      <h2 class="sanskrit">केचन प्राक्तनलेखाः</h2>
+      <div class="well">
 
-      {% for post in site.categories[page.blog] offset:5 limit:20 %}
-          {{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">
+          <!-- Title -->
+          <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} -
+            <span class="sanskrit">{{ post.title }}</span></a></h1>
+
+          <!-- Body -->
+          <div class="content sanskrit">
+              {% if post.excerpt and post.excerpt != post.content %}
+                {{ post.excerpt }}
+                <a href="{{ site.baseurl}}{{ post.url }}">इतोऽपि अनुवर्तते ...</a><p/>
+              {% else %}
+                {{ post.content }}
+              {% endif %}
+          </div>
+        {% include tags-and-categories.html %}
+      </div>
+  </div>
+{% endfor %}
+
+{% if site.categories[page.blog].size > 5 %}
+<h2 class="sanskrit">केचन प्राक्तनलेखाः</h2>
+
+<div class="well table-responsive">
+  <table class="table borderless table-condensed">
+  {% for post in site.categories[page.blog] offset:5 limit:20 %}
+    <tr>
+      <td class="col-md-2">
+           {{ post.date | date_to_string }}
+      </td>
+      <td class="col-md-4">
+          <a href="{{ site.baseurl}}{{ post.url }}">
             <span class="sanskrit">{{ post.title }}</span></a>
-          {% include tags-and-categories.html %}
-          <br/>
-      {% endfor %}
-    </div>
-  </div>
-  {% endif %}
+      </td>
+      <td>
+           {% include tags-and-categories.html %}
+      </td>
+    </tr>
+  {% endfor %}
+  </table>
 
-  <div class="article">
-    <div class="well">
-      <a class="sanskrit" href="{{ site.baseurl}}/blog/{{page.blog}}_archive.html">संपूर्णप्रकाशनलेखनिधिः अत्र उपलभ्यते</a>
-    </div>
-  </div>
+  <a href="{{ site.baseurl}}/blog/{{page.blog}}_archive.html">संपूर्णप्रकाशनलेखनिधिः अत्र उपलभ्यते</a>
+
+</div>
+{% endif %}

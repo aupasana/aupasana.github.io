@@ -53,21 +53,26 @@ layout: default
 {% endfor %}
 
 {% if site.categories[page.blog].size > 5 %}
-<div class="article">
-  <div class="well">
-    <h2>A few more recent posts</h2>
+<h2>A few more recent posts</h2>
 
-    {% for post in site.categories[page.blog] offset:5 limit:20 %}
-        {{ post.date | date_to_string }}: <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-        {% include tags-and-categories.html %}
-        <br/>
-    {% endfor %}
-  </div>
+<div class="well table-responsive">
+  <table class="table borderless table-condensed">
+  {% for post in site.categories[page.blog] offset:5 limit:20 %}
+    <tr>
+      <td class="col-md-2">
+           {{ post.date | date_to_string }}
+      </td>
+      <td class="col-md-4">
+          <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+      </td>
+      <td>
+           {% include tags-and-categories.html %}
+      </td>
+    </tr>
+  {% endfor %}
+  </table>
+
+  <a href="{{ site.baseurl}}/blog/{{page.blog}}_archive.html">View all {{page.blog}} blog posts</a>
+
 </div>
 {% endif %}
-
-<div class="article">
-  <div class="well">
-    <a href="{{ site.baseurl}}/blog/{{page.blog}}_archive.html">View all {{page.blog}} blog posts</a>
-  </div>
-</div>
