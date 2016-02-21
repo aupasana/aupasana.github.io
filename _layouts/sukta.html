@@ -6,18 +6,34 @@ layout: default
 <div class="article">
 
   <div class="alert alert-danger" id="unsupported" style="display:none;">
-    Warning: Firefox was not detected !
+    Warning: A compliant browser was not detected !
 
-    <p>Unless you use firefox, some vedic accents, visargas and
-    anusvaras will not display correctly. Firefox is the only known
-    web browser with support for the Siddhanta font and it's accents.</p>
+    <p>These documents are only known to render correctly on IE (Edge),
+      Chrome and Firefox. If you are using some other browser, the text
+      may not render correctly. The texts will not render on Safari or on
+      iOS devices.</p>
   </div>
 </div>
 
 <script type="text/javascript">
   $( document ).ready(function() {
+      //    http://stackoverflow.com/questions/9847580/how-to-detect-safari-chrome-ie-firefox-and-opera-browser
+          // Opera 8.0+
+      var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+          // Firefox 1.0+
       var isFirefox = typeof InstallTrigger !== 'undefined';
-      if (isFirefox !== true) {
+          // At least Safari 3+: "[object HTMLElementConstructor]"
+      var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+          // Internet Explorer 6-11
+      var isIE = /*@cc_on!@*/false || !!document.documentMode;
+          // Edge 20+
+      var isEdge = !isIE && !!window.StyleMedia;
+          // Chrome 1+
+      var isChrome = !!window.chrome && !!window.chrome.webstore;
+          // Blink engine detection
+      var isBlink = (isChrome || isOpera) && !!window.CSS;
+
+      if (isFirefox !== true && isEdge !== true && isChrome !== true) {
         $("#unsupported").show();
       }
   });
