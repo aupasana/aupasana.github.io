@@ -59,10 +59,10 @@ layout: default
   <table class="table borderless table-condensed">
   {% for post in site.categories[page.blog] offset:5 limit:20 %}
     <tr>
-      <td class="col-md-2">
+      <td>
            {{ post.date | date_to_string }}
       </td>
-      <td class="col-md-4">
+      <td>
           <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
       </td>
       <td>
