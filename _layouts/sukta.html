@@ -5,13 +5,14 @@ layout: default
 <link href="{{ site.baseurl }}/css/vedicfonts-v10-modified.css" rel="stylesheet">
 <div class="article">
 
-  <div class="alert alert-danger" id="unsupported" style="display:none;">
-    Warning: A compliant browser was not detected !
-
-    <p>These documents are only known to render correctly on IE (Edge),
+  <div class="alert alert-info" id="unsupported" style="display:none;">
+    <strong>Warning: A compliant browser was not detected.</strong>
+      These documents are only known to render correctly on IE (Edge),
       Chrome and Firefox. If you are using some other browser, the text
-      may not render correctly. The texts will not render on Safari or on
-      iOS devices.</p>
+      may not render correctly. Safari and iOS devices do not support the
+      siddhanta font. Check your <a href="{{site.baseurl}}/pages/suktas/browser-test.html">
+      browser compatibility here</a>.
+      <button type="button" class="btn btn-secondary close" data-dismiss="alert">Dismiss</button>
   </div>
 </div>
 
