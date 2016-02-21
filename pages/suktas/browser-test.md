@@ -7,8 +7,11 @@ title: Test page for browser support
 This page is designed to help the user determine the amount of
 support that their browser has for the siddhanta font. This page
 does not perform any auto-detection. The user has to manually determine
-if the text renders correctly using the hints provided. 
+if the text renders correctly using the hints provided.
+<button type="button" class="btn btn-secondary close" data-dismiss="alert">Dismiss</button>
 </div>
+
+<textarea rows="2" class="well form-control" id="UserAgent"></textarea>
 
 <link href="{{ site.baseurl }}/css/vedicfonts-v10-modified.css" rel="stylesheet">
 <link href="{{ site.baseurl }}/css/bootstrap-switch.min.css" rel="stylesheet">
@@ -218,6 +221,7 @@ if the text renders correctly using the hints provided.
       $.fn.bootstrapSwitch.defaults.onColor = 'success';
       $.fn.bootstrapSwitch.defaults.offColor = 'danger';
       $(".browser-test-checkbox").bootstrapSwitch();
+      $('#UserAgent').val("UserAgent: ".concat(navigator.userAgent));
     });
 
 </script>
