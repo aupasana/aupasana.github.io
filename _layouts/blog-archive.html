@@ -13,21 +13,21 @@ layout: well
 
 <div id="archive">
   <br/>
-  <input id="#search" class="search" placeholder="Search" />
+  <input id="search" class="search" placeholder="Search" />
   <button onclick="searcharchives('');">View all posts</button>
   <button class="sort" data-sort="date">Sort by date</button>
   <button class="sort" data-sort="title">Sort by title</button>
   <button class="sort" data-sort="tag">Sort by tag</button>
   <p/>
 
-  <span id="#searchstatus">Showing all posts</span>
 
+  <div class="table-responsive">
   <table class="table table-bordered table-striped">
     <thead>
       <tr>
-        <td width="20%">Date</td>
-        <td width="50%">Title</td>
-        <td width="30%">Tags</td>
+        <td>Date</td>
+        <td>Title</td>
+        <td>Tags</td>
       </tr>
     </thead>
     <tbody class="list">
@@ -51,18 +51,12 @@ layout: well
     {% endfor %}
     </tbody>
   </table>
-  
+  </div>
+
   <div class="pagination"></div>
 </div>
 
 <script type="text/javascript">
-
-
-    function searcharchives(str) {
-      $("#searchfilter").text('Searching for ');
-      archiveList.search(str);
-    }
-
     (function() {
       var paginationOptions = {
        name: "pagination",
@@ -83,7 +77,15 @@ layout: well
       archiveList = new List('archive', options);
     })();
 
-    var desiredtag = window.location.hash.substring(1);
-    var desiredtag_dec = decodeURIComponent(desiredtag);
-    archiveList.search(desiredtag_dec);
+    function searcharchives(str) {
+      $("#search").val(str);
+      archiveList.search(str);
+    }
+
+    $( document ).ready(function() {
+        var desiredtag = window.location.hash.substring(1);
+        var desiredtag_dec = decodeURIComponent(desiredtag);
+        searcharchives(desiredtag_dec);
+    });
+
 </script>
