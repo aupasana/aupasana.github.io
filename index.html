@@ -10,25 +10,41 @@ blogstodisplay:
 
 <div class="article">
 	<div class="well">
-
     <h1>welcome to aupasana.com</h1>
-
-    Here are some recent blog posts:
-
-		{% for cat in page.blogstodisplay %}
-			<h3><a href="{{site.baseurl}}/blog/{{cat}}.html">{{cat | capitalize }}</a></h3>
-			{% for post in site.categories[{{cat}}] limit:5 %}
-					{{ post.date | date_to_string }}: <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-					{% if post.author != nil %}
-						<span class="tags">by {{post.author}}</span>
-					{% endif %}
-  				{% include tags-and-categories.html %}
-          <br/>
-			{% endfor %}
-		{% endfor %}
-
-	</div>
+  </div>
 </div>
+
+{% for cat in page.blogstodisplay %}
+	<h3><a href="{{site.baseurl}}/blog/{{cat}}.html">Recent {{cat | capitalize }} blog posts</a></h3>
+  <div class="table-responsive">
+  <table class="well table table-bordered table-condensed">
+    <!-- <thead>
+      <td>Date</td>
+      <td>Title</td>
+      <td>Tags</td>
+      <td>Author</td>
+    </thead> -->
+  	{% for post in site.categories[{{cat}}] limit:5 %}
+        <tr>
+          <td class="col-md-2">
+    			     {{ post.date | date_to_string }}
+          </td>
+          <td class="col-md-4">
+              <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+          </td>
+          <td>
+    			     {% include tags-and-categories.html %}
+          </td>
+          <!-- <td>
+      			{% if post.author != nil %}
+      				<span class="tags">{{post.author}}</span>
+      			{% endif %}
+          </td> -->
+        </tr>
+  	{% endfor %}
+  </table>
+  </div>
+{% endfor %}
 
 {% for post in site.categories[page.blog] limit:5 %}
   <div class="article">
