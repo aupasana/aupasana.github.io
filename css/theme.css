@@ -258,9 +258,12 @@ cite {
     font-family: "Sanskrit2003";
     font-size: 120%;
     line-height: 185%;
-    /*font-size: 1.4em;
-    line-height: 160%;
-    font-weight: 100;*/
+}
+
+.sanskrit-inline {
+    font-family: "Sanskrit2003";
+    font-size: 120%;
+    line-height: 100%;
 }
 
 .nospaceafter {
