@@ -7,18 +7,6 @@
  * use Siddhanta as fallback for SakalBharati to provide double swarita
  * use Rachana for Malayalam and Lohit Tamil Classical for Tamil (DO NOT CHANGE).
  */
- @font-face {
- font-family: 'FreeSerif';
- src:  url('http://sanskritdocuments.org/all_iscii/fonts/FreeSerif.ttf') format('truetype'); /* Safari, Android, iOS */
- font-weight: normal;
- font-style: normal;
- }
- @font-face {
- font-family: 'SakalBharati';
- src:  url('http://sanskritdocuments.org/all_iscii/fonts/SakalBharati.ttf') format('truetype');
- font-weight: normal;
- font-style: normal;
- }
 
 /* Uni range only for Deva, Deva-extended and Vedic
    so that English is rendered in different font */
@@ -27,7 +15,7 @@
  src:  url('http://sanskritdocuments.org/all_iscii/fonts/Siddhanta.ttf') format('truetype');
  font-weight: normal;
  font-style: normal;
- unicode-range: U+900-97F, U+A8E0-A8FF, U+1CD0-1CFF ;
+ /*unicode-range: U+900-97F, U+A8E0-A8FF, U+1CD0-1CFF ;*/
  }
 
  @font-face {
