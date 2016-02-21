@@ -293,3 +293,13 @@ cite {
 .submenu {
   list-style-type: none;
 }
+
+table.borderless td,table.borderless th{
+  border: none !important;
+}
+
+/*Bootstrap has a 20px padding after tables
+which looks odd at the bottom of a well*/
+.well>table:last-child {
+  margin-bottom: 0px;
+}
