@@ -7,8 +7,22 @@ title: CSS stylesheet
   src:  url('{{site.baseurl}}/css/Sanskrit2003.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  unicode-range: U+900-97F, U+A8E0-A8FF, U+1CD0-1CFF ;
 }
+
+@font-face {
+font-family: 'Siddhanta-cakravat1';
+src:  url('{{site.baseurl}}/css/siddhanta-cakravat1.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+*[lang="sa"] {
+font-family:  'Siddhanta-cakravat1',  serif  !important;
+font-size: 120%;
+line-height:2.0;
+font-weight:normal;
+}
+
 
 body {
     font-size: 1.5em;
@@ -325,10 +339,27 @@ which looks odd at the bottom of a well*/
     margin-top:20px;
 }
 
+.veda-location + div {
+    margin-top:20px;
+}
+
+
 body {
     counter-reset: section;
 }
+
+.count-mantras {
+  counter-reset: mantra;
+}
+
 .browser-test>.well>h2:before {
     counter-increment: section;
     content: "Test " counter(section) ": ";
+}
+
+.count-mantras>p:after {
+    counter-increment: mantra;
+    content: "(" counter(mantra) ")";
+    font-size: 0.9em;
+    padding-left: 10px;
 }
