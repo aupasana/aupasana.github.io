@@ -10,16 +10,3 @@
 
 /* Uni range only for Deva, Deva-extended and Vedic
    so that English is rendered in different font */
- @font-face {
- font-family: 'Siddhanta';
- src:  url('http://sanskritdocuments.org/all_iscii/fonts/Siddhanta.ttf') format('truetype');
- font-weight: normal;
- font-style: normal;
- }
-
-*[lang="sa"] {
- font-family:  'Siddhanta',  serif  !important;
- font-size: 120%;
- line-height:2.0;
- font-weight:normal;
-}

@@ -3,6 +3,8 @@ layout: default
 title: Test page for browser support
 ---
 
+<h1>Test page for browser support</h1>
+
 <div class="alert alert-info">
 This page is designed to help determine browser support for the siddhanta font.
 The user has to manually determine if the text renders correctly using the hints provided ...

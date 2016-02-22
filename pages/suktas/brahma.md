@@ -3,6 +3,8 @@ layout: sukta
 title: ब्रह्मसूक्तम्
 ---
 
+<h1>ब्रह्मसूक्तम्</h1>
+
 <div class="viniyoga">प्रतिसरबन्धने शान्तिकर्मसु च विनियोगः</div>
 <div class="veda-location">तै॰ब्रा॰ २.८.८.२१</div>
 
