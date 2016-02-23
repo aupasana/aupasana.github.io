@@ -116,7 +116,7 @@ this page does not perform any auto-detection or validation.
 ## Dirgha svarita above ra
 
   <div lang="sa">
-  अहीꣳ॑श्च सर्वा᳚ञ्ज॒म्भय॒न्त्सर्वा᳚श्च यातुधा॒न्यः॑ ॥
+  अहीꣳ॑श्च॒ सर्वा᳚ञ्ज॒म्भय॒न्त्सर्वा᳚श्च यातुधा॒न्यः॑ ॥
   </div>
   * Does the dirgha svarita above "sarvan" render correctly?
   * Is it rendered above the repha (and not to the right)?
@@ -226,7 +226,7 @@ this page does not perform any auto-detection or validation.
 
 
 <script type="text/javascript">
-    $( document ).ready(function() {
+  $( document ).ready(function() {
       $.fn.bootstrapSwitch.defaults.size = 'small';
       $.fn.bootstrapSwitch.defaults.onText = 'Pass';
       $.fn.bootstrapSwitch.defaults.offText = 'Fail';
@@ -236,5 +236,4 @@ this page does not perform any auto-detection or validation.
       $(".browser-test-checkbox").bootstrapSwitch();
       $('#UserAgent').val("UserAgent: ".concat(navigator.userAgent));
     });
-
 </script>
