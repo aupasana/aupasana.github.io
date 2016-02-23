@@ -1,8 +1,10 @@
 ---
-layout: sukta
+layout: well
 title: वैदिकसूक्तानि
 ---
 
+{::options parse_block_html="true" /}
+<div lang="sa">
 ## कृष्णयजुर्वेदीयसूक्तानि
 
 * [ब्रह्मसूक्तम्]({{site.baseurl}}/pages/suktas/brahma.html)
@@ -13,3 +15,4 @@ title: वैदिकसूक्तानि
 ## अन्यत् किञ्चित्
 
 * [Browser Test Page]({{site.baseurl}}/pages/suktas/browser-test.html)
+</div>
