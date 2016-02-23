@@ -19,7 +19,7 @@ font-style: normal;
 *[lang="sa"] {
 font-family:  'Siddhanta-cakravat1',  serif  !important;
 font-size: 120%;
-line-height:2.0;
+line-height:2.25;
 font-weight:normal;
 font-style:normal;
 }
@@ -30,13 +30,22 @@ body {
     line-height: 170%;
 }
 
-.shift-accents {
+.shift-accents-up {
   position: relative;
   top : -0.25em;
   padding: 0;
   margin-left: -0.025em;
   margin-right: -0.2em;
 }
+
+.shift-accents-down {
+  position: relative;
+  top : 0.25em;
+  padding: 0;
+  margin-left: -0.025em;
+  margin-right: -0.45em;
+}
+
 
 a:hover {
   font-weight: 500;
