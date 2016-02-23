@@ -15,7 +15,7 @@ blogstodisplay:
 </div>
 
 {% for cat in page.blogstodisplay %}
-	<h3><a href="{{site.baseurl}}/blog/{{cat}}.html">Recent {{cat | capitalize }} blog posts</a></h3>
+	<h2><a href="{{site.baseurl}}/blog/{{cat}}.html">Recent {{cat | capitalize }} blog posts</a></h2>
   <div class="well table-responsive">
   <table class="table borderless table-condensed">
   	{% for post in site.categories[{{cat}}] limit:5 %}
