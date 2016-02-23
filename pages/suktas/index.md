@@ -8,6 +8,7 @@ title: वैदिकसूक्तानि
 * [ब्रह्मसूक्तम्]({{site.baseurl}}/pages/suktas/brahma.html)
 * [विष्णुसूक्तम्]({{site.baseurl}}/pages/suktas/vishnu.html)
 * [रुद्रसूक्तम्]({{site.baseurl}}/pages/suktas/rudra.html)
+* [पुरुषसूक्तम्]({{site.baseurl}}/pages/suktas/purusha.html)
 
 ## अन्यत् किञ्चित्
 
