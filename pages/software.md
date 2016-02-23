@@ -36,7 +36,7 @@ On a Mac, use [LipikaIME][] for transliteration based input in Indian languages.
 [ITRANS.tlr]: https://raw.githubusercontent.com/aupasana/Lipika_IME/master/Common/Resources/Schemes/Transliteration/ITRANS.tlr
 [Devanagari.map]: https://raw.githubusercontent.com/aupasana/Lipika_IME/master/Common/Resources/Schemes/Script/Devanagari.map
 
-### Notes
+### notes
 
 * The two files above are protected (root access only), and they are in a hidden location (finder won't show them). Download the files, and then launch "terminal" and use the "sudo cp" command to replace the files.
 * if there are any extended macOS permissions, the Lipika IME menu items may not show up correctly. Use "ls -@la" to see the extended permissions on the files you have copied, and remove them using "xattr -d [permission]". Log out and back in and the menu should now render correctly.
@@ -74,7 +74,7 @@ The simplest way to use the script is to specify the barcode alone. It will find
 > dli.py --help
 ~~~
 
-### Dependencies
+### dependencies
 
 ~~~
 brew install wget libtiff ghostscript         (on mac osx)
@@ -83,7 +83,7 @@ choco install python2 gow ghostscript aria2   (on windows)
 ~~~
 
 
-### Notes (windows only)
+### notes (windows only)
 
 You must now install libtiff manually, since it isn't supported by chocolatey
 
