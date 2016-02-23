@@ -264,11 +264,11 @@ cite {
     font-size:.8em;
 }
 
-.toc-sidebar {
-    height: 100%;
+/*.toccontent {
     position: fixed;
     padding-top: 20px;
-}
+    padding-bottom: 20px;
+}*/
 
 #toc {
     list-style-position: inside;
