@@ -19,7 +19,7 @@ layout: default
     <div class="alert alert-info" >
       <strong>Warning:</strong> Safari does not render the siddhanta font correctly.
       <br/>An experimental workaround for <i>some</i> of the issues is available.
-      <br/><button type="button" class="btn btn-primary" onClick="fixSvaras()">Apply workaround</button>
+      <br/><button type="button" class="btn btn-primary" id="fixSvarasButton" onClick="fixSvarasOnClick()">Apply workaround</button>
     </div>
     <p/>
   </div>
@@ -40,6 +40,13 @@ $( document ).ready(function() {
       $("#unsupported-safari").show();
     }
 })
+
+function fixSvarasOnClick() {
+    $("#fixSvarasOnClick").prop('disabled', true);
+    fixSvaras();
+    $("#unsupported-safari").hide();
+}
+
 </script>
 
 {% include sukta-fixup.html %}
