@@ -11,7 +11,7 @@ title: CSS stylesheet
 
 @font-face {
 font-family: 'Siddhanta-cakravat1';
-src:  url('{{site.baseurl}}/css/siddhanta-cakravat1.ttf') format('truetype');
+src:  url('{{site.baseurl}}/css/siddhanta-cakravat1.ttf');
 font-weight: normal;
 font-style: normal;
 }
@@ -21,13 +21,21 @@ font-family:  'Siddhanta-cakravat1',  serif  !important;
 font-size: 120%;
 line-height:2.0;
 font-weight:normal;
+font-style:normal;
 }
 
 
 body {
     font-size: 1.5em;
     line-height: 170%;
-    text-rendering: optimizeLegibility; /* ios Hint to use webfonts */
+}
+
+.shift-accents {
+  position: relative;
+  top : -0.25em;
+  padding: 0;
+  margin-left: -0.025em;
+  margin-right: -0.2em;
 }
 
 a:hover {
@@ -56,11 +64,11 @@ a:hover {
     color: #ee4444;
 }
 
-.sidebar h1 {
+/*.sidebar h1 {
     color: #ee4444;
-    /*padding-top: 0em;*/
     font-size: 1.3em;
-}
+    font-weight: bold;
+}*/
 
 .sidebar {
   padding-left: 2em;
@@ -85,8 +93,11 @@ a:hover {
 }
 
 h1 {
-    color: #ee4444;
-    font-size: 1.4em;
+    /*color: #ee4444;*/
+    color: #C96B8A;
+    font-size: 1.5em;
+    font-weight: bold;
+    /*text-decoration: underline;*/
 }
 
 h2 {
@@ -96,7 +107,12 @@ h2 {
 
 h3 {
     color: #A9A9F5;
-    font-size: 1em;
+    font-size: 1.2em;
+    /*padding-left: 10pt;*/
+}
+
+h3::before {
+  content: "- ";
 }
 
 h4 {
