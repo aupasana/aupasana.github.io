@@ -14,6 +14,14 @@ layout: default
       browser compatibility here</a>.
       <button type="button" class="btn btn-secondary close" data-dismiss="alert">Dismiss</button>
   </div>
+
+  <div class="alert alert-info" id="unsupported-safari" style="display:none;">
+    <strong>Warning:</strong> Safari does not render the siddhanta font correctly.
+    Though a number of workarounds have been applied, there will still be strange
+    artifacts.    
+      <button type="button" class="btn btn-secondary close" data-dismiss="alert">Dismiss</button>
+  </div>
+
 </div>
 
 
@@ -26,32 +34,4 @@ layout: default
   </div>
 </div>
 
-<script type="text/javascript">
-  $( document ).ready(function() {
-      //    http://stackoverflow.com/questions/9847580/how-to-detect-safari-chrome-ie-firefox-and-opera-browser
-          // Opera 8.0+
-      var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
-          // Firefox 1.0+
-      var isFirefox = typeof InstallTrigger !== 'undefined';
-          // At least Safari 3+: "[object HTMLElementConstructor]"
-      var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
-          // Internet Explorer 6-11
-      var isIE = /*@cc_on!@*/false || !!document.documentMode;
-          // Edge 20+
-      var isEdge = !isIE && !!window.StyleMedia;
-          // Chrome 1+
-      var isChrome = !!window.chrome && !!window.chrome.webstore;
-          // Blink engine detection
-      var isBlink = (isChrome || isOpera) && !!window.CSS;
-
-      if (isFirefox !== true && isEdge !== true && isChrome !== true) {
-        $("#unsupported").show();
-      }
-
-      if (isSafari) {
-        // document.body.innerHTML = document.body.innerHTML.replace(/॑/g, '<span class="shift-accents">॑</span>');
-        document.body.innerHTML = document.body.innerHTML.replace(/(र.{0,4})॑/g, '$1<span class="shift-accents">॑</span>');
-        document.body.innerHTML = document.body.innerHTML.replace(/(र.{0,4})᳚/g, '$1<span class="shift-accents">᳚</span>');
-      }
-  });
-</script>
+{% include sukta-fixup.html %}
