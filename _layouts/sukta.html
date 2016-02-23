@@ -16,6 +16,16 @@ layout: default
   </div>
 </div>
 
+
+
+<div lang="sa">
+  <div class="article">
+    <div class="well">
+      {{ content }}
+    </div>
+  </div>
+</div>
+
 <script type="text/javascript">
   $( document ).ready(function() {
       //    http://stackoverflow.com/questions/9847580/how-to-detect-safari-chrome-ie-firefox-and-opera-browser
@@ -37,13 +47,11 @@ layout: default
       if (isFirefox !== true && isEdge !== true && isChrome !== true) {
         $("#unsupported").show();
       }
+
+      if (isSafari) {
+        // document.body.innerHTML = document.body.innerHTML.replace(/॑/g, '<span class="shift-accents">॑</span>');
+        document.body.innerHTML = document.body.innerHTML.replace(/(र.{0,4})॑/g, '$1<span class="shift-accents">॑</span>');
+        document.body.innerHTML = document.body.innerHTML.replace(/(र.{0,4})᳚/g, '$1<span class="shift-accents">᳚</span>');
+      }
   });
 </script>
-
-<div lang="sa">
-  <div class="article">
-    <div class="well">
-      {{ content }}
-    </div>
-  </div>
-</div>
