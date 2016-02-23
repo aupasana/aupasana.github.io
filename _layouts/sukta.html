@@ -15,16 +15,15 @@ layout: default
       <button type="button" class="btn btn-secondary close" data-dismiss="alert">Dismiss</button>
   </div>
 
-  <div class="alert alert-info" id="unsupported-safari" style="display:none;">
-    <strong>Warning:</strong> Safari does not render the siddhanta font correctly.
-    Though a number of workarounds have been applied, there will still be strange
-    artifacts.    
-      <button type="button" class="btn btn-secondary close" data-dismiss="alert">Dismiss</button>
+  <div id="unsupported-safari" style="display:none;">
+    <div class="alert alert-info" >
+      <strong>Warning:</strong> Safari does not render the siddhanta font correctly.
+      <br/>An experimental workaround for <i>some</i> of the issues is available.
+      <br/><button type="button" class="btn btn-primary" onClick="fixSvaras()">Apply workaround</button>
+    </div>
+    <p/>
   </div>
-
 </div>
-
-
 
 <div lang="sa">
   <div class="article">
@@ -33,5 +32,14 @@ layout: default
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+$( document ).ready(function() {
+    var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+    if (isSafari) {
+      $("#unsupported-safari").show();
+    }
+})
+</script>
 
 {% include sukta-fixup.html %}
