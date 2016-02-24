@@ -21,6 +21,7 @@ font-style:normal;
 body {
     font-size: 1.5em;
     line-height: 170%;
+    font-family: "Noto Sans";
 }
 
 .shift-accents-up {
@@ -291,7 +292,7 @@ h1 .sanskrit {
 }
 
 .sanskrit {
-    font-family: "Noto Sans";
+    /*font-family: "Noto Sans";*/
     font-size: 120%;
     line-height: 185%;
     font-style:normal;
