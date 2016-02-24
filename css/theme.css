@@ -3,13 +3,6 @@ title: CSS stylesheet
 ---
 
 @font-face {
-  font-family: 'Sanskrit2003';
-  src:  url('{{site.baseurl}}/css/Sanskrit2003.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
 font-family: 'Siddhanta-cakravat1';
 src:  url('{{site.baseurl}}/css/siddhanta-cakravat1.ttf');
 font-weight: normal;
@@ -221,19 +214,6 @@ h4 {
 }
 
 
-/*.article>.well>h1::before {
-    content: "ॐ ";
-    font-family: Kokila, "Kohinoor Devanagari", "Sanskrit 2003", "Arial Unicode MS";
-    font-size: 1.3em;
-}
-
-.article>.well>h2::before {
-    content: "ॐ ";
-    font-family: Kokila, "Kohinoor Devanagari", "Sanskrit 2003", "Arial Unicode MS";
-    font-size: 1.3em;
-}*/
-
-
 /* blockquotes show an open-quote before, with no matching close-quote
 markdown results in <p> tags all over the place which make the
 close-quote tricky. layout only tested in sanskrit-post */
@@ -303,16 +283,18 @@ cite {
   padding-top:20px
 }
 
-.sanskrit {
-    font-family: "Sanskrit2003";
+h1 .sanskrit {
+    font-family: "Kalam";
     font-size: 120%;
     line-height: 185%;
+    font-style:normal;
 }
 
-.sanskrit-inline {
-    font-family: "Sanskrit2003";
+.sanskrit {
+    font-family: "Noto Sans";
     font-size: 120%;
-    line-height: 100%;
+    line-height: 185%;
+    font-style:normal;
 }
 
 .nospaceafter {
