@@ -4,7 +4,7 @@ title: वैदिकसूक्तानि
 ---
 
 {::options parse_block_html="true" /}
-<div lang="sa">
+<div class="sanskrit">
 ## कृष्णयजुर्वेदीयसूक्तानि
 
 * [ब्रह्मसूक्तम्]({{site.baseurl}}/pages/suktas/brahma.html)
