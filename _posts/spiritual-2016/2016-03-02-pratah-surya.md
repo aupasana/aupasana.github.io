@@ -6,6 +6,7 @@ category:
   - spiritual
 tags:
   - प्रातः स्मरणम्
+  - स्तोत्रम्
 ---
 
 Amongst the varied sets of slokas popularly recited each morning are the पञ्चायतन प्रातः स्मरण
