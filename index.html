@@ -6,6 +6,7 @@ title: aupasana.com
 blogstodisplay:
  - sanskrit
  - tech
+ - spiritual
 ---
 
 <div class="article">
@@ -29,6 +30,11 @@ blogstodisplay:
           <td>
     			     {% include tags-and-categories.html %}
           </td>
+          {% if post.author != nil %}
+          <td class="author-summary">
+              author: {{ post.author }}
+          </td>
+          {% endif %}
         </tr>
   	{% endfor %}
   </table>
