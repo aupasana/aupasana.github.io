@@ -24,6 +24,17 @@ body {
     font-family: "Noto Sans";
 }
 
+.sidebar a {
+    color: #428bca;
+}
+
+
+a:hover {
+    color: #C96B8A;
+    text-decoration: none;
+}
+
+
 .shift-accents-up {
   position: relative;
   top : -0.25em;
@@ -41,15 +52,9 @@ body {
 }
 
 
-a:hover {
-  font-weight: 500;
-  font-color: #000080;
-  text-decoration:none;
-}
-
-.nav a:hover {
-  font-weight: normal;
-}
+/*a:hover {
+  text-decoration:underline;
+}*/
 
 .navbar-brand a {
   font-weight: 400;
@@ -78,17 +83,10 @@ a:hover {
   /*padding-top: 0;*/
 }
 
-.sidebar a {
-    color: #428bca;
-}
 
 .sidebar li {
     margin-top: .7em;
     line-height: 1em;
-}
-
-.sidebar a:hover {
-    color: #3071a9;
 }
 
 .container-left {
@@ -96,11 +94,9 @@ a:hover {
 }
 
 h1 {
-    /*color: #ee4444;*/
     color: #C96B8A;
     font-size: 1.5em;
     font-weight: bold;
-    /*text-decoration: underline;*/
 }
 
 h2 {
@@ -170,6 +166,10 @@ h4 {
 .tag a {
   text-decoration: none;
   font-weight: normal;
+}
+
+.tag a:hover {
+  color: #0000FF;
 }
 
 .tag {
