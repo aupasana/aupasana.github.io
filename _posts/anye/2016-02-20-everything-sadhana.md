@@ -15,6 +15,7 @@ source:
 A book can be written in response to this question. But, in this age of few words and sound bites, I'll answer in a few paragraphs.
 
 As long as we have a self-identification to a body-mind complex, the cosmos is divided into 2 parts - I and others. We do things to others (our "actions"). Others do things to us (our "experiences").
+<!--more-->
 
 Every action has a recipient. Consider that recipient as a limited manifestation of Lord and the action as an offering to THAT manifestation of Lord. Every experience has an originator. Consider that as a limited manifestation of Lord and the experience as a blessing of THAT manifestation of Lord.
 
