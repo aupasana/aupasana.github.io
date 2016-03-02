@@ -10,11 +10,11 @@ omitcategories: true
 
 <a href="{{ site.baseurl}}/blog/{{page.blog}}_archive.html">View blog archives</a>
 
-The posts in this blog were written by other authors on different forums.
-They were not contributed to this blog. I am collecting interesting posts
-here for my own use, and each post has a link back to the original source.
+Many posts in this blog were written by other authors on different forums,
+and were not contributed to this blog. I have collected a few that I found interesting,
+and they are linked back to the original source.
 
-At present, all posts are taken from [Narasimha Rao's][pvr]
+At present, most of these posts are taken from [Narasimha Rao's][pvr]
 public posts on [facebook][fb] and the [vedic-wisdom][ya] yahoo group.
 The complete archives of the vedic-wisdom mailing list (in the unix mbox format)
 can be downloaded from [here][mbox].
