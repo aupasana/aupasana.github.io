@@ -19,7 +19,7 @@ blogstodisplay:
 	<h2><a href="{{site.baseurl}}/blog/{{cat}}.html">Recent {{cat | capitalize }} blog posts</a></h2>
   <div class="well table-responsive">
   <table class="table borderless table-condensed">
-  	{% for post in site.categories[{{cat}}] limit:5 %}
+  	{% for post in site.categories[{{cat}}] limit:3 %}
         <tr>
           <td class="col-md-2">
     			     {{ post.date | date_to_string }}
