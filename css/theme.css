@@ -302,6 +302,11 @@ h1 .sanskrit {
     font-style:normal;
 }
 
+.sanskrit-translation {
+  font-size: 0.8em;
+  line-height: 1.4em;
+}
+
 .nospaceafter {
   margin-bottom:1pt;
 }
