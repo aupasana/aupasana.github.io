@@ -20,6 +20,7 @@ Here is a list of original publications:
 	* putreshti prakarana from the dharma sindhu.
 * [[ link ]][festivals] popular hindu festivals and their panchanga criteria
 * [[ link ]][mudgala] a selection of sanskrit gaṇeśa stotras from the mudgala purāṇa
+* [[ link ]][vara] the vara lakshmi vrata story with an english translation
 
 [yajusha]: {{site.filecabinet}}/publications/yajusha_2012_07_26.pdf
 [dm]: {{site.filecabinet}}/publications/devi_mahatmyam_2012_07_26.pdf
@@ -31,6 +32,7 @@ Here is a list of original publications:
 [putra]: {{site.filecabinet}}/publications/putreshti_2013_08_08.pdf
 [festivals]: {{site.filecabinet}}/publications/Hindu_Festivas.pdf
 [mudgala]: {{site.filecabinet}}/publications/mudgala_ganesha_stotras_08_10_23.pdf
+[vara]: {{site.filecabinet}}/publications/varalakshmi-vrata-katha.pdf
 
 ## English publications:
 
