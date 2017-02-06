@@ -8,7 +8,10 @@ toc: true
 
 The mudgala koṣa is an application that searches several skt-eng / eng-skt dictionaries. It will search an offline version of the monier-williams dictionary, and several online dictionaries including the Apte dictionary. It also integrates with several online tools including the INRIA sanskrit reader, and JNU declension engine. It accepts several input methods (including itrans, baraha, harvard), and can output sanskrit text in a variety of scripts.
 
-Todo: add github repo and place link here
+[[ link ][software-mk]] mudgala kosha (version 1.00)
+
+[software-mk]: http://old.aupasana.com/file-cabinet/mudgala-kosha-1.0.zip
+
 
 ## Mudgala IME
 
@@ -16,13 +19,17 @@ This is a windows-only input method editor and conversion utility to convert bet
 
 To use this tool, download and unzip the file. Run the mudgala-ime exe file, and chose your input and output scripts. Use the button in the window to do the conversion in the window. Use the F11 button as a toggle to type directly in unicode aware apps such as Microsoft word.
 
-Todo: add new github repo and place link here
+[[ link ][software-ime]] mudgala ime (version 0.2)
+
+[software-ime]: http://old.aupasana.com/file-cabinet/mudgala-ime-0.2.zip
 
 ## Mudgala Hora
 
 This software was a research project into jyotish computational methods. Most people should not use this, as they would benefit from the jagannatha hora software, which is much more advanced. Since the mudgala hora software is released under the GPL, it may still be of some use, and the sources are available here.
 
-Todo: add new github repo and place link here
+[[ link ][software-hora]] mudgala hora source code (version 0.2)
+
+[software-hora]: http://old.aupasana.com/file-cabinet/mhora-v0.2-src.zip
 
 ## Lipika IME
 
