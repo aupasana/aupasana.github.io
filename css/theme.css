@@ -380,3 +380,8 @@ body {
     font-size: 0.9em;
     padding-left: 10px;
 }
+
+hr {
+    background-color: #E59866;
+    border-top: 1px solid #E59866;
+}
