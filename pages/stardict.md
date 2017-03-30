@@ -41,20 +41,20 @@ Note: this input scheme is a variation of the itrans format. It purposely omits 
 * [[ link ][kasika]] kāśikā
 * [[ link ][nyasa]] nyāsa
 
-[apte]: {{site.filecabinet}}/stardict/apte.tar.gz
-[aptebi]: {{site.filecabinet}}/stardict/apte-bi.tar.gz
-[mw]: {{site.filecabinet}}/stardict/mw-itrans-dev.tar.gz
-[mwbi]: {{site.filecabinet}}/stardict/mw-bi-itrans-dev.tar.gz
-[amara]: {{site.filecabinet}}/stardict/amara-context-2.tar.gz
-[shabda]: {{site.filecabinet}}/stardict/kalpadruma.tar.gz
+[apte]: https://www.dropbox.com/s/9d9wtcjb60qbwf8/apte.tar.gz?dl=1
+[aptebi]: https://www.dropbox.com/s/2coxm2qjp6k2aan/apte-bi.tar.gz?dl=1
+[mw]: https://www.dropbox.com/s/9lhyajmbu41ec1h/mw-itrans-dev.tar.gz?dl=1
+[mwbi]: https://www.dropbox.com/s/79ygj2omwls4zds/mw-bi-itrans-dev.tar.gz?dl=1
+[amara]: https://www.dropbox.com/s/2uvf32jwn2j40qh/amara-context-2.tar.gz?dl=1
+[shabda]: https://www.dropbox.com/s/sc7t60cwjgv7m3y/kalpadruma.tar.gz?dl=1
 [vacha]: {{site.filecabinet}}/stardict/vachaspatyam.tar.gz
 
-[dhatu]: {{site.filecabinet}}/stardict/dhatupatha.tar.gz
-[lsk]: {{site.filecabinet}}/stardict/laghu-kaumudi.tar.gz
-[bala]: {{site.filecabinet}}/stardict/balamanorama.tar.gz
-[tb]: {{site.filecabinet}}/stardict/tattvabodhini.tar.gz
-[kasika]: {{site.filecabinet}}/stardict/kashika.tar.gz
-[nyasa]: {{site.filecabinet}}/stardict/nyasa.tar.gz
+[dhatu]: https://www.dropbox.com/s/oizzpaq5b4rmdas/dhatupatha.tar.gz?dl=1
+[lsk]: https://www.dropbox.com/s/3xkd1x0v4d6jf5x/laghu-kaumudi.tar.gz?dl=1
+[bala]: https://www.dropbox.com/s/jbohkh6jiyaeyh8/balamanorama.tar.gz?dl=1
+[tb]: https://www.dropbox.com/s/yaazj0gpagt1gsp/tattvabodhini.tar.gz?dl=1
+[kasika]: https://www.dropbox.com/s/vvel7cpu656cca0/kashika.tar.gz?dl=1
+[nyasa]: https://www.dropbox.com/s/7ooewazj68fkc7l/nyasa.tar.gz?dl=1
 
 
 ## Installation
