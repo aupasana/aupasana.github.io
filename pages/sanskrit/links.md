@@ -47,8 +47,24 @@ The links below mostly reference works on http://www.archive.org
 ## śāstram
 
 * [[ link ]][lvr] laghu vr̥tta ratnākara (R.S. Vadhyar)
+* [[ link ]][amara-ks] amara kosha with udghatana
+* [[ link ]][amara-vs] amara kosha with vakya sudha
+* [[ link ]][amara-mp] amara kosha with maniprabha
+* [[ link ]][amara-dhara] amara kosha with dhara
+* [[ link ]][amara-rasala] amara kosha with rasala 
+* [[ link ]][amara-prabha] amara kosha with prabha
+* [[ link ]][amara-mahes] amara kosha with maheshvara
+* [[ link ]][amara-nc] amara kosha with namachandrika, trikanda shesha with haravali, dvirupakosha, ekaksharakosha
 
 [lvr]: https://archive.org/details/LaguVruttaRatnakaraRamachandraAiyarT.K.R.S.VadhyarAndSonsSL
+[amara-ks]: https://archive.org/details/79077293AmaraKoshaWithTheCommentaryOfKshiraSwamin_201801
+[amara-vs]: https://archive.org/details/AmaraKoshaOfAmaraSingh1944NirnayaSagarPress_201609
+[amara-mp]: https://archive.org/details/AmaraKoshaManiprabha
+[amara-rasala]: https://archive.org/details/amarakoa00amaruoft
+[amara-prabha]: https://archive.org/details/AmaraKoshaPrabha1949Chowkhamba
+[amara-mahes]: https://archive.org/details/AmaraKoshaGovtCentralBookDepot_201709
+[amara-dhara]: https://archive.org/details/TheAmaraKoshaOfShriAmaraSimha1937MasterKhelariLalAndSons
+[amara-nc]: https://archive.org/details/KRI132AmaraKosha1930KhemrajPublishers
 
 ## vedanta 
 
