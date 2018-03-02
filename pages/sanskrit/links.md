@@ -48,6 +48,15 @@ The links below mostly reference works on http://www.archive.org
 
 * [[ link ]][lvr] laghu vr̥tta ratnākara (R.S. Vadhyar)
 
-
 [lvr]: https://archive.org/details/LaguVruttaRatnakaraRamachandraAiyarT.K.R.S.VadhyarAndSonsSL
- 
+
+## vedanta 
+
+* [[ link ]][gita8b] gītā with 8 commentaries including śaṅkara bhāṣya, ānandagiri ṭīkā, gūḍhārtha dīpikā, bhāṣyotkarṣadīpikā, śrīdharī  
+* [[ link ]][gita8b] gītā with 8 commentaries including gūdārtha dīpikā, tātparyabodhinī, bhāṣyotkarṣadīpikā 
+* [[ link ]][gitatp] gītā with tātparya bodhinī 
+
+[gita8a]: https://archive.org/stream/SrimadBhagavadGita.With.the.Commentaries/Srimad-Bhagavad-Gita.with.Eight.Commentaries#page/n0/mode/2up
+[gita8b]: https://archive.org/details/bg8commentaries 
+[gitatp]: https://archive.org/details/BhagavadGitaWithGitaPriyaBhodiniOfShankaranandaSaraswatiEd.VasudevLakshmanaPaniskarChowkambha
+
