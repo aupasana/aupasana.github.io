@@ -46,6 +46,7 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][ks-kale] kumārasambhavam (1-8) with sañjīvanī (M.R. Kale)
 * [[ link ]][ks-pum] kumārasambhavam with pumsavanī 
 * [[ link ]][kd-gv] kālidāsa granthāvali with Hindi translation (Sitaram Chaturvedi)
+* [[ link ]][cr] champu ramayana with ramachandra budhendra's vyakhya
 
 [pt-kale]: https://archive.org/details/PanchatantraKaleM.R.MLBD
 [md-kale]: https://archive.org/details/MeghadutaKaleM.R.1947
@@ -53,6 +54,7 @@ The links below mostly reference works on http://www.archive.org
 [ks-kale]: https://archive.org/details/KumarasambhavaCantosI-vii-SanskritCommentaryEnglishTranslationNotes
 [ks-pum]: https://archive.org/details/KumarasambhavaKalidasaPumsavaniBharadvajGangadharShastriBhashaPadyeShyamNarayanPandeyChowkambha
 [kd-gv]: https://archive.org/details/KalidasaGranthavaliHindiTranslationSitaramChaturvedi1962
+[cr]: https://archive.org/details/in.ernet.dli.2015.347687
 
 ## kalpa
 
@@ -71,6 +73,8 @@ The links below mostly reference works on http://www.archive.org
 ## śāstram (other)
 
 * [[ link ]][lvr] laghu vr̥tta ratnākara (R.S. Vadhyar)
+* [[ link ]][vr] vritta ratnakara with candrika and hindi translation
+* [[ link ]][apte] the practical sanskrit-english dictionary (apte)
 * [[ link ]][amara-ks] amara kosha with udghatana
 * [[ link ]][amara-vs] amara kosha with vakya sudha
 * [[ link ]][amara-mp] amara kosha with maniprabha
@@ -81,6 +85,8 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][amara-nc] amara kosha with namachandrika, trikanda shesha with haravali, dvirupakosha, ekaksharakosha
 
 [lvr]: https://archive.org/details/LaguVruttaRatnakaraRamachandraAiyarT.K.R.S.VadhyarAndSonsSL
+[vr]: https://archive.org/details/vritta_ratnakara
+[apte]: https://archive.org/details/ldpd_7285627_000
 [amara-ks]: https://archive.org/details/79077293AmaraKoshaWithTheCommentaryOfKshiraSwamin_201801
 [amara-vs]: https://archive.org/details/AmaraKoshaOfAmaraSingh1944NirnayaSagarPress_201609
 [amara-mp]: https://archive.org/details/AmaraKoshaManiprabha
