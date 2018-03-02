@@ -10,9 +10,19 @@ The links below mostly reference works on http://www.archive.org
 
 * [[ link ]][lssb] lalitā sahasranāma with saubhāgya bhāskara 
 * [[ link ]][lsjm] lalitā sahasranāma with jayamaṅgala
+* [[ link ]][sms] shiva mahimna stotra with shivavishnvartha vyakhya
 
 [lssb]: https://archive.org/details/Sri_lalita_sahasra_nama_with_saubhagyabhaskara_and_bhaskaravilasaKavyam
 [lsjm]: https://archive.org/details/LalitaSahasraNamaWithJayamangalaOfBhattaNaryanaEd.LalyeP.G.
+[sms]: https://archive.org/details/MahimnaStotraOfPushpandantaWithShivaVishnuArthaVyakhyaOfMadhusudanaSararswatiNSP
+
+## upasana
+
+* [[ link ]][cud] chandikopasti dipika
+* [[ link ]][nbs] narada bhakti sutras with bhaktikaumudi
+
+[cud]: https://archive.org/details/SriChandikopaastiDipikaGranthaSriVidyaNarsimhaBharatiSwami
+[nbs]: https://archive.org/details/NaradiyaBhaktiSutraWithBhaktiKaumudhiVyakhyaSwamiHarshanandaR.K.Mutt
 
 ## sāhityam (saralam) 
 
@@ -44,7 +54,21 @@ The links below mostly reference works on http://www.archive.org
 [ks-pum]: https://archive.org/details/KumarasambhavaKalidasaPumsavaniBharadvajGangadharShastriBhashaPadyeShyamNarayanPandeyChowkambha
 [kd-gv]: https://archive.org/details/KalidasaGranthavaliHindiTranslationSitaramChaturvedi1962
 
-## śāstram
+## kalpa
+
+* [[ link ]][vms] vishuddha manu smriti
+* [[ link ]][ms-s] manu smriti (surendra kumar)
+
+[vms]: https://archive.org/details/VisuddhaManuSmritiDrSurendrKumar2006
+[ms-s]: https://archive.org/details/ManuSmritiSurendraKumarMS
+
+## vyakaranam
+
+* [[ link ]][bdr] brihad dhatu rupavali
+
+[bdr]: https://archive.org/details/DhatuKoshaKrishnacharyaBrihadRupavali1924
+
+## śāstram (other)
 
 * [[ link ]][lvr] laghu vr̥tta ratnākara (R.S. Vadhyar)
 * [[ link ]][amara-ks] amara kosha with udghatana
@@ -73,9 +97,13 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][gitatp] gītā with tātparya bodhinī 
 * [[ link ]][gita-gud] gītā with gūdārtha dīpikā and hindi translation 
 * [[ link ]][gita-gud-e] gītā with english translation of gūdārtha dīpikā
+* [[ link ]][yv-djvu] yoga vasishtha with tatparya dipika (djvu)
+* [[ link ]][sdv] shankara dig vijaya with tika
 
 [gita8a]: https://archive.org/stream/SrimadBhagavadGita.With.the.Commentaries/Srimad-Bhagavad-Gita.with.Eight.Commentaries#page/n0/mode/2up
 [gita8b]: https://archive.org/details/bg8commentaries 
 [gitatp]: https://archive.org/details/BhagavadGitaWithGitaPriyaBhodiniOfShankaranandaSaraswatiEd.VasudevLakshmanaPaniskarChowkambha
 [gita-gud]: https://archive.org/details/BhagavadGita-MadhusudanSaraswati
 [gita-gud-e]: https://archive.org/details/BhagavadGitaGudarthaDipikaSwamiGambhiranandaR.K.Mutt 
+[yv-djvu]: https://archive.org/download/The.Yoga-Vasistha.of.Valmiki.with.Vasistha.Maharamayana-tatparya
+[sdv]: https://archive.org/details/Shankara.Digvijaya.Satika
