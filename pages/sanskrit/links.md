@@ -71,8 +71,11 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][gita8b] gītā with 8 commentaries including śaṅkara bhāṣya, ānandagiri ṭīkā, gūḍhārtha dīpikā, bhāṣyotkarṣadīpikā, śrīdharī  
 * [[ link ]][gita8b] gītā with 8 commentaries including gūdārtha dīpikā, tātparyabodhinī, bhāṣyotkarṣadīpikā 
 * [[ link ]][gitatp] gītā with tātparya bodhinī 
+* [[ link ]][gita-gud] gītā with gūdārtha dīpikā and hindi translation 
+* [[ link ]][git-gud-e] gītā with english translation of gūdārtha dīpikā
 
 [gita8a]: https://archive.org/stream/SrimadBhagavadGita.With.the.Commentaries/Srimad-Bhagavad-Gita.with.Eight.Commentaries#page/n0/mode/2up
 [gita8b]: https://archive.org/details/bg8commentaries 
 [gitatp]: https://archive.org/details/BhagavadGitaWithGitaPriyaBhodiniOfShankaranandaSaraswatiEd.VasudevLakshmanaPaniskarChowkambha
-
+[gita-gud]: https://archive.org/details/BhagavadGita-MadhusudanSaraswati
+[gita-gud-e]: https://archive.org/details/BhagavadGitaGudarthaDipikaSwamiGambhiranandaR.K.Mutt 
