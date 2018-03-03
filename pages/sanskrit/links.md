@@ -30,9 +30,25 @@ The links below mostly reference works on http://www.archive.org
 [nbs]: https://archive.org/details/NaradiyaBhaktiSutraWithBhaktiKaumudhiVyakhyaSwamiHarshanandaR.K.Mutt
 [ps]: https://archive.org/details/PujaSamucchayaPansikarNirnayaSagarPress1923
 
-## sāhityam (R.S. Vadhyar)
+## simple sahitya
 
 * [[ link ]][rd] rāmodantam (R.S. Vadhyar)
+* [[ link ]][sk70] samskrita katha saptati (NSP)
+* [[ link ]][kn] katha ratnakara part 1 
+* [[ link ]][pa] pathavali (3 parts) Ganapati Shastri
+* [[ link ]][sg] samskrita gadyavali
+* [[ link ]][ram-v] ramayana in valmiki's own words
+
+[sg]: https://archive.org/details/SanskritGadyavaliPandurangaVamanKane
+[rd]: https://archive.org/details/SriramodantamLAnantaramaSastri2006RSVadhyar
+[sk70]: https://archive.org/details/SanskritaKathaSaptamiMandikalRamaShastriNirnayaSagarPress
+[kn]: https://archive.org/details/SanskritaKathaSaptamiMandikalRamaShastriNirnayaSagarPress
+[pa]: https://archive.org/details/Pathavali_Sanskrit_Reader_3_parts_-_T_Ganapati_Sastri1907
+[ram-v]: https://archive.org/details/ValmikiRamayanaCondensedInThePoetsOwnWordsSrinivasachariarA.M.NatesanCo.
+
+
+## sāhityam (R.S. Vadhyar)
+
 * [[ link ]][kv1] kr̥ṣṇa vilāsa kāvyam (1-4) with vilāsinī 
 * [[ link ]][kv2] kr̥ṣṇa vilāsa kāvyam (1-7) with bāla pāṭhya vyākhyā  
 * [[ link ]][br1] bāla rāmāyanam part 1 (R.S. Vadhyar)
@@ -45,7 +61,6 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][dv] duta vakyam
 * [[ link ]][lvp] lila vilasa prahasanam
  
-[rd]: https://archive.org/details/SriramodantamLAnantaramaSastri2006RSVadhyar
 [kv1]: https://archive.org/details/KrishnaVilasaSukumaraVilasiniVyakhyaRamapanivadiniEd.SubramanyaUpadhyaR.
 [kv2]: https://archive.org/details/KrishnaVilasaSukumaraBalaPhataVykhyaGovindaSuriEd.JhaV.S.RashtriyaSanskritSansthanMS
 [br1]: https://archive.org/details/BalaRamayanOfAnantaNarayanaSastriP.S.R.S.VadhyarSons
@@ -57,19 +72,6 @@ The links below mostly reference works on http://www.archive.org
 [cpc]: https://archive.org/details/ChandraPeedaCharitraRamachandraAiyerT.K.R.S.VadhyarSons
 [dv]: https://archive.org/details/DutaVakyaADramaInOneActR.S.VadhyarAndSonsLQ
 [lvp]: https://archive.org/details/LilalvilasaPrahasnaAnOrginalFarceIs7ActsSastriK.L.V.R.S.VadhyarAndSons
-
-
-## sahityam
-
-* [[ link ]][sk70] samskrita katha saptati (NSP)
-* [[ link ]][kn] katha ratnakara part 1 
-* [[ link ]][pa] pathavali (3 parts) Ganapati Shastri
-* [[ link ]][sg] samskrita gadyavali
-
-[sk70]: https://archive.org/details/SanskritaKathaSaptamiMandikalRamaShastriNirnayaSagarPress
-[kn]: https://archive.org/details/SanskritaKathaSaptamiMandikalRamaShastriNirnayaSagarPress
-[pa]: https://archive.org/details/Pathavali_Sanskrit_Reader_3_parts_-_T_Ganapati_Sastri1907
-[sg]: https://archive.org/details/SanskritGadyavaliPandurangaVamanKane
 
 ## sāhityam 
 
@@ -96,13 +98,19 @@ The links below mostly reference works on http://www.archive.org
 
 ## kalpa
 
+* [[ link ]][gmb] gayatri mantrartha bhaskara
+* [[ link ]][rbks] rigvediya brahma karma samuccaya
 * [[ link ]][vms] vishuddha manu smriti
 * [[ link ]][ms-s] manu smriti (surendra kumar)
 * [[ link ]][ms6] manu smriti with 6 commentaries
+* [[ link ]][ms-e] manu sriti with translation of medhatithi
 
+[gmb]: https://archive.org/details/GayatriMantrarthaBhaskar1932NirnayaSagarPress
 [vms]: https://archive.org/details/VisuddhaManuSmritiDrSurendrKumar2006
 [ms-s]: https://archive.org/details/ManuSmritiSurendraKumarMS
 [ms6]: https://archive.org/details/manusmriti
+[ms-e]: https://archive.org/details/ManusmritiWithMedhatithisBhashyaEngGNJhaVol4
+[rbks]: https://archive.org/details/RigVediyaBrahmaKarmaSamuchhayaNirnayaSagarPressPothiDLICorrected
 
 ## vyakaranam
 
@@ -112,6 +120,7 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][rp] rju paniniyam
 * [[ link ]][rns] ashtadhyayi (rama nath sharma) (djvu)
 * [[ link ]][kvs] kashika vritti sara
+* [[ link ]][vva] vag vyavaharadarsha (charu deva sastri)
 
 [bdr]: https://archive.org/details/DhatuKoshaKrishnacharyaBrihadRupavali1924
 [svp]: https://archive.org/details/SamskritaVyakarnaPravesikaAnantramaSastriL.R.S.VadhyarAndSonsSL
@@ -119,8 +128,9 @@ The links below mostly reference works on http://www.archive.org
 [rp]: https://archive.org/details/RijuPaniniyamSamkshiptaAshtadhyayiDarshanKesari
 [dr]: https://archive.org/details/dhatu_rupavali
 [rns]: https://archive.org/download/TheAshtadhyayiOfPanini-RamNathSharma
+[vva]: https://archive.org/details/in.ernet.dli.2015.480300
 
-## śāstram (other)
+## śāstram
 
 * [[ link ]][lvr] laghu vr̥tta ratnākara (R.S. Vadhyar)
 * [[ link ]][vr] vritta ratnakara with candrika and hindi translation
@@ -148,6 +158,7 @@ The links below mostly reference works on http://www.archive.org
 
 ## vedanta 
 
+* [[ link ]][vss] vedanta stotra sangraha (niranjana deva saraswati)
 * [[ link ]][gita8b] gītā with 8 commentaries including śaṅkara bhāṣya, ānandagiri ṭīkā, gūḍhārtha dīpikā, bhāṣyotkarṣadīpikā, śrīdharī  
 * [[ link ]][gita8b] gītā with 8 commentaries including gūdārtha dīpikā, tātparyabodhinī, bhāṣyotkarṣadīpikā 
 * [[ link ]][gitatp] gītā with tātparya bodhinī 
@@ -155,11 +166,16 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][gita-gud-e] gītā with english translation of gūdārtha dīpikā
 * [[ link ]][yv-djvu] yoga vasishtha with tatparya dipika (djvu)
 * [[ link ]][sdv] shankara dig vijaya with tika
+* [[ link ]][eu] ekadashopanishah (upanishad maniprabha)
 
+[vss]: https://archive.org/details/VedantaStotraSangrahaSwamiNiranjanDevaSaraswati
 [gita8a]: https://archive.org/stream/SrimadBhagavadGita.With.the.Commentaries/Srimad-Bhagavad-Gita.with.Eight.Commentaries#page/n0/mode/2up
 [gita8b]: https://archive.org/details/bg8commentaries 
 [gitatp]: https://archive.org/details/BhagavadGitaWithGitaPriyaBhodiniOfShankaranandaSaraswatiEd.VasudevLakshmanaPaniskarChowkambha
 [gita-gud]: https://archive.org/details/BhagavadGita-MadhusudanSaraswati
 [gita-gud-e]: https://archive.org/details/BhagavadGitaGudarthaDipikaSwamiGambhiranandaR.K.Mutt 
+[eu]: https://archive.org/details/Ekadasopanishadah_With_Maniprabha_Tika_Of_Swami_Amaradasa_Udasina_1910_NSP
+
+
 [yv-djvu]: https://archive.org/download/The.Yoga-Vasistha.of.Valmiki.with.Vasistha.Maharamayana-tatparya
 [sdv]: https://archive.org/details/Shankara.Digvijaya.Satika
