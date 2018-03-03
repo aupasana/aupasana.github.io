@@ -24,9 +24,11 @@ The links below mostly reference works on http://www.archive.org
 
 * [[ link ]][cud] chandikopasti dipika
 * [[ link ]][nbs] narada bhakti sutras with bhaktikaumudi
+* [[ link ]][ps] puja samuccaya (NSP)
 
 [cud]: https://archive.org/details/SriChandikopaastiDipikaGranthaSriVidyaNarsimhaBharatiSwami
 [nbs]: https://archive.org/details/NaradiyaBhaktiSutraWithBhaktiKaumudhiVyakhyaSwamiHarshanandaR.K.Mutt
+[ps]: https://archive.org/details/PujaSamucchayaPansikarNirnayaSagarPress1923
 
 ## sāhityam (R.S. Vadhyar)
 
@@ -57,6 +59,17 @@ The links below mostly reference works on http://www.archive.org
 [lvp]: https://archive.org/details/LilalvilasaPrahasnaAnOrginalFarceIs7ActsSastriK.L.V.R.S.VadhyarAndSons
 
 
+## sahityam
+
+* [[ link ]][sk70] samskrita katha saptati (NSP)
+* [[ link ]][kn] katha ratnakara part 1 
+* [[ link ]][pa] pathavali (3 parts) Ganapati Shastri
+* [[ link ]][sg] samskrita gadyavali
+
+[sk70]: https://archive.org/details/SanskritaKathaSaptamiMandikalRamaShastriNirnayaSagarPress
+[kn]: https://archive.org/details/SanskritaKathaSaptamiMandikalRamaShastriNirnayaSagarPress
+[pa]: https://archive.org/details/Pathavali_Sanskrit_Reader_3_parts_-_T_Ganapati_Sastri1907
+[sg]: https://archive.org/details/SanskritGadyavaliPandurangaVamanKane
 
 ## sāhityam 
 
@@ -67,6 +80,8 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][ks-pum] kumārasambhavam with pumsavanī 
 * [[ link ]][kd-gv] kālidāsa granthāvali with Hindi translation (Sitaram Chaturvedi)
 * [[ link ]][cr] champu ramayana with ramachandra budhendra's vyakhya
+* [[ link ]][as] amaru shatakam 
+* [[ link ]][sms] sammarjani shatakam
 
 [pt-kale]: https://archive.org/details/PanchatantraKaleM.R.MLBD
 [md-kale]: https://archive.org/details/MeghadutaKaleM.R.1947
@@ -75,22 +90,35 @@ The links below mostly reference works on http://www.archive.org
 [ks-pum]: https://archive.org/details/KumarasambhavaKalidasaPumsavaniBharadvajGangadharShastriBhashaPadyeShyamNarayanPandeyChowkambha
 [kd-gv]: https://archive.org/details/KalidasaGranthavaliHindiTranslationSitaramChaturvedi1962
 [cr]: https://archive.org/details/in.ernet.dli.2015.347687
+[as]: https://archive.org/details/amarushataka
+[sms]: https://archive.org/details/SammaarjaneeShatkam
+
 
 ## kalpa
 
 * [[ link ]][vms] vishuddha manu smriti
 * [[ link ]][ms-s] manu smriti (surendra kumar)
+* [[ link ]][ms6] manu smriti with 6 commentaries
 
 [vms]: https://archive.org/details/VisuddhaManuSmritiDrSurendrKumar2006
 [ms-s]: https://archive.org/details/ManuSmritiSurendraKumarMS
+[ms6]: https://archive.org/details/manusmriti
 
 ## vyakaranam
 
+* [[ link ]][dr] dhatu rupavali (NSP)
 * [[ link ]][bdr] brihad dhatu rupavali
 * [[ link ]][svp] samskrita vyakarana praveshika (R.S. Vadhyar)
+* [[ link ]][rp] rju paniniyam
+* [[ link ]][rns] ashtadhyayi (rama nath sharma) (djvu)
+* [[ link ]][kvs] kashika vritti sara
 
 [bdr]: https://archive.org/details/DhatuKoshaKrishnacharyaBrihadRupavali1924
 [svp]: https://archive.org/details/SamskritaVyakarnaPravesikaAnantramaSastriL.R.S.VadhyarAndSonsSL
+[kvs]: https://archive.org/details/KashikaVrittiSaarShriBalabhadraTripathi
+[rp]: https://archive.org/details/RijuPaniniyamSamkshiptaAshtadhyayiDarshanKesari
+[dr]: https://archive.org/details/dhatu_rupavali
+[rns]: https://archive.org/download/TheAshtadhyayiOfPanini-RamNathSharma
 
 ## śāstram (other)
 
