@@ -8,13 +8,17 @@ The links below mostly reference works on http://www.archive.org
 
 ## stotra
 
-* [[ link ]][lssb] lalitā sahasranāma with saubhāgya bhāskara 
-* [[ link ]][lsjm] lalitā sahasranāma with jayamaṅgala
+* [[ link ]][lssb] lalitā sahasranāma with saubhāgya bhāskara 
+* [[ link ]][lsjm] lalitā sahasranāma with jayamaṅgala
 * [[ link ]][sms] shiva mahimna stotra with shivavishnvartha vyakhya
+* [[ link ]][dmn] devi mahatmyam with navangam (R.S. Vadhyar)
+* [[ link ]][d700] durga saptashati with 7 tikas
 
 [lssb]: https://archive.org/details/Sri_lalita_sahasra_nama_with_saubhagyabhaskara_and_bhaskaravilasaKavyam
 [lsjm]: https://archive.org/details/LalitaSahasraNamaWithJayamangalaOfBhattaNaryanaEd.LalyeP.G.
 [sms]: https://archive.org/details/MahimnaStotraOfPushpandantaWithShivaVishnuArthaVyakhyaOfMadhusudanaSararswatiNSP
+[dmn]: https://archive.org/details/DeviMahatmyaNavangaChandiGanapatiSangameshwaraUpadhyayaR.S.VadhyarAndSons_201801
+[d700]: https://archive.org/details/saptashati-7-teeka-1
 
 ## upasana
 
@@ -24,28 +28,44 @@ The links below mostly reference works on http://www.archive.org
 [cud]: https://archive.org/details/SriChandikopaastiDipikaGranthaSriVidyaNarsimhaBharatiSwami
 [nbs]: https://archive.org/details/NaradiyaBhaktiSutraWithBhaktiKaumudhiVyakhyaSwamiHarshanandaR.K.Mutt
 
-## sāhityam (saralam) 
+## sāhityam (R.S. Vadhyar)
 
-* [[ link ]][rd] rāmodantam (R.S. Vadhyar)
-* [[ link ]][kv1] kr̥ṣṇa vilāsa kāvyam (1-4) with vilāsinī 
-* [[ link ]][kv2] kr̥ṣṇa vilāsa kāvyam (1-7) with bāla pāṭhya vyākhyā  
-* [[ link ]][br1] bāla rāmāyanam part 1 (R.S. Vadhyar)
-* [[ link ]][br2] bāla rāmāyanam part 2 (R.S. Vadhyar)
+* [[ link ]][rd] rāmodantam (R.S. Vadhyar)
+* [[ link ]][kv1] kr̥ṣṇa vilāsa kāvyam (1-4) with vilāsinī 
+* [[ link ]][kv2] kr̥ṣṇa vilāsa kāvyam (1-7) with bāla pāṭhya vyākhyā  
+* [[ link ]][br1] bāla rāmāyanam part 1 (R.S. Vadhyar)
+* [[ link ]][br2] bāla rāmāyanam part 2 (R.S. Vadhyar)
+* [[ link ]][sd] shyamala dandakam (R.S. Vadhyar)
+* [[ link ]][nu] nalopakhyanam (R.S. Vadhyar)
+* [[ link ]][ps] panchatantra sangraha (R.S. Vadhyar)
+* [[ link ]][sv] shishupala vadha (1)
+* [[ link ]][cpc] chandrapida caritam
+* [[ link ]][dv] duta vakyam
+* [[ link ]][lvp] lila vilasa prahasanam
  
 [rd]: https://archive.org/details/SriramodantamLAnantaramaSastri2006RSVadhyar
 [kv1]: https://archive.org/details/KrishnaVilasaSukumaraVilasiniVyakhyaRamapanivadiniEd.SubramanyaUpadhyaR.
 [kv2]: https://archive.org/details/KrishnaVilasaSukumaraBalaPhataVykhyaGovindaSuriEd.JhaV.S.RashtriyaSanskritSansthanMS
 [br1]: https://archive.org/details/BalaRamayanOfAnantaNarayanaSastriP.S.R.S.VadhyarSons
 [br2]: https://archive.org/details/BalaramayanaByAnantanaraynanSastriP.S.RamachandraAiyarT.K.R.S.VadhyarSons
+[sd]: https://archive.org/details/ShyamalaDandakaOfKalidasaR.S.VadhyarAndSons
+[nu]: https://archive.org/details/NalaopakhyanaEdRamachandraIyerT.K.R.SVadhyarSons
+[ps]: https://archive.org/details/PanchatanatraSangrahaR.S.VadhyarAndSonsSastriK.L.V.
+[sv]: https://archive.org/details/SisupalaVadhaCanto1RamachandraAiyarT.K.R.S.VadhyarSons
+[cpc]: https://archive.org/details/ChandraPeedaCharitraRamachandraAiyerT.K.R.S.VadhyarSons
+[dv]: https://archive.org/details/DutaVakyaADramaInOneActR.S.VadhyarAndSonsLQ
+[lvp]: https://archive.org/details/LilalvilasaPrahasnaAnOrginalFarceIs7ActsSastriK.L.V.R.S.VadhyarAndSons
 
-## sāhityam 
 
-* [[ link ]][pt-kale] pañcatantram (M.R. Kale)
-* [[ link ]][md-kale] meghadūtam with sañjīvanī (M.R. Kale)
-* [[ link ]][rv-kale] raghuvamśa (1-10) with sañjīvanī (M.R. Kale)
-* [[ link ]][ks-kale] kumārasambhavam (1-8) with sañjīvanī (M.R. Kale)
-* [[ link ]][ks-pum] kumārasambhavam with pumsavanī 
-* [[ link ]][kd-gv] kālidāsa granthāvali with Hindi translation (Sitaram Chaturvedi)
+
+## sāhityam 
+
+* [[ link ]][pt-kale] pañcatantram (M.R. Kale)
+* [[ link ]][md-kale] meghadūtam with sañjīvanī (M.R. Kale)
+* [[ link ]][rv-kale] raghuvamśa (1-10) with sañjīvanī (M.R. Kale)
+* [[ link ]][ks-kale] kumārasambhavam (1-8) with sañjīvanī (M.R. Kale)
+* [[ link ]][ks-pum] kumārasambhavam with pumsavanī 
+* [[ link ]][kd-gv] kālidāsa granthāvali with Hindi translation (Sitaram Chaturvedi)
 * [[ link ]][cr] champu ramayana with ramachandra budhendra's vyakhya
 
 [pt-kale]: https://archive.org/details/PanchatantraKaleM.R.MLBD
@@ -67,12 +87,14 @@ The links below mostly reference works on http://www.archive.org
 ## vyakaranam
 
 * [[ link ]][bdr] brihad dhatu rupavali
+* [[ link ]][svp] samskrita vyakarana praveshika (R.S. Vadhyar)
 
 [bdr]: https://archive.org/details/DhatuKoshaKrishnacharyaBrihadRupavali1924
+[svp]: https://archive.org/details/SamskritaVyakarnaPravesikaAnantramaSastriL.R.S.VadhyarAndSonsSL
 
-## śāstram (other)
+## śāstram (other)
 
-* [[ link ]][lvr] laghu vr̥tta ratnākara (R.S. Vadhyar)
+* [[ link ]][lvr] laghu vr̥tta ratnākara (R.S. Vadhyar)
 * [[ link ]][vr] vritta ratnakara with candrika and hindi translation
 * [[ link ]][apte] the practical sanskrit-english dictionary (apte)
 * [[ link ]][amara-ks] amara kosha with udghatana
@@ -98,11 +120,11 @@ The links below mostly reference works on http://www.archive.org
 
 ## vedanta 
 
-* [[ link ]][gita8b] gītā with 8 commentaries including śaṅkara bhāṣya, ānandagiri ṭīkā, gūḍhārtha dīpikā, bhāṣyotkarṣadīpikā, śrīdharī  
-* [[ link ]][gita8b] gītā with 8 commentaries including gūdārtha dīpikā, tātparyabodhinī, bhāṣyotkarṣadīpikā 
-* [[ link ]][gitatp] gītā with tātparya bodhinī 
-* [[ link ]][gita-gud] gītā with gūdārtha dīpikā and hindi translation 
-* [[ link ]][gita-gud-e] gītā with english translation of gūdārtha dīpikā
+* [[ link ]][gita8b] gītā with 8 commentaries including śaṅkara bhāṣya, ānandagiri ṭīkā, gūḍhārtha dīpikā, bhāṣyotkarṣadīpikā, śrīdharī  
+* [[ link ]][gita8b] gītā with 8 commentaries including gūdārtha dīpikā, tātparyabodhinī, bhāṣyotkarṣadīpikā 
+* [[ link ]][gitatp] gītā with tātparya bodhinī 
+* [[ link ]][gita-gud] gītā with gūdārtha dīpikā and hindi translation 
+* [[ link ]][gita-gud-e] gītā with english translation of gūdārtha dīpikā
 * [[ link ]][yv-djvu] yoga vasishtha with tatparya dipika (djvu)
 * [[ link ]][sdv] shankara dig vijaya with tika
 
