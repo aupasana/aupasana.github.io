@@ -11,14 +11,20 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][lssb] lalitā sahasranāma with saubhāgya bhāskara 
 * [[ link ]][lsjm] lalitā sahasranāma with jayamaṅgala
 * [[ link ]][sms] shiva mahimna stotra with shivavishnvartha vyakhya
+* [[ link ]][sms-6] shiva mahimna stotra with 6 commentaries
+* [[ link ]][csrns] charana shringa rahitam nataraja stotram with vyakhya
+* [[ link ]][mms] mahishasura mardini stotram with vyakhya
 * [[ link ]][dmn] devi mahatmyam with navangam (R.S. Vadhyar)
 * [[ link ]][d700] durga saptashati with 7 tikas
 
 [lssb]: https://archive.org/details/Sri_lalita_sahasra_nama_with_saubhagyabhaskara_and_bhaskaravilasaKavyam
 [lsjm]: https://archive.org/details/LalitaSahasraNamaWithJayamangalaOfBhattaNaryanaEd.LalyeP.G.
 [sms]: https://archive.org/details/MahimnaStotraOfPushpandantaWithShivaVishnuArthaVyakhyaOfMadhusudanaSararswatiNSP
+[sms-6]: https://archive.org/details/MahimnaStotraWithSixCommentaries1924Chowkhamba
 [dmn]: https://archive.org/details/DeviMahatmyaNavangaChandiGanapatiSangameshwaraUpadhyayaR.S.VadhyarAndSons_201801
 [d700]: https://archive.org/details/saptashati-7-teeka-1
+[csrns]: https://archive.org/details/CharanasringarahitamNatarajaStotraSwamiKasikanandaGiri
+[mms]: https://archive.org/details/MahishasuraMardiniStotraWithCommentaryEnglishTranslationSwamiKasikanandaGiri
 
 ## upasana
 
@@ -75,6 +81,8 @@ The links below mostly reference works on http://www.archive.org
 
 ## sāhityam 
 
+* [[ link ]][ns-c] niti shatakam (chowkhamba)
+* [[ link ]][hu-c] hitopadesha mitralabha (chowkhamba)
 * [[ link ]][pt-kale] pañcatantram (M.R. Kale)
 * [[ link ]][md-kale] meghadūtam with sañjīvanī (M.R. Kale)
 * [[ link ]][rv-kale] raghuvamśa (1-10) with sañjīvanī (M.R. Kale)
@@ -85,6 +93,8 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][as] amaru shatakam 
 * [[ link ]][sms] sammarjani shatakam
 
+[ns-c]: https://archive.org/details/NeetiShatakamChowkhambaSanskritSeries
+[hu-c]: https://archive.org/details/HitopdeshMitralabhaChowkhambaPublishers
 [pt-kale]: https://archive.org/details/PanchatantraKaleM.R.MLBD
 [md-kale]: https://archive.org/details/MeghadutaKaleM.R.1947
 [rv-kale]: https://archive.org/details/raghuvamsha_with_sanjivini_edited_by_mr_kale
@@ -143,6 +153,7 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][amara-prabha] amara kosha with prabha
 * [[ link ]][amara-mahes] amara kosha with maheshvara
 * [[ link ]][amara-nc] amara kosha with namachandrika, trikanda shesha with haravali, dvirupakosha, ekaksharakosha
+* [[ link ]][km-m] kavya mimamsa with madhusudani
 
 [lvr]: https://archive.org/details/LaguVruttaRatnakaraRamachandraAiyarT.K.R.S.VadhyarAndSonsSL
 [vr]: https://archive.org/details/vritta_ratnakara
@@ -155,6 +166,7 @@ The links below mostly reference works on http://www.archive.org
 [amara-mahes]: https://archive.org/details/AmaraKoshaGovtCentralBookDepot_201709
 [amara-dhara]: https://archive.org/details/TheAmaraKoshaOfShriAmaraSimha1937MasterKhelariLalAndSons
 [amara-nc]: https://archive.org/details/KRI132AmaraKosha1930KhemrajPublishers
+[km-m]: https://archive.org/details/236103951TheKavyaMimansaOfRajShekharChowkhamba1934
 
 ## vedanta 
 
@@ -167,6 +179,7 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][yv-djvu] yoga vasishtha with tatparya dipika (djvu)
 * [[ link ]][sdv] shankara dig vijaya with tika
 * [[ link ]][eu] ekadashopanishah (upanishad maniprabha)
+* [[ link ]][bsd-s] brahma sutra dipika (sankaranandi)
 
 [vss]: https://archive.org/details/VedantaStotraSangrahaSwamiNiranjanDevaSaraswati
 [gita8a]: https://archive.org/stream/SrimadBhagavadGita.With.the.Commentaries/Srimad-Bhagavad-Gita.with.Eight.Commentaries#page/n0/mode/2up
@@ -175,6 +188,7 @@ The links below mostly reference works on http://www.archive.org
 [gita-gud]: https://archive.org/details/BhagavadGita-MadhusudanSaraswati
 [gita-gud-e]: https://archive.org/details/BhagavadGitaGudarthaDipikaSwamiGambhiranandaR.K.Mutt 
 [eu]: https://archive.org/details/Ekadasopanishadah_With_Maniprabha_Tika_Of_Swami_Amaradasa_Udasina_1910_NSP
+[bsd-s]: https://archive.org/details/BrahmaSutraDeepikaChowkhambaSktSeries
 
 
 [yv-djvu]: https://archive.org/download/The.Yoga-Vasistha.of.Valmiki.with.Vasistha.Maharamayana-tatparya
