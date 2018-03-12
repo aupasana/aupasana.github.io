@@ -168,6 +168,12 @@ The links below mostly reference works on http://www.archive.org
 [amara-nc]: https://archive.org/details/KRI132AmaraKosha1930KhemrajPublishers
 [km-m]: https://archive.org/details/236103951TheKavyaMimansaOfRajShekharChowkhamba1934
 
+## veda
+
+* [[ link ]][ps] purusha sukta with various bhashyas
+
+[ps]: https://archive.org/details/PurushaSuktaBhashyaSayanaMahidharaUvataBhattaBhaskaraRangaRamnujaSanskritAcademyMelkote
+
 ## vedanta 
 
 * [[ link ]][vss] vedanta stotra sangraha (niranjana deva saraswati)
