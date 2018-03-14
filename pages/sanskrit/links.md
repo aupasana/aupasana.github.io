@@ -14,6 +14,7 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][sms-6] shiva mahimna stotra with 6 commentaries
 * [[ link ]][csrns] charana shringa rahitam nataraja stotram with vyakhya
 * [[ link ]][mms] mahishasura mardini stotram with vyakhya
+* [[ link ]][vsv] varadaraja stava with vivarana
 * [[ link ]][dmn] devi mahatmyam with navangam (R.S. Vadhyar)
 * [[ link ]][d700] durga saptashati with 7 tikas
 
@@ -25,6 +26,7 @@ The links below mostly reference works on http://www.archive.org
 [d700]: https://archive.org/details/saptashati-7-teeka-1
 [csrns]: https://archive.org/details/CharanasringarahitamNatarajaStotraSwamiKasikanandaGiri
 [mms]: https://archive.org/details/MahishasuraMardiniStotraWithCommentaryEnglishTranslationSwamiKasikanandaGiri
+[vsv]: https://archive.org/details/Varadaraja-Stava-With-Vivarana-Appayya-Dikshita-1917-SVV
 
 ## upasana
 
