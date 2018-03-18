@@ -8,6 +8,7 @@ The links below mostly reference works on http://www.archive.org
 
 ## stotra
 
+* [[ link ]][gkh] ganesha sahasranama with khadyota
 * [[ link ]][lssb] lalitā sahasranāma with saubhāgya bhāskara 
 * [[ link ]][lsjm] lalitā sahasranāma with jayamaṅgala
 * [[ link ]][sms] shiva mahimna stotra with shivavishnvartha vyakhya
@@ -19,6 +20,7 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][d700] durga saptashati with 7 tikas
 * [[ link ]][str] shiva tattva rahasyam (commentary on the 108 names of shiva)
 
+[gkh]: https://archive.org/details/GanesaSahasranamaWithBhashyaOfBhakararayaNarayanRamAcharya1951NSP
 [lssb]: https://archive.org/details/Sri_lalita_sahasra_nama_with_saubhagyabhaskara_and_bhaskaravilasaKavyam
 [lsjm]: https://archive.org/details/LalitaSahasraNamaWithJayamangalaOfBhattaNaryanaEd.LalyeP.G.
 [sms]: https://archive.org/details/MahimnaStotraOfPushpandantaWithShivaVishnuArthaVyakhyaOfMadhusudanaSararswatiNSP
