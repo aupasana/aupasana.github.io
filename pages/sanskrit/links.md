@@ -17,6 +17,7 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][vsv] varadaraja stava with vivarana
 * [[ link ]][dmn] devi mahatmyam with navangam (R.S. Vadhyar)
 * [[ link ]][d700] durga saptashati with 7 tikas
+* [[ link ]][str] shiva tattva rahasyam (commentary on the 108 names of shiva)
 
 [lssb]: https://archive.org/details/Sri_lalita_sahasra_nama_with_saubhagyabhaskara_and_bhaskaravilasaKavyam
 [lsjm]: https://archive.org/details/LalitaSahasraNamaWithJayamangalaOfBhattaNaryanaEd.LalyeP.G.
@@ -27,6 +28,7 @@ The links below mostly reference works on http://www.archive.org
 [csrns]: https://archive.org/details/CharanasringarahitamNatarajaStotraSwamiKasikanandaGiri
 [mms]: https://archive.org/details/MahishasuraMardiniStotraWithCommentaryEnglishTranslationSwamiKasikanandaGiri
 [vsv]: https://archive.org/details/Varadaraja-Stava-With-Vivarana-Appayya-Dikshita-1917-SVV
+[str]: https://archive.org/details/Sivatattvarahasya_Commentary_on_108_Names_of_Siva_by_Nilakantha_Dikshita_1915
 
 ## upasana
 
