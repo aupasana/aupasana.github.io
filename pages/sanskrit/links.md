@@ -19,7 +19,7 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][dmn] devi mahatmyam with navangam (R.S. Vadhyar)
 * [[ link ]][d700] durga saptashati with 7 tikas
 * [[ link ]][str] shiva tattva rahasyam (commentary on the 108 names of shiva)
-* [[ link ][sr-gita] stotra ratnavali (gita press)
+* [[ link ]][sr-gita] stotra ratnavali (gita press)
 
 [gkh]: https://archive.org/details/GanesaSahasranamaWithBhashyaOfBhakararayaNarayanRamAcharya1951NSP
 [lssb]: https://archive.org/details/Sri_lalita_sahasra_nama_with_saubhagyabhaskara_and_bhaskaravilasaKavyam
@@ -139,6 +139,7 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][rns] ashtadhyayi (rama nath sharma) (djvu)
 * [[ link ]][kvs] kashika vritti sara
 * [[ link ]][vva] vag vyavaharadarsha (charu deva sastri)
+* [[ link ]][vm] vayka muktavali (charu deva sastri)
 
 [bdr]: https://archive.org/details/DhatuKoshaKrishnacharyaBrihadRupavali1924
 [svp]: https://archive.org/details/SamskritaVyakarnaPravesikaAnantramaSastriL.R.S.VadhyarAndSonsSL
@@ -147,6 +148,7 @@ The links below mostly reference works on http://www.archive.org
 [dr]: https://archive.org/details/dhatu_rupavali
 [rns]: https://archive.org/download/TheAshtadhyayiOfPanini-RamNathSharma
 [vva]: https://archive.org/details/in.ernet.dli.2015.480300
+[vm]: https://archive.org/details/VakyamuktavaliCharudevaShastri
 
 ## śāstram
 
