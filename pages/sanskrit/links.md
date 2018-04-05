@@ -122,6 +122,7 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][ms-s] manu smriti (surendra kumar)
 * [[ link ]][ms6] manu smriti with 6 commentaries
 * [[ link ]][ms-e] manu sriti with translation of medhatithi
+* [[ link ]][asp] apastamba smarta prayoga
 
 [gmb]: https://archive.org/details/GayatriMantrarthaBhaskar1932NirnayaSagarPress
 [vms]: https://archive.org/details/VisuddhaManuSmritiDrSurendrKumar2006
@@ -129,6 +130,7 @@ The links below mostly reference works on http://www.archive.org
 [ms6]: https://archive.org/details/manusmriti
 [ms-e]: https://archive.org/details/ManusmritiWithMedhatithisBhashyaEngGNJhaVol4
 [rbks]: https://archive.org/details/RigVediyaBrahmaKarmaSamuchhayaNirnayaSagarPressPothiDLICorrected
+[asp]: https://archive.org/details/ApastamaSmartaPrayoga_201711
 
 ## vyakaranam
 
