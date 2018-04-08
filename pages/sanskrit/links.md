@@ -11,6 +11,7 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][gkh] ganesha sahasranama with khadyota
 * [[ link ]][lssb] lalitā sahasranāma with saubhāgya bhāskara 
 * [[ link ]][lsjm] lalitā sahasranāma with jayamaṅgala
+* [[ link ]][slks] soundaryalahari with various commentaries
 * [[ link ]][sms] shiva mahimna stotra with shivavishnvartha vyakhya
 * [[ link ]][sms-6] shiva mahimna stotra with 6 commentaries
 * [[ link ]][csrns] charana shringa rahitam nataraja stotram with vyakhya
@@ -33,6 +34,7 @@ The links below mostly reference works on http://www.archive.org
 [vsv]: https://archive.org/details/Varadaraja-Stava-With-Vivarana-Appayya-Dikshita-1917-SVV
 [str]: https://archive.org/details/Sivatattvarahasya_Commentary_on_108_Names_of_Siva_by_Nilakantha_Dikshita_1915
 [sr-gita]: https://archive.org/details/StotraRatnavaliGitaPressEdition
+[slks]: https://archive.org/details/SaundaryaLahariAKuppaswami
 
 ## upasana
 
