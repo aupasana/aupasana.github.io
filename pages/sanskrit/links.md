@@ -203,6 +203,7 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][gita-gud-e] gītā with english translation of gūdārtha dīpikā
 * [[ link ]][yv-djvu] yoga vasishtha with tatparya dipika (djvu)
 * [[ link ]][sdv] shankara dig vijaya with tika
+* [[ link ]][sdvm] page which includes pdf links to various shankara dig vijayas
 * [[ link ]][eu] ekadashopanishah (upanishad maniprabha)
 * [[ link ]][bsd-s] brahma sutra dipika (sankaranandi)
 
@@ -218,3 +219,4 @@ The links below mostly reference works on http://www.archive.org
 
 [yv-djvu]: https://archive.org/download/The.Yoga-Vasistha.of.Valmiki.with.Vasistha.Maharamayana-tatparya
 [sdv]: https://archive.org/details/Shankara.Digvijaya.Satika
+[sdvm]: http://prajnaquest.fr/blog/sanskrit-texts-3/sanskrit-hindu-texts/
