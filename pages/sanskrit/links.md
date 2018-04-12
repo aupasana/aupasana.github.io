@@ -21,6 +21,9 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][d700] durga saptashati with 7 tikas
 * [[ link ]][str] shiva tattva rahasyam (commentary on the 108 names of shiva)
 * [[ link ]][sr-gita] stotra ratnavali (gita press)
+* [[ link ]][ds-1] dakshinamurti stotram vol 1
+* [[ link ]][ds-2] dakshinamurti stotram vol 2
+
 
 [gkh]: https://archive.org/details/GanesaSahasranamaWithBhashyaOfBhakararayaNarayanRamAcharya1951NSP
 [lssb]: https://archive.org/details/Sri_lalita_sahasra_nama_with_saubhagyabhaskara_and_bhaskaravilasaKavyam
@@ -35,6 +38,8 @@ The links below mostly reference works on http://www.archive.org
 [str]: https://archive.org/details/Sivatattvarahasya_Commentary_on_108_Names_of_Siva_by_Nilakantha_Dikshita_1915
 [sr-gita]: https://archive.org/details/StotraRatnavaliGitaPressEdition
 [slks]: https://archive.org/details/SaundaryaLahariAKuppaswami
+[ds-1]: https://archive.org/details/SridaksinamurtistotramVolIByD.S.Subbaramaiya
+[ds-2]: https://archive.org/details/SridaksinamurtistotramVolIIByD.S.Subbaramaiya
 
 ## upasana
 
