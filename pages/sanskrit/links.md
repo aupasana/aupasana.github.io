@@ -59,6 +59,7 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][pa] pathavali (3 parts) Ganapati Shastri
 * [[ link ]][sg] samskrita gadyavali
 * [[ link ]][ram-v] ramayana in valmiki's own words
+* [[ link ]][supm] samayochita padyamalika
 
 [sg]: https://archive.org/details/SanskritGadyavaliPandurangaVamanKane
 [rd]: https://archive.org/details/SriramodantamLAnantaramaSastri2006RSVadhyar
@@ -66,7 +67,7 @@ The links below mostly reference works on http://www.archive.org
 [kn]: https://archive.org/details/SanskritaKathaSaptamiMandikalRamaShastriNirnayaSagarPress
 [pa]: https://archive.org/details/Pathavali_Sanskrit_Reader_3_parts_-_T_Ganapati_Sastri1907
 [ram-v]: https://archive.org/details/ValmikiRamayanaCondensedInThePoetsOwnWordsSrinivasachariarA.M.NatesanCo.
-
+[supm]: https://archive.org/details/SamayochitaPadyamalikaGangadharKrishnaDravidNirnayaSagarPress1927
 
 ## sāhityam (R.S. Vadhyar)
 
