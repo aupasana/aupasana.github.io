@@ -197,8 +197,10 @@ The links below mostly reference works on http://www.archive.org
 ## prayogas
 
 * [[ link ]][rk] rudra kalpadruma
+* [[ link ]][mk] mahanyasa khanda (grantha)
 
 [rk]: https://archive.org/details/RudraKalpadrumaWithRudraSutraDvivediJagannathSharma
+[mk]: https://archive.org/details/in.ernet.dli.2015.495528
 
 ## vedanta 
 
