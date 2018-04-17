@@ -126,6 +126,7 @@ The links below mostly reference works on http://www.archive.org
 
 * [[ link ]][gmb] gayatri mantrartha bhaskara
 * [[ link ]][rbks] rigvediya brahma karma samuccaya
+* [[ link ]][bbks] bodhayana brahma karma samuccaya
 * [[ link ]][vms] vishuddha manu smriti
 * [[ link ]][ms-s] manu smriti (surendra kumar)
 * [[ link ]][ms6] manu smriti with 6 commentaries
@@ -139,6 +140,7 @@ The links below mostly reference works on http://www.archive.org
 [ms-e]: https://archive.org/details/ManusmritiWithMedhatithisBhashyaEngGNJhaVol4
 [rbks]: https://archive.org/details/RigVediyaBrahmaKarmaSamuchhayaNirnayaSagarPressPothiDLICorrected
 [asp]: https://archive.org/details/ApastamaSmartaPrayoga_201711
+[bbks]: https://archive.org/details/BodhayanaBramhakarma#page
 
 ## vyakaranam
 
