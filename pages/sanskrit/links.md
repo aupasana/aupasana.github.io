@@ -194,6 +194,12 @@ The links below mostly reference works on http://www.archive.org
 
 [ps]: https://archive.org/details/PurushaSuktaBhashyaSayanaMahidharaUvataBhattaBhaskaraRangaRamnujaSanskritAcademyMelkote
 
+## prayogas
+
+* [[ link ]][rk] rudra kalpadruma
+
+[rk]: https://archive.org/details/RudraKalpadrumaWithRudraSutraDvivediJagannathSharma
+
 ## vedanta 
 
 * [[ link ]][vss] vedanta stotra sangraha (niranjana deva saraswati)
