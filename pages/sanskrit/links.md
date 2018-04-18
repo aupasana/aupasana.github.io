@@ -82,6 +82,9 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][cpc] chandrapida caritam
 * [[ link ]][dv] duta vakyam
 * [[ link ]][lvp] lila vilasa prahasanam
+* [[ link ]][ncrs1] naishadiya charitam 1
+* [[ link ]][kknm] kalidasiya katha nataka manjari
+* [[ link ]][mv] mahatma vijaya
  
 [kv1]: https://archive.org/details/KrishnaVilasaSukumaraVilasiniVyakhyaRamapanivadiniEd.SubramanyaUpadhyaR.
 [kv2]: https://archive.org/details/KrishnaVilasaSukumaraBalaPhataVykhyaGovindaSuriEd.JhaV.S.RashtriyaSanskritSansthanMS
@@ -94,6 +97,9 @@ The links below mostly reference works on http://www.archive.org
 [cpc]: https://archive.org/details/ChandraPeedaCharitraRamachandraAiyerT.K.R.S.VadhyarSons
 [dv]: https://archive.org/details/DutaVakyaADramaInOneActR.S.VadhyarAndSonsLQ
 [lvp]: https://archive.org/details/LilalvilasaPrahasnaAnOrginalFarceIs7ActsSastriK.L.V.R.S.VadhyarAndSons
+[ncrs1]: https://archive.org/details/NaishadhakavyaratnamPart1KLVSastry1930
+[kknm]: https://archive.org/details/KalidasiyaNatakakathamanjariKLVSastry1942
+[mv]: https://archive.org/details/MahatmavijayaWithEnglishTranslationKLVSastri1949_201802
 
 ## sāhityam 
 
@@ -108,6 +114,9 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][cr] champu ramayana with ramachandra budhendra's vyakhya
 * [[ link ]][as] amaru shatakam 
 * [[ link ]][sms] sammarjani shatakam
+* [[ link ]][ncm] naishadiya charitam with mallinatha's commentary
+* [[ link ]][ncp] naishadiya charitam with prakasha of narayana
+* [[ link ]][nckk] naishadiya charitam (krishna kanta)
 
 [ns-c]: https://archive.org/details/NeetiShatakamChowkhambaSanskritSeries
 [hu-c]: https://archive.org/details/HitopdeshMitralabhaChowkhambaPublishers
@@ -120,6 +129,9 @@ The links below mostly reference works on http://www.archive.org
 [cr]: https://archive.org/details/in.ernet.dli.2015.347687
 [as]: https://archive.org/details/amarushataka
 [sms]: https://archive.org/details/SammaarjaneeShatkam
+[ncm]: https://archive.org/details/NaishadiyaChairtaWithMallinathasTika
+[ncp]: https://archive.org/details/NaisadhiyaCharitaSriharsaEd.PanditSivadattaNarayanRamAcharyaNirnayaSagarPress1942
+[nckk]: https://archive.org/details/NaisadhiyaCharitaSriharsaEd.KrishnaKantaHandiquiMLBDMS
 
 
 ## kalpa
