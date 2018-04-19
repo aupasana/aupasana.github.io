@@ -47,7 +47,7 @@ Note: this input scheme is a variation of the itrans format. It purposely omits 
 [mwbi]: https://www.dropbox.com/s/79ygj2omwls4zds/mw-bi-itrans-dev.tar.gz?dl=1
 [amara]: https://www.dropbox.com/s/2uvf32jwn2j40qh/amara-context-2.tar.gz?dl=1
 [shabda]: https://www.dropbox.com/s/sc7t60cwjgv7m3y/kalpadruma.tar.gz?dl=1
-[vacha]: {{site.filecabinet}}/stardict/vachaspatyam.tar.gz
+[vacha]: https://www.dropbox.com/s/797bdn3v2qat7yb/vachaspatyam.tar.gz?dl=1
 
 [dhatu]: https://www.dropbox.com/s/oizzpaq5b4rmdas/dhatupatha.tar.gz?dl=1
 [lsk]: https://www.dropbox.com/s/3xkd1x0v4d6jf5x/laghu-kaumudi.tar.gz?dl=1
