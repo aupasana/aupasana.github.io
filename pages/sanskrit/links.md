@@ -46,10 +46,14 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][cud] chandikopasti dipika
 * [[ link ]][nbs] narada bhakti sutras with bhaktikaumudi
 * [[ link ]][ps] puja samuccaya (NSP)
+* [[ link ]][vr1] vrata raja (edition 1)
+* [[ link ]][vr2] vrata raja (edition 2)
 
 [cud]: https://archive.org/details/SriChandikopaastiDipikaGranthaSriVidyaNarsimhaBharatiSwami
 [nbs]: https://archive.org/details/NaradiyaBhaktiSutraWithBhaktiKaumudhiVyakhyaSwamiHarshanandaR.K.Mutt
 [ps]: https://archive.org/details/PujaSamucchayaPansikarNirnayaSagarPress1923
+[vr1]: https://archive.org/details/in.ernet.dli.2015.482934
+[vr2]: https://archive.org/details/in.ernet.dli.2015.281177
 
 ## simple sahitya
 
