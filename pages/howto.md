@@ -6,13 +6,15 @@ toc: true
 
 ## Download youtube videos on iOS for offline playback
 
-* Download the app iCal Mobile from the App Store
-* From http://www.youtube.com, navigate to the video and start playing it
-* Tap and hold. In the context menu, select “Download”
+1. Download the app iCal Mobile from the App Store, and launch it
+2. Navigate to http://www.youtube.com and start playing the video
+3. Tap and hold. In the pop-up menu, select "Download" / "Download as" and save the file
+4. Click on the 'Download' icon and select the file once the download is complete
+5. Click on 'Display File' to start playback, and maximize / full screen for a useable scrubber
 
-Note: The default file name isn’t useable. From [Settings / User Interface / Contextual Menu], add the “Download as … (Rename File)” item to the Main Menu. You can then use this item in the context menu to rename the item when you download it.   
+Note: To see the "Download as" menu item, go to [Settings / User Interface / Contextual Menu] in the application. Add the "Download as … (Rename File)" item to the top group. 
 
-* [[ link ]][sg] Vedic Wisdom yahoo group
+* [[ link ]][sg] Instructions on snapguide.com
 
 [sg]: https://snapguide.com/guides/download-youtube-video-on-ipad/
 
