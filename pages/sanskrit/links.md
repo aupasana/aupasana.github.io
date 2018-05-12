@@ -233,6 +233,7 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][sdvm] page which includes pdf links to various shankara dig vijayas
 * [[ link ]][eu] ekadashopanishah (upanishad maniprabha)
 * [[ link ]][bsd-s] brahma sutra dipika (sankaranandi)
+* [[ link ]][sgb] shiva gita bhashya
 
 [vss]: https://archive.org/details/VedantaStotraSangrahaSwamiNiranjanDevaSaraswati
 [gita8a]: https://archive.org/stream/SrimadBhagavadGita.With.the.Commentaries/Srimad-Bhagavad-Gita.with.Eight.Commentaries#page/n0/mode/2up
@@ -242,7 +243,7 @@ The links below mostly reference works on http://www.archive.org
 [gita-gud-e]: https://archive.org/details/BhagavadGitaGudarthaDipikaSwamiGambhiranandaR.K.Mutt 
 [eu]: https://archive.org/details/Ekadasopanishadah_With_Maniprabha_Tika_Of_Swami_Amaradasa_Udasina_1910_NSP
 [bsd-s]: https://archive.org/details/BrahmaSutraDeepikaChowkhambaSktSeries
-
+[sgb]: https://archive.org/details/ShivaGitaBhashyaByAbhinavaNrisimhaBharatiSringeri
 
 [yv-djvu]: https://archive.org/download/The.Yoga-Vasistha.of.Valmiki.with.Vasistha.Maharamayana-tatparya
 [sdv]: https://archive.org/details/Shankara.Digvijaya.Satika
