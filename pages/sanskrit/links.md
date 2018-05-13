@@ -23,6 +23,7 @@ The links below mostly reference works on http://www.archive.org
 * [[ link ]][sr-gita] stotra ratnavali (gita press)
 * [[ link ]][ds-1] dakshinamurti stotram vol 1
 * [[ link ]][ds-2] dakshinamurti stotram vol 2
+* [[ link ]][dmn2] devi mahatmyam with navangam (R.S. Vadhyar)
 
 
 [gkh]: https://archive.org/details/GanesaSahasranamaWithBhashyaOfBhakararayaNarayanRamAcharya1951NSP
@@ -40,6 +41,7 @@ The links below mostly reference works on http://www.archive.org
 [slks]: https://archive.org/details/SaundaryaLahariAKuppaswami
 [ds-1]: https://archive.org/details/SridaksinamurtistotramVolIByD.S.Subbaramaiya
 [ds-2]: https://archive.org/details/SridaksinamurtistotramVolIIByD.S.Subbaramaiya
+[dmn2]: https://archive.org/details/1113002310711130012416NavangaChandikaParayanamcopy1
 
 ## upasana
 
