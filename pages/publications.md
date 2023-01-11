@@ -45,7 +45,7 @@ Here is a list of original publications:
 
 [accents]: https://www.dropbox.com/s/j7d86bxb5e6o0yu/VedicAccents2.pdf?dl=1
 [vidya]: https://www.dropbox.com/s/5goivvkesezpby8/mudgala_vidya_08_11_03.pdf?dl=1
-[chanting]: https://www.dropbox.com/s/66y02nlt94zc4c0/chanting_slokas_01.pdf?dl=0
+[chanting]: https://www.dropbox.com/s/vzbwlc3v05j5fdt/chanting_slokas_02.pdf?dl=1
 
 ## Picture publications:
 
