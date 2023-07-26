@@ -2,8 +2,7 @@
 layout: post
 title: "Under construction"
 date: 2016-02-07 02:00:00 -0700
-category:
-  - front
+category: none
 ---
 
 The technology stack underpinning aupasana.com has recently changed.
