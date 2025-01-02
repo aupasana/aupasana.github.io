@@ -62,6 +62,11 @@ with the sanskrit commentary of bhaṭṭa bhāskara.
 * [[ link ]][ds] dharma sūtras with the commentary of haradatta miśra
 * [[ link ]][gs] gṛhya sūtras with the commentaries of sudarśana sūrī and haradatta miśra
 * [[ link ]][pc] grhya prayoga candrika (grantha script)
+* [[ link ]][ppr] pūrva prayoga ratnāvalī (grantha script)
+* [[ link ]][tkm2] taittirīya karma mālā part 2
+* [[ link ]][srm] saṁskāra ratna mālā
+* [[ link ]][sd-pp] āpastambīya pūrvaprayoga (srīnivāsa deśika)
+* [[ link ]][sd-pp] āpastambīya aparaprayoga (srīnivāsa deśika)
 * [[ link ]][ss1] śrauta sūtras with the commentary of dhūrta svāmī (part 1)
 * [[ link ]][ss2] śrauta sūtras with the commentary of dhūrta svāmī (part 2)
 
@@ -72,6 +77,11 @@ with the sanskrit commentary of bhaṭṭa bhāskara.
 [pc]: http://www.archive.org/download/apastamba/ApastambaGrihyaPrayogaCandrika-GranthamScript.pdf
 [ss1]: http://www.archive.org/download/apastamba/ApastambaSrautaSutraDhurta1.pdf
 [ss2]: http://www.archive.org/download/apastamba/ApastambaSrautaSutraDhurta2.pdf
+[ppr]: https://archive.org/details/aapastamba-purva-prayog-ratnavali-h-series-no.-585-thanjavur-sarasvati-mahal-series/
+[tkm2]: https://archive.org/details/xEuj_m-754-taittiriya-karma-mala-part-2-kavikulguru-kalidas-sanskrit-university-ramtek-collection/mode/2up
+[sd-pp]: https://archive.org/details/apastambiya-purvaprayoga-ghanapathi-vaduvur-veeravalli-srinivasadesikacharya
+[sd-ap]: https://archive.org/details/apastambiya-apara-prayogah
+[srm]: https://archive.org/details/samskararatnamalaapastambiya
 
 ## bodhāyana kalpa sūtra
 
